@@ -1,0 +1,3397 @@
+{
+  "created_at_utc": "2026-10-07T09:36:06.849296+00:00",
+  "config": {
+    "edition_column": "edition",
+    "player_column": "player",
+    "target_column": "winner",
+    "numeric_features": [
+      "previous_appearances",
+      "previous_top3",
+      "previous_wins",
+      "previous_best_rank",
+      "previous_last_rank",
+      "years_since_previous",
+      "appeared_previous_edition",
+      "has_history"
+    ],
+    "categorical_features": [],
+    "baseline_feature": "previous_wins",
+    "feature_notes": {
+      "previous_appearances": "data/README.md et features.json : nombre de tables annuelles observées strictement avant l'édition. Snapshot communautaire attribué dans data/raw/provenance.json, non exhaustif des nommés.",
+      "previous_top3": "Nombre de rangs <= 3 strictement antérieurs, ex aequo inclus ; src/prepare_data.py met à jour l'historique après l'édition. Aucun rang courant.",
+      "previous_wins": "Nombre de victoires dans les éditions déjà publiées, strictement antérieures. Référence simple fixée dans docs/cadrage.md avant évaluation.",
+      "previous_best_rank": "Meilleur rang dans les seules éditions précédentes ; absent à la première apparition. Ce rang historique autorisé n'est pas le classement du vote courant.",
+      "previous_last_rank": "Rang de la dernière apparition strictement antérieure ; absent sans historique. Source et construction : data/README.md, src/prepare_data.py.",
+      "years_since_previous": "Écart en années calendaires avec la dernière apparition strictement antérieure ; absent sans historique, sans interpolation de 2020.",
+      "appeared_previous_edition": "Présence à la précédente édition attribuée connue avant le vote (2019 pour 2021). Compteur construit sans utiliser les résultats courants.",
+      "has_history": "Indicateur d'au moins une apparition observée avant l'édition, sans reconstruction depuis le futur. Contrôlé par tests/test_prepare_data.py."
+    },
+    "test_editions": 4,
+    "min_train_editions": 21,
+    "validation_editions": 5,
+    "random_seed": 42,
+    "data_available_before_vote": true,
+    "history_uses_previous_editions_only": true,
+    "player_id_column": "player_id",
+    "split_column": "split",
+    "history_edition_column": "history_last_edition"
+  },
+  "chronology": {
+    "development": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2021
+    ],
+    "test": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "folds": [
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ],
+        "validation": [
+          2016
+        ]
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ],
+        "validation": [
+          2017
+        ]
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017
+        ],
+        "validation": [
+          2018
+        ]
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ],
+        "validation": [
+          2019
+        ]
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "validation": [
+          2021
+        ]
+      }
+    ]
+  },
+  "selection_rule": "validation top_1, puis top_3, puis ordre fixe de la grille ; jamais le test final",
+  "tie_rule": "score décroissant puis player_id sans distinction de casse ; égalités signalées",
+  "selected": {
+    "model": "arbre_decision",
+    "parameters": {
+      "max_depth": 4,
+      "min_samples_leaf": 2
+    },
+    "metrics": {
+      "editions": 5,
+      "top_1": 0.6,
+      "top_3": 0.6,
+      "rang_reciproque": 0.6154074074074074,
+      "top_1_aleatoire": 0.03333333333333333,
+      "top_3_aleatoire": 0.1
+    },
+    "folds": [
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015
+        ],
+        "validation": [
+          2016
+        ],
+        "metrics": {
+          "editions": 1,
+          "top_1": 1.0,
+          "top_3": 1.0,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1
+        }
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016
+        ],
+        "validation": [
+          2017
+        ],
+        "metrics": {
+          "editions": 1,
+          "top_1": 1.0,
+          "top_3": 1.0,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1
+        }
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017
+        ],
+        "validation": [
+          2018
+        ],
+        "metrics": {
+          "editions": 1,
+          "top_1": 1.0,
+          "top_3": 1.0,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1
+        }
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018
+        ],
+        "validation": [
+          2019
+        ],
+        "metrics": {
+          "editions": 1,
+          "top_1": 0.0,
+          "top_3": 0.0,
+          "rang_reciproque": 0.037037037037037035,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1
+        }
+      },
+      {
+        "train": [
+          1995,
+          1996,
+          1997,
+          1998,
+          1999,
+          2000,
+          2001,
+          2002,
+          2003,
+          2004,
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019
+        ],
+        "validation": [
+          2021
+        ],
+        "metrics": {
+          "editions": 1,
+          "top_1": 0.0,
+          "top_3": 0.0,
+          "rang_reciproque": 0.04,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1
+        }
+      }
+    ],
+    "by_edition": [
+      {
+        "edition": 2016,
+        "gagnant_reel": "Cristiano Ronaldo",
+        "gagnant_predit": "Cristiano Ronaldo",
+        "top_3_predit": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Luis Suárez"
+        ],
+        "rang_gagnant": 1,
+        "top_1": 1,
+        "top_3": 1,
+        "rang_reciproque": 1.0,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      },
+      {
+        "edition": 2017,
+        "gagnant_reel": "Cristiano Ronaldo",
+        "gagnant_predit": "Cristiano Ronaldo",
+        "top_3_predit": [
+          "Cristiano Ronaldo",
+          "Lionel Messi",
+          "Antoine Griezmann"
+        ],
+        "rang_gagnant": 1,
+        "top_1": 1,
+        "top_3": 1,
+        "rang_reciproque": 1.0,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      },
+      {
+        "edition": 2018,
+        "gagnant_reel": "Luka Modrić",
+        "gagnant_predit": "Luka Modrić",
+        "top_3_predit": [
+          "Luka Modrić",
+          "Edinson Cavani",
+          "Harry Kane"
+        ],
+        "rang_gagnant": 1,
+        "top_1": 1,
+        "top_3": 1,
+        "rang_reciproque": 1.0,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": false,
+        "egalite_premiere_place": false
+      },
+      {
+        "edition": 2019,
+        "gagnant_reel": "Lionel Messi",
+        "gagnant_predit": "Antoine Griezmann",
+        "top_3_predit": [
+          "Antoine Griezmann",
+          "Kylian Mbappé",
+          "Kevin De Bruyne"
+        ],
+        "rang_gagnant": 27,
+        "top_1": 0,
+        "top_3": 0,
+        "rang_reciproque": 0.037037037037037035,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      },
+      {
+        "edition": 2021,
+        "gagnant_reel": "Lionel Messi",
+        "gagnant_predit": "Luka Modrić",
+        "top_3_predit": [
+          "Luka Modrić",
+          "Mohamed Salah",
+          "Harry Kane"
+        ],
+        "rang_gagnant": 25,
+        "top_1": 0,
+        "top_3": 0,
+        "rang_reciproque": 0.04,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      }
+    ]
+  },
+  "validation": [
+    {
+      "model": "reference",
+      "parameters": {},
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.2,
+        "top_3": 0.8,
+        "rang_reciproque": 0.5111111111111111,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.05555555555555555,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Andrés Iniesta"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Alisson"
+          ],
+          "rang_gagnant": 18,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.05555555555555555,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Alisson"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 0.1
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.4,
+        "top_3": 0.8,
+        "rang_reciproque": 0.6285714285714286,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.14285714285714285,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Andrés Iniesta"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Neymar"
+          ],
+          "rang_gagnant": 7,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.14285714285714285,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 1.0
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.2,
+        "top_3": 0.8,
+        "rang_reciproque": 0.525,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.125,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Manuel Neuer"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 8,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.125,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 10.0
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.2,
+        "top_3": 0.8,
+        "rang_reciproque": 0.525,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.125,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Manuel Neuer"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 8,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.125,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": 2,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.4,
+        "top_3": 1.0,
+        "rang_reciproque": 0.6666666666666667,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.3333333333333333,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luis Suárez"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 3,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.3333333333333333,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": 4,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.6,
+        "top_3": 0.6,
+        "rang_reciproque": 0.6154074074074074,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.037037037037037035,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.04,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luis Suárez"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Luka Modrić",
+          "top_3_predit": [
+            "Luka Modrić",
+            "Edinson Cavani",
+            "Harry Kane"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Antoine Griezmann",
+          "top_3_predit": [
+            "Antoine Griezmann",
+            "Kylian Mbappé",
+            "Kevin De Bruyne"
+          ],
+          "rang_gagnant": 27,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.037037037037037035,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Luka Modrić",
+          "top_3_predit": [
+            "Luka Modrić",
+            "Mohamed Salah",
+            "Harry Kane"
+          ],
+          "rang_gagnant": 25,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.04,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": null,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.4,
+        "top_3": 0.4,
+        "rang_reciproque": 0.4298913043478262,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.0625,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.043478260869565216,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.043478260869565216,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Robert Lewandowski"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Luis Suárez",
+            "David de Gea"
+          ],
+          "rang_gagnant": 16,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.0625,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": true
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Luka Modrić",
+          "top_3_predit": [
+            "Luka Modrić",
+            "Alisson",
+            "Mario Mandžukić"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Kevin De Bruyne",
+          "top_3_predit": [
+            "Kevin De Bruyne",
+            "Alisson",
+            "Bernardo Silva"
+          ],
+          "rang_gagnant": 23,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.043478260869565216,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Mohamed Salah",
+          "top_3_predit": [
+            "Mohamed Salah",
+            "Bruno Fernandes",
+            "Cesar Azpilicueta"
+          ],
+          "rang_gagnant": 23,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.043478260869565216,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": true,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "foret_aleatoire",
+      "parameters": {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.2,
+        "top_3": 0.8,
+        "rang_reciproque": 0.5166666666666666,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.3333333333333333,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.25,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Luis Suárez"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luka Modrić"
+          ],
+          "rang_gagnant": 3,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.3333333333333333,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Antoine Griezmann",
+          "top_3_predit": [
+            "Antoine Griezmann",
+            "Kylian Mbappé",
+            "Cristiano Ronaldo"
+          ],
+          "rang_gagnant": 4,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.25,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Mohamed Salah"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    },
+    {
+      "model": "foret_aleatoire",
+      "parameters": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "editions": 5,
+        "top_1": 0.4,
+        "top_3": 0.8,
+        "rang_reciproque": 0.6166666666666667,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1
+      },
+      "folds": [
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015
+          ],
+          "validation": [
+            2016
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ],
+          "validation": [
+            2017
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.5,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017
+          ],
+          "validation": [
+            2018
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 1.0,
+            "top_3": 1.0,
+            "rang_reciproque": 1.0,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018
+          ],
+          "validation": [
+            2019
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 0.0,
+            "rang_reciproque": 0.25,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        },
+        {
+          "train": [
+            1995,
+            1996,
+            1997,
+            1998,
+            1999,
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019
+          ],
+          "validation": [
+            2021
+          ],
+          "metrics": {
+            "editions": 1,
+            "top_1": 0.0,
+            "top_3": 1.0,
+            "rang_reciproque": 0.3333333333333333,
+            "top_1_aleatoire": 0.03333333333333333,
+            "top_3_aleatoire": 0.1
+          }
+        }
+      ],
+      "by_edition": [
+        {
+          "edition": 2016,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Cristiano Ronaldo",
+          "top_3_predit": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Luis Suárez"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2017,
+          "gagnant_reel": "Cristiano Ronaldo",
+          "gagnant_predit": "Lionel Messi",
+          "top_3_predit": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Antoine Griezmann"
+          ],
+          "rang_gagnant": 2,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.5,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2018,
+          "gagnant_reel": "Luka Modrić",
+          "gagnant_predit": "Luka Modrić",
+          "top_3_predit": [
+            "Luka Modrić",
+            "Lionel Messi",
+            "Cristiano Ronaldo"
+          ],
+          "rang_gagnant": 1,
+          "top_1": 1,
+          "top_3": 1,
+          "rang_reciproque": 1.0,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2019,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Alisson",
+          "top_3_predit": [
+            "Alisson",
+            "Antoine Griezmann",
+            "Cristiano Ronaldo"
+          ],
+          "rang_gagnant": 4,
+          "top_1": 0,
+          "top_3": 0,
+          "rang_reciproque": 0.25,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        },
+        {
+          "edition": 2021,
+          "gagnant_reel": "Lionel Messi",
+          "gagnant_predit": "Mohamed Salah",
+          "top_3_predit": [
+            "Mohamed Salah",
+            "Cristiano Ronaldo",
+            "Lionel Messi"
+          ],
+          "rang_gagnant": 3,
+          "top_1": 0,
+          "top_3": 1,
+          "rang_reciproque": 0.3333333333333333,
+          "top_1_aleatoire": 0.03333333333333333,
+          "top_3_aleatoire": 0.1,
+          "nombre_candidats": 30,
+          "egalite_score_gagnant": false,
+          "egalite_premiere_place": false
+        }
+      ]
+    }
+  ],
+  "final_test": {
+    "metrics": {
+      "editions": 4,
+      "top_1": 0.0,
+      "top_3": 0.25,
+      "rang_reciproque": 0.15717592592592594,
+      "top_1_aleatoire": 0.03333333333333333,
+      "top_3_aleatoire": 0.1
+    },
+    "by_edition": [
+      {
+        "edition": 2022,
+        "gagnant_reel": "Karim Benzema",
+        "gagnant_predit": "Sadio Mané",
+        "top_3_predit": [
+          "Sadio Mané",
+          "Virgil van Dijk",
+          "Bernardo Silva"
+        ],
+        "rang_gagnant": 24,
+        "top_1": 0,
+        "top_3": 0,
+        "rang_reciproque": 0.041666666666666664,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      },
+      {
+        "edition": 2023,
+        "gagnant_reel": "Lionel Messi",
+        "gagnant_predit": "Mohamed Salah",
+        "top_3_predit": [
+          "Mohamed Salah",
+          "Erling Haaland",
+          "Bernardo Silva"
+        ],
+        "rang_gagnant": 27,
+        "top_1": 0,
+        "top_3": 0,
+        "rang_reciproque": 0.037037037037037035,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": false
+      },
+      {
+        "edition": 2024,
+        "gagnant_reel": "Rodri",
+        "gagnant_predit": "Erling Haaland",
+        "top_3_predit": [
+          "Erling Haaland",
+          "Rodri",
+          "Antonio Rüdiger"
+        ],
+        "rang_gagnant": 2,
+        "top_1": 0,
+        "top_3": 1,
+        "rang_reciproque": 0.5,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      },
+      {
+        "edition": 2025,
+        "gagnant_reel": "Ousmane Dembélé",
+        "gagnant_predit": "Erling Haaland",
+        "top_3_predit": [
+          "Erling Haaland",
+          "Jude Bellingham",
+          "Vinicius Junior"
+        ],
+        "rang_gagnant": 20,
+        "top_1": 0,
+        "top_3": 0,
+        "rang_reciproque": 0.05,
+        "top_1_aleatoire": 0.03333333333333333,
+        "top_3_aleatoire": 0.1,
+        "nombre_candidats": 30,
+        "egalite_score_gagnant": true,
+        "egalite_premiere_place": true
+      }
+    ]
+  },
+  "score_warning": "Scores de classement non calibrés ; pas des probabilités fiables de victoire par édition.",
+  "versions": {
+    "python": "3.13.1",
+    "sklearn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "joblib": "1.6.0"
+  },
+  "inputs_sha256": {
+    "docs\\cadrage.md": "d9bb4c26331bc9ec5bf0573e2588f39c9100bb926b5ca223fe05ab46daf3f50a",
+    "data\\README.md": "873ab52359366f23b0585ec297f9a8b1633d27b1cc09d0f6b3a1e5746bd8dcdc",
+    "data\\processed\\ballon_or.csv": "3843c1c8606fb0f380a3659da4e5a433a0836436556eaf1a71b8cc33a60acb2f",
+    "config\\model_config.json": "d7cdb48c8a68d7dcdfcc6ba79ef38c8f43370f71b6309dc84971ade19d5f4d14"
+  },
+  "trained_editions": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2021
+  ]
+}
