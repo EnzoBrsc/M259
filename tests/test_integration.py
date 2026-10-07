@@ -82,7 +82,7 @@ class IntegrationTests(unittest.TestCase):
             app.radio[0].set_value("Dataset historique de Luca (test)").run()
             app.file_uploader[0].set_value(("historique.csv", payload, "text/csv")).run()
             self.assertEqual(len(app.exception), 0)
-            self.assertEqual(app.selectbox[0].options, ["2006", "2007"])
+            self.assertEqual(app.selectbox(key="ballon_edition").options, ["2006", "2007"])
             self.assertEqual(len(app.dataframe[0].value), 4)
             self.assertEqual(len(app.get("vega_lite_chart")), 1)
 

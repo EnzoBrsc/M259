@@ -1,0 +1,47 @@
+{
+  "award": "TOTW",
+  "authority": "",
+  "numeric_features": [
+    "goals",
+    "assists",
+    "minutes",
+    "matches",
+    "team_wins",
+    "clean_sheets",
+    "saves"
+  ],
+  "categorical_features": [
+    "position"
+  ],
+  "baseline_feature": "goals",
+  "feature_notes": {
+    "goals": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "assists": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "minutes": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "matches": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "team_wins": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "clean_sheets": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "saves": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs.",
+    "position": "À documenter : source réelle, unité, fenêtre, date de disponibilité et couverture des joueurs."
+  },
+  "top_k": 11,
+  "min_train_periods": 3,
+  "validation_periods": 3,
+  "test_periods": 2,
+  "random_seed": 42,
+  "data_available_before_selection": false,
+  "labels_and_candidate_pool_documented": false,
+  "competitions": [
+    "Premier League",
+    "La Liga",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1"
+  ],
+  "squad_positions": {
+    "GK": 1,
+    "DEF": 4,
+    "MID": 3,
+    "FWD": 3
+  }
+}

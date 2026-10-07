@@ -5,6 +5,9 @@ from pathlib import Path
 
 import streamlit as st
 
+from src.football_selections import AWARDS
+from src.selection_app import render_selection
+
 from src.predict_candidates import SCORE_NOTICE, load_model, predict_csv, predict_historical_csv
 from src.schema import InputError
 
@@ -12,8 +15,12 @@ ROOT = Path(__file__).resolve().parent
 
 
 def main():
-    st.set_page_config(page_title="Ballon d'Or · M259", page_icon="⚽", layout="wide")
+    st.set_page_config(page_title="Football · M259", page_icon="⚽", layout="wide")
     st.caption("PROJET SCOLAIRE M259 · CLASSEMENT DES CANDIDATS")
+    award = st.selectbox("Récompense", ["Ballon d'Or"] + list(AWARDS), key="award_choice")
+    if award != "Ballon d'Or":
+        render_selection(award, ROOT)
+        return
     st.title("Qui se distingue avant le vote ?")
     st.write("Importez les variables historiques des candidats pour obtenir un classement expérimental. Cette première étude mesure la reconnaissance passée, sans statistiques sportives de la saison.")
     st.info(SCORE_NOTICE)
@@ -51,7 +58,7 @@ def main():
         if not historical:
             st.caption("Pour importer le CSV complet de Luca avec sa cible et ses métadonnées, choisissez « Dataset historique de Luca (test) ».")
         return
-    selected_edition = st.selectbox("Édition à afficher", options=result.edition.unique().tolist())
+    selected_edition = st.selectbox("Édition à afficher", options=result.edition.unique().tolist(), key="ballon_edition")
     displayed = result.loc[result.edition.eq(selected_edition)].copy()
     if displayed.score.duplicated().any():
         st.warning("Des candidats ont le même score. Le rang utilise l'identifiant déclaré (sinon le nom), un départage arbitraire.")
