@@ -1,0 +1,985 @@
+edition,player_id,player,club,nationality,position,previous_appearances,previous_top3,previous_wins,previous_best_rank,previous_last_rank,years_since_previous,appeared_previous_edition,has_history,history_last_edition,winner,split
+1995,alan-shearer,Alan Shearer,Blackburn Rovers,England,Unknown,0,0,0,,,,0,0,,0,train
+1995,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1995,andreas-moller,Andreas Möller,Borussia Dortmund,Germany,Unknown,3,0,0,11,24,1,1,1,1994,0,train
+1995,bebeto,Bebeto,Deportivo La Coruña,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1995,davor-suker,Davor Šuker,Sevilla,Croatia,Unknown,0,0,0,,,,0,0,,0,train
+1995,dejan-savicevic,Dejan Savićević,Milan,Yugoslavia,Unknown,3,1,0,2,9,1,1,1,1994,0,train
+1995,fabrizio-ravanelli,Fabrizio Ravanelli,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1995,fernando-hierro,Fernando Hierro,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+1995,finidi-george,Finidi George,Ajax,Nigeria,Unknown,0,0,0,,,,0,0,,0,train
+1995,franco-baresi,Franco Baresi,Milan,Italy,Unknown,6,1,0,2,11,1,1,1,1994,0,train
+1995,frank-rijkaard,Frank Rijkaard,Ajax,Netherlands,Unknown,4,2,0,3,10,3,0,1,1992,0,train
+1995,gabriel-batistuta,Gabriel Batistuta,Fiorentina,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+1995,george-weah,George Weah,Paris Saint-Germain | Milan,Liberia,Unknown,0,0,0,,,,0,0,,1,train
+1995,gianfranco-zola,Gianfranco Zola,Parma,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1995,gianluca-vialli,Gianluca Vialli,Juventus,Italy,Unknown,4,0,0,7,7,4,0,1,1991,0,train
+1995,hristo-stoichkov,Hristo Stoichkov,Parma,Bulgaria,Unknown,4,2,1,1,1,1,1,1,1994,0,train
+1995,ian-wright,Ian Wright,Arsenal,England,Unknown,0,0,0,,,,0,0,,0,train
+1995,ivan-zamorano,Iván Zamorano,Real Madrid,Chile,Unknown,0,0,0,,,,0,0,,0,train
+1995,jari-litmanen,Jari Litmanen,Ajax,Finland,Unknown,2,0,0,8,8,1,1,1,1994,0,train
+1995,juan-esnaider,Juan Esnáider,Zaragoza | Real Madrid,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+1995,jurgen-klinsmann,Jürgen Klinsmann,Tottenham Hotspur | Bayern Munich,Germany,Unknown,4,0,0,6,6,1,1,1,1994,0,train
+1995,luis-figo,Luís Figo,Barcelona,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+1995,marc-overmars,Marc Overmars,Ajax,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1995,marcel-desailly,Marcel Desailly,Milan,France,Unknown,1,0,0,9,9,1,1,1,1994,0,train
+1995,matthias-sammer,Matthias Sammer,Borussia Dortmund,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1995,michael-laudrup,Michael Laudrup,Real Madrid,Denmark,Unknown,8,0,0,4,13,1,1,1,1994,0,train
+1995,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,4,1,0,3,3,1,1,1,1994,0,train
+1995,patrick-kluivert,Patrick Kluivert,Ajax,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1995,paulo-sousa,Paulo Sousa,Juventus,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+1995,roberto-baggio,Roberto Baggio,Juventus,Italy,Unknown,3,2,1,1,2,1,1,1,1994,0,train
+1995,ronaldo,Ronaldo,PSV Eindhoven,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1995,tony-yeboah,Tony Yeboah,Leeds United,Ghana,Unknown,0,0,0,,,,0,0,,0,train
+1995,vitor-baia,Vítor Baía,Porto,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+1995,zvonimir-boban,Zvonimir Boban,Milan,Croatia,Unknown,1,0,0,24,24,1,1,1,1994,0,train
+1996,alan-shearer,Alan Shearer,Blackburn Rovers | Newcastle United,England,Unknown,1,0,0,32,32,1,1,1,1995,0,train
+1996,alen-boksic,Alen Bokšić,Juventus,Croatia,Unknown,1,0,0,4,4,3,0,1,1993,0,train
+1996,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,1,0,0,4,4,1,1,1,1995,0,train
+1996,andreas-kopke,Andreas Köpke,Marseille,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1996,brian-laudrup,Brian Laudrup,Rangers,Denmark,Unknown,1,0,0,6,6,4,0,1,1992,0,train
+1996,christian-ziege,Christian Ziege,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1996,david-seaman,David Seaman,Arsenal,England,Unknown,0,0,0,,,,0,0,,0,train
+1996,davor-suker,Davor Šuker,Real Madrid,Croatia,Unknown,1,0,0,17,17,1,1,1,1995,0,train
+1996,didier-deschamps,Didier Deschamps,Juventus,France,Unknown,0,0,0,,,,0,0,,0,train
+1996,eric-cantona,Eric Cantona,Manchester United,France,Unknown,2,1,0,3,13,2,0,1,1994,0,train
+1996,fabrizio-ravanelli,Fabrizio Ravanelli,Middlesbrough,Italy,Unknown,1,0,0,12,12,1,1,1,1995,0,train
+1996,gabriel-batistuta,Gabriel Batistuta,Fiorentina,Argentina,Unknown,1,0,0,20,20,1,1,1,1995,0,train
+1996,george-weah,George Weah,Milan,Liberia,Unknown,1,1,1,1,1,1,1,1,1995,0,train
+1996,jurgen-klinsmann,Jürgen Klinsmann,Bayern Munich,Germany,Unknown,5,1,0,2,2,1,1,1,1995,0,train
+1996,karel-poborsky,Karel Poborský,Slavia Prague | Manchester United,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+1996,kubilay-turkyilmaz,Kubilay Türkyilmaz,Grasshopper,Switzerland,Unknown,0,0,0,,,,0,0,,0,train
+1996,luis-figo,Luís Figo,Barcelona,Portugal,Unknown,1,0,0,32,32,1,1,1,1995,0,train
+1996,marcel-desailly,Marcel Desailly,Milan,France,Unknown,2,0,0,9,11,1,1,1,1995,0,train
+1996,matthias-sammer,Matthias Sammer,Borussia Dortmund,Germany,Unknown,1,0,0,9,9,1,1,1,1995,1,train
+1996,nwankwo-kanu,Nwankwo Kanu,Ajax | Internazionale,Nigeria,Unknown,0,0,0,,,,0,0,,0,train
+1996,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,5,1,0,3,7,1,1,1,1995,0,train
+1996,patrik-berger,Patrik Berger,Borussia Dortmund | Liverpool,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+1996,predrag-mijatovic,Predrag Mijatović,Real Madrid,Yugoslavia,Unknown,0,0,0,,,,0,0,,0,train
+1996,radek-bejbl,Radek Bejbl,Slavia Prague | Atlético Madrid,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+1996,raul,Raúl,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+1996,ronald-de-boer,Ronald de Boer,Ajax,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1996,ronaldo,Ronaldo,PSV Eindhoven | Barcelona,Brazil,Unknown,1,0,0,26,26,1,1,1,1995,0,train
+1996,rui-costa,Rui Costa,Fiorentina,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+1996,sergi,Sergi,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+1996,trifon-ivanov,Trifon Ivanov,Rapid Wien,Bulgaria,Unknown,0,0,0,,,,0,0,,0,train
+1996,youri-djorkaeff,Youri Djorkaeff,Internazionale,France,Unknown,0,0,0,,,,0,0,,0,train
+1996,zinedine-zidane,Zinedine Zidane,Juventus,France,Unknown,0,0,0,,,,0,0,,0,train
+1997,alan-shearer,Alan Shearer,Newcastle United,England,Unknown,2,1,0,3,3,1,1,1,1996,0,train
+1997,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,2,0,0,4,4,1,1,1,1996,0,train
+1997,andreas-moller,Andreas Möller,Borussia Dortmund,Germany,Unknown,4,0,0,11,27,2,0,1,1995,0,train
+1997,angelo-peruzzi,Angelo Peruzzi,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1997,bent-skammelsrud,Bent Skammelsrud,Rosenborg,Norway,Unknown,0,0,0,,,,0,0,,0,train
+1997,christian-vieri,Christian Vieri,Atlético Madrid,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1997,ciro-ferrara,Ciro Ferrara,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+1997,clarence-seedorf,Clarence Seedorf,Real Madrid,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1997,david-beckham,David Beckham,Manchester United,England,Unknown,0,0,0,,,,0,0,,0,train
+1997,dennis-bergkamp,Dennis Bergkamp,Arsenal,Netherlands,Unknown,2,2,0,2,2,4,0,1,1993,0,train
+1997,didier-deschamps,Didier Deschamps,Juventus,France,Unknown,1,0,0,18,18,1,1,1,1996,0,train
+1997,fernando-hierro,Fernando Hierro,Real Madrid,Spain,Unknown,1,0,0,18,18,2,0,1,1995,0,train
+1997,gabriel-batistuta,Gabriel Batistuta,Fiorentina,Argentina,Unknown,2,0,0,13,13,1,1,1,1996,0,train
+1997,gianfranco-zola,Gianfranco Zola,Chelsea,Italy,Unknown,1,0,0,6,6,2,0,1,1995,0,train
+1997,juninho,Juninho,Atlético Madrid,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1997,jurgen-kohler,Jürgen Kohler,Borussia Dortmund,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1997,krasimir-balakov,Krasimir Balakov,VfB Stuttgart,Bulgaria,Unknown,1,0,0,16,16,3,0,1,1994,0,train
+1997,laurent-blanc,Laurent Blanc,Marseille,France,Unknown,1,0,0,21,21,6,0,1,1991,0,train
+1997,lilian-thuram,Lilian Thuram,Parma,France,Unknown,0,0,0,,,,0,0,,0,train
+1997,luis-enrique,Luis Enrique,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+1997,luis-figo,Luís Figo,Barcelona,Portugal,Unknown,2,0,0,28,28,1,1,1,1996,0,train
+1997,matthias-sammer,Matthias Sammer,Borussia Dortmund,Germany,Unknown,2,1,1,1,1,1,1,1,1996,0,train
+1997,olaf-thon,Olaf Thon,Schalke 04,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1997,oliver-bierhoff,Oliver Bierhoff,Udinese,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1997,paulo-sousa,Paulo Sousa,Borussia Dortmund,Portugal,Unknown,1,0,0,14,14,2,0,1,1995,0,train
+1997,peter-schmeichel,Peter Schmeichel,Manchester United,Denmark,Unknown,2,0,0,5,12,4,0,1,1993,0,train
+1997,predrag-mijatovic,Predrag Mijatović,Real Madrid,FR Yugoslavia,Unknown,1,0,0,16,16,1,1,1,1996,0,train
+1997,rai,Raí,Paris Saint-Germain,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1997,raul,Raúl,Real Madrid,Spain,Unknown,1,0,0,20,20,1,1,1,1996,0,train
+1997,rivaldo,Rivaldo,Barcelona,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1997,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1997,ronaldo,Ronaldo,Barcelona | Internazionale,Brazil,Unknown,2,1,0,2,2,1,1,1,1996,1,train
+1997,ryan-giggs,Ryan Giggs,Manchester United,Wales,Unknown,1,0,0,9,9,4,0,1,1993,0,train
+1997,victor-ikpeba,Victor Ikpeba,Monaco,Nigeria,Unknown,0,0,0,,,,0,0,,0,train
+1997,youri-djorkaeff,Youri Djorkaeff,Internazionale,France,Unknown,1,0,0,9,9,1,1,1,1996,0,train
+1997,zinedine-zidane,Zinedine Zidane,Juventus,France,Unknown,1,0,0,28,28,1,1,1,1996,0,train
+1998,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,3,0,0,4,19,1,1,1,1997,0,train
+1998,bixente-lizarazu,Bixente Lizarazu,Bayern Munich,France,Unknown,0,0,0,,,,0,0,,0,train
+1998,brian-laudrup,Brian Laudrup,Chelsea,Denmark,Unknown,2,0,0,6,28,2,0,1,1996,0,train
+1998,christian-vieri,Christian Vieri,Lazio,Italy,Unknown,1,0,0,10,10,1,1,1,1997,0,train
+1998,clarence-seedorf,Clarence Seedorf,Real Madrid,Netherlands,Unknown,1,0,0,17,17,1,1,1,1997,0,train
+1998,david-beckham,David Beckham,Manchester United,England,Unknown,1,0,0,19,19,1,1,1,1997,0,train
+1998,davor-suker,Davor Šuker,Real Madrid,Croatia,Unknown,2,0,0,6,6,2,0,1,1996,0,train
+1998,dennis-bergkamp,Dennis Bergkamp,Arsenal,Netherlands,Unknown,3,2,0,2,4,1,1,1,1997,0,train
+1998,didier-deschamps,Didier Deschamps,Juventus,France,Unknown,2,0,0,17,17,1,1,1,1997,0,train
+1998,edgar-davids,Edgar Davids,Juventus,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1998,emmanuel-petit,Emmanuel Petit,Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+1998,fabien-barthez,Fabien Barthez,Monaco,France,Unknown,0,0,0,,,,0,0,,0,train
+1998,fernando-hierro,Fernando Hierro,Real Madrid,Spain,Unknown,2,0,0,18,22,1,1,1,1997,0,train
+1998,frank-de-boer,Frank de Boer,Ajax,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1998,gabriel-batistuta,Gabriel Batistuta,Fiorentina,Argentina,Unknown,3,0,0,13,23,1,1,1,1997,0,train
+1998,laurent-blanc,Laurent Blanc,Marseille,France,Unknown,2,0,0,21,33,1,1,1,1997,0,train
+1998,lilian-thuram,Lilian Thuram,Parma,France,Unknown,1,0,0,25,25,1,1,1,1997,0,train
+1998,luis-enrique,Luis Enrique,Barcelona,Spain,Unknown,1,0,0,13,13,1,1,1,1997,0,train
+1998,marc-overmars,Marc Overmars,Arsenal,Netherlands,Unknown,1,0,0,8,8,3,0,1,1995,0,train
+1998,marcel-desailly,Marcel Desailly,Chelsea,France,Unknown,3,0,0,8,8,2,0,1,1996,0,train
+1998,michael-laudrup,Michael Laudrup,Ajax,Denmark,Unknown,9,0,0,4,10,3,0,1,1995,0,train
+1998,michael-owen,Michael Owen,Liverpool,England,Unknown,0,0,0,,,,0,0,,0,train
+1998,nikos-machlas,Nikos Machlas,Vitesse,Greece,Unknown,0,0,0,,,,0,0,,0,train
+1998,oliver-bierhoff,Oliver Bierhoff,Milan,Germany,Unknown,1,0,0,29,29,1,1,1,1997,0,train
+1998,predrag-mijatovic,Predrag Mijatović,Real Madrid,Yugoslavia,Unknown,2,1,0,2,2,1,1,1,1997,0,train
+1998,raul,Raúl,Real Madrid,Spain,Unknown,2,0,0,7,7,1,1,1,1997,0,train
+1998,rivaldo,Rivaldo,Barcelona,Brazil,Unknown,1,0,0,33,33,1,1,1,1997,0,train
+1998,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,1,0,0,5,5,1,1,1,1997,0,train
+1998,ronald-de-boer,Ronald de Boer,Ajax,Netherlands,Unknown,1,0,0,28,28,2,0,1,1996,0,train
+1998,ronaldo,Ronaldo,Internazionale,Brazil,Unknown,3,2,1,1,1,1,1,1,1997,0,train
+1998,zinedine-zidane,Zinedine Zidane,Juventus,France,Unknown,2,1,0,3,3,1,1,1,1997,1,train
+1999,andriy-shevchenko,Andriy Shevchenko,Dynamo Kyiv | Milan,Ukraine,Unknown,0,0,0,,,,0,0,,0,train
+1999,andy-cole,Andy Cole,Manchester United,England,Unknown,0,0,0,,,,0,0,,0,train
+1999,christian-vieri,Christian Vieri,Lazio,Italy,Unknown,2,0,0,10,26,1,1,1,1998,0,train
+1999,claudio-lopez,Claudio López,Valencia,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+1999,david-beckham,David Beckham,Manchester United,England,Unknown,2,0,0,19,28,1,1,1,1998,0,train
+1999,david-ginola,David Ginola,Tottenham Hotspur,France,Unknown,0,0,0,,,,0,0,,0,train
+1999,dwight-yorke,Dwight Yorke,Manchester United,Trinidad and Tobago,Unknown,0,0,0,,,,0,0,,0,train
+1999,edgar-davids,Edgar Davids,Juventus,Netherlands,Unknown,1,0,0,8,8,1,1,1,1998,0,train
+1999,gabriel-batistuta,Gabriel Batistuta,Fiorentina,Argentina,Unknown,4,0,0,6,6,1,1,1,1998,0,train
+1999,hernan-crespo,Hernán Crespo,Parma,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+1999,jaap-stam,Jaap Stam,Manchester United,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+1999,juan-sebastian-veron,Juan Sebastián Verón,Lazio,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+1999,lothar-matthaus,Lothar Matthäus,Bayern Munich,Germany,Unknown,7,2,1,1,16,5,0,1,1994,0,train
+1999,luis-figo,Luís Figo,Barcelona,Portugal,Unknown,3,0,0,14,14,2,0,1,1997,0,train
+1999,marcelo-salas,Marcelo Salas,Lazio,Chile,Unknown,0,0,0,,,,0,0,,0,train
+1999,mario-basler,Mario Basler,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+1999,mario-jardel,Mário Jardel,Porto,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+1999,nwankwo-kanu,Nwankwo Kanu,Arsenal,Nigeria,Unknown,1,0,0,11,11,3,0,1,1996,0,train
+1999,oliver-bierhoff,Oliver Bierhoff,Milan,Germany,Unknown,2,0,0,18,18,1,1,1,1998,0,train
+1999,pavel-nedved,Pavel Nedvěd,Lazio,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+1999,peter-schmeichel,Peter Schmeichel,Manchester United,Denmark,Unknown,3,0,0,5,8,2,0,1,1997,0,train
+1999,raul,Raúl,Real Madrid,Spain,Unknown,3,0,0,7,21,1,1,1,1998,0,train
+1999,rivaldo,Rivaldo,Barcelona,Brazil,Unknown,2,0,0,5,5,1,1,1,1998,1,train
+1999,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,2,0,0,5,13,1,1,1,1998,0,train
+1999,ronaldo,Ronaldo,Internazionale,Brazil,Unknown,4,3,1,1,3,1,1,1,1998,0,train
+1999,roy-keane,Roy Keane,Manchester United,Republic of Ireland,Unknown,0,0,0,,,,0,0,,0,train
+1999,ryan-giggs,Ryan Giggs,Manchester United,Wales,Unknown,2,0,0,9,28,2,0,1,1997,0,train
+1999,sinisa-mihajlovic,Siniša Mihajlović,Lazio,FR Yugoslavia,Unknown,0,0,0,,,,0,0,,0,train
+1999,stefan-effenberg,Stefan Effenberg,Bayern Munich,Germany,Unknown,1,0,0,21,21,8,0,1,1991,0,train
+1999,zinedine-zidane,Zinedine Zidane,Juventus,France,Unknown,3,2,1,1,1,1,1,1,1998,0,train
+1999,zlatko-zahovic,Zlatko Zahovič,Olympiacos,Slovenia,Unknown,0,0,0,,,,0,0,,0,train
+2000,alessandro-nesta,Alessandro Nesta,Lazio,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2000,andriy-shevchenko,Andriy Shevchenko,Milan,Ukraine,Unknown,1,1,0,3,3,1,1,1,1999,0,train
+2000,claudio-lopez,Claudio López,Valencia | Lazio,Argentina,Unknown,1,0,0,26,26,1,1,1,1999,0,train
+2000,david-beckham,David Beckham,Manchester United,England,Unknown,3,1,0,2,2,1,1,1,1999,0,train
+2000,david-trezeguet,David Trezeguet,Juventus,France,Unknown,0,0,0,,,,0,0,,0,train
+2000,edgar-davids,Edgar Davids,Juventus,Netherlands,Unknown,2,0,0,8,26,1,1,1,1999,0,train
+2000,fabien-barthez,Fabien Barthez,Manchester United,France,Unknown,1,0,0,14,14,2,0,1,1998,0,train
+2000,fernando-redondo,Fernando Redondo,Real Madrid | Milan,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2000,francesco-toldo,Francesco Toldo,Fiorentina,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2000,francesco-totti,Francesco Totti,Roma,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2000,gabriel-batistuta,Gabriel Batistuta,Roma,Argentina,Unknown,5,0,0,4,4,1,1,1,1999,0,train
+2000,gaizka-mendieta,Gaizka Mendieta,Valencia,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2000,hakan-sukur,Hakan Şükür,Internazionale,Turkey,Unknown,0,0,0,,,,0,0,,0,train
+2000,juan-sebastian-veron,Juan Sebastián Verón,Lazio,Argentina,Unknown,1,0,0,8,8,1,1,1,1999,0,train
+2000,laurent-blanc,Laurent Blanc,Internazionale,France,Unknown,3,0,0,14,14,2,0,1,1998,0,train
+2000,luis-figo,Luís Figo,Barcelona | Real Madrid,Portugal,Unknown,4,0,0,5,5,1,1,1,1999,1,train
+2000,marcel-desailly,Marcel Desailly,Chelsea,France,Unknown,4,0,0,8,10,2,0,1,1998,0,train
+2000,mario-jardel,Mário Jardel,Galatasaray,Brazil,Unknown,1,0,0,16,16,1,1,1,1999,0,train
+2000,oliver-kahn,Oliver Kahn,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2000,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,6,1,0,3,22,4,0,1,1996,0,train
+2000,patrick-kluivert,Patrick Kluivert,Barcelona,Netherlands,Unknown,1,0,0,5,5,5,0,1,1995,0,train
+2000,pavel-nedved,Pavel Nedvěd,Lazio,Czech Republic,Unknown,1,0,0,15,15,1,1,1,1999,0,train
+2000,raul,Raúl,Real Madrid,Spain,Unknown,4,0,0,7,9,1,1,1,1999,0,train
+2000,rivaldo,Rivaldo,Barcelona,Brazil,Unknown,3,1,1,1,1,1,1,1,1999,0,train
+2000,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,3,0,0,5,26,1,1,1,1999,0,train
+2000,roy-keane,Roy Keane,Manchester United,Republic of Ireland,Unknown,1,0,0,6,6,1,1,1,1999,0,train
+2000,rui-costa,Rui Costa,Fiorentina,Portugal,Unknown,1,0,0,26,26,4,0,1,1996,0,train
+2000,thierry-henry,Thierry Henry,Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+2000,zinedine-zidane,Zinedine Zidane,Juventus,France,Unknown,4,2,1,1,19,1,1,1,1999,0,train
+2000,zlatko-zahovic,Zlatko Zahovič,Olympiacos | Valencia,Slovenia,Unknown,1,0,0,14,14,1,1,1,1999,0,train
+2001,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,4,0,0,4,16,3,0,1,1998,0,train
+2001,alessandro-nesta,Alessandro Nesta,Lazio,Italy,Unknown,1,0,0,5,5,1,1,1,2000,0,train
+2001,andriy-shevchenko,Andriy Shevchenko,Milan,Ukraine,Unknown,2,2,0,3,3,1,1,1,2000,0,train
+2001,bixente-lizarazu,Bixente Lizarazu,Bayern Munich,France,Unknown,1,0,0,28,28,3,0,1,1998,0,train
+2001,cafu,Cafu,Roma,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2001,damiano-tommasi,Damiano Tommasi,Roma,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2001,david-beckham,David Beckham,Manchester United,England,Unknown,4,1,0,2,10,1,1,1,2000,0,train
+2001,david-trezeguet,David Trezeguet,Juventus,France,Unknown,1,0,0,22,22,1,1,1,2000,0,train
+2001,ebbe-sand,Ebbe Sand,Schalke 04,Denmark,Unknown,0,0,0,,,,0,0,,0,train
+2001,emmanuel-olisadebe,Emmanuel Olisadebe,Panathinaikos,Poland,Unknown,0,0,0,,,,0,0,,0,train
+2001,eric-carriere,Eric Carrière,Nantes,France,Unknown,0,0,0,,,,0,0,,0,train
+2001,fabien-barthez,Fabien Barthez,Manchester United,France,Unknown,2,0,0,12,12,1,1,1,2000,0,train
+2001,francesco-totti,Francesco Totti,Roma,Italy,Unknown,1,0,0,14,14,1,1,1,2000,0,train
+2001,gabriel-batistuta,Gabriel Batistuta,Roma,Argentina,Unknown,6,0,0,4,7,1,1,1,2000,0,train
+2001,gaizka-mendieta,Gaizka Mendieta,Valencia | Lazio,Spain,Unknown,1,0,0,8,8,1,1,1,2000,0,train
+2001,gianluigi-buffon,Gianluigi Buffon,Parma | Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2001,giovane-elber,Giovane Élber,Bayern Munich,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2001,harry-kewell,Harry Kewell,Leeds United,Australia,Unknown,0,0,0,,,,0,0,,0,train
+2001,henrik-larsson,Henrik Larsson,Celtic,Sweden,Unknown,0,0,0,,,,0,0,,0,train
+2001,hernan-crespo,Hernán Crespo,Lazio,Argentina,Unknown,1,0,0,23,23,2,0,1,1999,0,train
+2001,hidetoshi-nakata,Hidetoshi Nakata,Roma | Parma,Japan,Unknown,0,0,0,,,,0,0,,0,train
+2001,ivan-helguera,Iván Helguera,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2001,jimmy-floyd-hasselbaink,Jimmy Floyd Hasselbaink,Chelsea,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2001,juan-sebastian-veron,Juan Sebastián Verón,Lazio | Manchester United,Argentina,Unknown,2,0,0,8,27,1,1,1,2000,0,train
+2001,lilian-thuram,Lilian Thuram,Parma | Juventus,France,Unknown,2,0,0,7,7,3,0,1,1998,0,train
+2001,luis-figo,Luís Figo,Real Madrid,Portugal,Unknown,5,1,1,1,1,1,1,1,2000,0,train
+2001,marcel-desailly,Marcel Desailly,Chelsea,France,Unknown,5,0,0,8,24,1,1,1,2000,0,train
+2001,michael-owen,Michael Owen,Liverpool,England,Unknown,1,0,0,4,4,3,0,1,1998,1,train
+2001,oliver-kahn,Oliver Kahn,Bayern Munich,Germany,Unknown,1,0,0,24,24,1,1,1,2000,0,train
+2001,patrick-kluivert,Patrick Kluivert,Barcelona,Netherlands,Unknown,2,0,0,5,17,1,1,1,2000,0,train
+2001,patrick-vieira,Patrick Vieira,Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+2001,paul-scholes,Paul Scholes,Manchester United,England,Unknown,0,0,0,,,,0,0,,0,train
+2001,pauleta,Pauleta,Bordeaux,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2001,pavel-nedved,Pavel Nedvěd,Lazio | Juventus,Czech Republic,Unknown,2,0,0,15,22,1,1,1,2000,0,train
+2001,raul,Raúl,Real Madrid,Spain,Unknown,5,0,0,7,9,1,1,1,2000,0,train
+2001,rio-ferdinand,Rio Ferdinand,Leeds United,England,Unknown,0,0,0,,,,0,0,,0,train
+2001,rivaldo,Rivaldo,Barcelona,Brazil,Unknown,4,1,1,1,6,1,1,1,2000,0,train
+2001,robert-pires,Robert Pires,Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+2001,roberto-baggio,Roberto Baggio,Brescia,Italy,Unknown,4,2,1,1,23,6,0,1,1995,0,train
+2001,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,4,0,0,5,14,1,1,1,2000,0,train
+2001,rui-costa,Rui Costa,Milan,Portugal,Unknown,2,0,0,24,24,1,1,1,2000,0,train
+2001,ryan-giggs,Ryan Giggs,Manchester United,Wales,Unknown,3,0,0,9,21,2,0,1,1999,0,train
+2001,sami-hyypia,Sami Hyypiä,Liverpool,Finland,Unknown,0,0,0,,,,0,0,,0,train
+2001,samuel-kuffour,Samuel Kuffour,Bayern Munich,Ghana,Unknown,0,0,0,,,,0,0,,0,train
+2001,sonny-anderson,Sonny Anderson,Lyon,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2001,stefan-effenberg,Stefan Effenberg,Bayern Munich,Germany,Unknown,2,0,0,18,18,2,0,1,1999,0,train
+2001,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,0,0,0,,,,0,0,,0,train
+2001,thierry-henry,Thierry Henry,Arsenal,France,Unknown,1,0,0,4,4,1,1,1,2000,0,train
+2001,vincent-candela,Vincent Candela,Roma,France,Unknown,0,0,0,,,,0,0,,0,train
+2001,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,5,3,1,1,2,1,1,1,2000,0,train
+2002,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,5,0,0,4,28,1,1,1,2001,0,train
+2002,bernd-schneider,Bernd Schneider,Bayer Leverkusen,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2002,cafu,Cafu,Roma,Brazil,Unknown,1,0,0,28,28,1,1,1,2001,0,train
+2002,el-hadji-diouf,El Hadji Diouf,Lens | Liverpool,Senegal,Unknown,0,0,0,,,,0,0,,0,train
+2002,filippo-inzaghi,Filippo Inzaghi,Milan,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2002,hasan-sas,Hasan Şaş,Galatasaray,Turkey,Unknown,0,0,0,,,,0,0,,0,train
+2002,juan-carlos-valeron,Juan Carlos Valerón,Deportivo La Coruña,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2002,lucio,Lúcio,Bayer Leverkusen,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2002,luis-figo,Luís Figo,Real Madrid,Portugal,Unknown,6,1,1,1,6,1,1,1,2001,0,train
+2002,michael-ballack,Michael Ballack,Bayer Leverkusen | Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2002,michael-owen,Michael Owen,Liverpool,England,Unknown,2,1,1,1,1,1,1,1,2001,0,train
+2002,oliver-kahn,Oliver Kahn,Bayern Munich,Germany,Unknown,2,1,0,3,3,1,1,1,2001,0,train
+2002,papa-bouba-diop,Papa Bouba Diop,Lens,Senegal,Unknown,0,0,0,,,,0,0,,0,train
+2002,patrick-vieira,Patrick Vieira,Arsenal,France,Unknown,1,0,0,28,28,1,1,1,2001,0,train
+2002,raul,Raúl,Real Madrid,Spain,Unknown,6,1,0,2,2,1,1,1,2001,0,train
+2002,rio-ferdinand,Rio Ferdinand,Leeds United | Manchester United,England,Unknown,1,0,0,28,28,1,1,1,2001,0,train
+2002,rivaldo,Rivaldo,Barcelona | Milan,Brazil,Unknown,5,1,1,1,7,1,1,1,2001,0,train
+2002,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,5,0,0,5,18,1,1,1,2001,0,train
+2002,ronaldinho,Ronaldinho,Paris Saint-Germain,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2002,ronaldo,Ronaldo,Internazionale | Real Madrid,Brazil,Unknown,5,3,1,1,23,3,0,1,1999,1,train
+2002,roy-makaay,Roy Makaay,Deportivo La Coruña,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2002,ruben-baraja,Rubén Baraja,Valencia,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2002,ruud-van-nistelrooy,Ruud van Nistelrooy,Manchester United,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2002,thierry-henry,Thierry Henry,Arsenal,France,Unknown,2,0,0,4,9,1,1,1,2001,0,train
+2002,yldray-basturk,Yıldıray Baştürk,Bayer Leverkusen,Turkey,Unknown,0,0,0,,,,0,0,,0,train
+2002,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,6,3,1,1,9,1,1,1,2001,0,train
+2003,adrian-mutu,Adrian Mutu,Parma | Chelsea,Romania,Unknown,0,0,0,,,,0,0,,0,train
+2003,alessandro-del-piero,Alessandro Del Piero,Juventus,Italy,Unknown,6,0,0,4,10,1,1,1,2002,0,train
+2003,alessandro-nesta,Alessandro Nesta,Milan,Italy,Unknown,2,0,0,5,14,2,0,1,2001,0,train
+2003,andriy-shevchenko,Andriy Shevchenko,Milan,Ukraine,Unknown,3,2,0,3,8,2,0,1,2001,0,train
+2003,christian-vieri,Christian Vieri,Internazionale,Italy,Unknown,3,0,0,7,7,4,0,1,1999,0,train
+2003,claude-makelele,Claude Makélélé,Real Madrid | Chelsea,France,Unknown,0,0,0,,,,0,0,,0,train
+2003,cristian-chivu,Cristian Chivu,Ajax | Roma,Romania,Unknown,0,0,0,,,,0,0,,0,train
+2003,darko-kovacevic,Darko Kovačević,Real Sociedad,Serbia and Montenegro,Unknown,0,0,0,,,,0,0,,0,train
+2003,david-beckham,David Beckham,Manchester United | Real Madrid,England,Unknown,5,1,0,2,4,2,0,1,2001,0,train
+2003,david-trezeguet,David Trezeguet,Juventus,France,Unknown,2,0,0,12,12,2,0,1,2001,0,train
+2003,deco,Deco,Porto,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2003,dida,Dida,Milan,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2003,filippo-inzaghi,Filippo Inzaghi,Milan,Italy,Unknown,1,0,0,24,24,1,1,1,2002,0,train
+2003,francesco-toldo,Francesco Toldo,Internazionale,Italy,Unknown,1,0,0,14,14,3,0,1,2000,0,train
+2003,francesco-totti,Francesco Totti,Roma,Italy,Unknown,2,0,0,5,5,2,0,1,2001,0,train
+2003,gianluca-zambrotta,Gianluca Zambrotta,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2003,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,1,0,0,28,28,2,0,1,2001,0,train
+2003,giovane-elber,Giovane Élber,Bayern Munich | Lyon,Brazil,Unknown,1,0,0,18,18,2,0,1,2001,0,train
+2003,hatem-trabelsi,Hatem Trabelsi,Ajax,Tunisia,Unknown,0,0,0,,,,0,0,,0,train
+2003,henrik-larsson,Henrik Larsson,Celtic,Sweden,Unknown,1,0,0,14,14,2,0,1,2001,0,train
+2003,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2003,jan-koller,Jan Koller,Borussia Dortmund,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+2003,lilian-thuram,Lilian Thuram,Juventus,France,Unknown,3,0,0,7,28,2,0,1,2001,0,train
+2003,ludovic-giuly,Ludovic Giuly,Monaco,France,Unknown,0,0,0,,,,0,0,,0,train
+2003,luis-figo,Luís Figo,Real Madrid,Portugal,Unknown,7,1,1,1,19,1,1,1,2002,0,train
+2003,michael-ballack,Michael Ballack,Bayern Munich,Germany,Unknown,1,0,0,5,5,1,1,1,2002,0,train
+2003,michael-owen,Michael Owen,Liverpool,England,Unknown,3,1,1,1,13,1,1,1,2002,0,train
+2003,michel-salgado,Míchel Salgado,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2003,nihat-kahveci,Nihat Kahveci,Real Sociedad,Turkey,Unknown,0,0,0,,,,0,0,,0,train
+2003,oliver-kahn,Oliver Kahn,Bayern Munich,Germany,Unknown,3,2,0,3,3,1,1,1,2002,0,train
+2003,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,7,1,0,3,10,3,0,1,2000,0,train
+2003,patrick-kluivert,Patrick Kluivert,Barcelona,Netherlands,Unknown,3,0,0,5,28,2,0,1,2001,0,train
+2003,patrick-vieira,Patrick Vieira,Arsenal,France,Unknown,2,0,0,15,15,1,1,1,2002,0,train
+2003,paul-scholes,Paul Scholes,Manchester United,England,Unknown,1,0,0,28,28,2,0,1,2001,0,train
+2003,pauleta,Pauleta,Bordeaux | Paris Saint-Germain,Portugal,Unknown,1,0,0,28,28,2,0,1,2001,0,train
+2003,pavel-nedved,Pavel Nedvěd,Juventus,Czech Republic,Unknown,3,0,0,15,28,2,0,1,2001,1,train
+2003,raul,Raúl,Real Madrid,Spain,Unknown,7,1,0,2,7,1,1,1,2002,0,train
+2003,robert-pires,Robert Pires,Arsenal,France,Unknown,1,0,0,28,28,2,0,1,2001,0,train
+2003,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,6,1,0,2,2,1,1,1,2002,0,train
+2003,ronaldinho,Ronaldinho,Paris Saint-Germain | Barcelona,Brazil,Unknown,1,0,0,12,12,1,1,1,2002,0,train
+2003,ronaldo,Ronaldo,Real Madrid,Brazil,Unknown,6,4,2,1,1,1,1,1,2002,0,train
+2003,roy-makaay,Roy Makaay,Deportivo La Coruña | Bayern Munich,Netherlands,Unknown,1,0,0,24,24,1,1,1,2002,0,train
+2003,ruud-van-nistelrooy,Ruud van Nistelrooy,Manchester United,Netherlands,Unknown,1,0,0,13,13,1,1,1,2002,0,train
+2003,samuel-eto-o,Samuel Eto'o,Mallorca,Cameroon,Unknown,0,0,0,,,,0,0,,0,train
+2003,sol-campbell,Sol Campbell,Arsenal,England,Unknown,0,0,0,,,,0,0,,0,train
+2003,sylvain-wiltord,Sylvain Wiltord,Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+2003,thierry-henry,Thierry Henry,Arsenal,France,Unknown,3,0,0,4,6,1,1,1,2002,0,train
+2003,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,7,3,1,1,4,1,1,1,2002,0,train
+2003,zlatan-ibrahimovic,Zlatan Ibrahimović,Ajax,Sweden,Unknown,0,0,0,,,,0,0,,0,train
+2004,adriano,Adriano,Parma | Internazionale,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2004,alessandro-nesta,Alessandro Nesta,Milan,Italy,Unknown,3,0,0,5,13,1,1,1,2003,0,train
+2004,andrea-pirlo,Andrea Pirlo,Milan,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2004,andriy-shevchenko,Andriy Shevchenko,Milan,Ukraine,Unknown,4,2,0,3,4,1,1,1,2003,1,train
+2004,angelos-charisteas,Angelos Charisteas,Werder Bremen,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,antonios-nikopolidis,Antonios Nikopolidis,Panathinaikos | Olympiacos,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,clarence-seedorf,Clarence Seedorf,Milan,Netherlands,Unknown,2,0,0,17,23,6,0,1,1998,0,train
+2004,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2004,david-beckham,David Beckham,Real Madrid,England,Unknown,6,1,0,2,10,1,1,1,2003,0,train
+2004,deco,Deco,Porto | Barcelona,Portugal,Unknown,1,0,0,13,13,1,1,1,2003,0,train
+2004,didier-drogba,Didier Drogba,Marseille | Chelsea,Ivory Coast,Unknown,0,0,0,,,,0,0,,0,train
+2004,djibril-cisse,Djibril Cissé,Auxerre | Liverpool,France,Unknown,0,0,0,,,,0,0,,0,train
+2004,emerson,Emerson,Roma | Juventus,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2004,fabien-barthez,Fabien Barthez,Manchester United | Marseille,France,Unknown,3,0,0,12,28,3,0,1,2001,0,train
+2004,fernando-morientes,Fernando Morientes,Monaco | Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2004,francesco-totti,Francesco Totti,Roma,Italy,Unknown,3,0,0,5,18,1,1,1,2003,0,train
+2004,frank-lampard,Frank Lampard,Chelsea,England,Unknown,0,0,0,,,,0,0,,0,train
+2004,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,2,0,0,9,9,1,1,1,2003,0,train
+2004,giourkas-seitaridis,Giourkas Seitaridis,Panathinaikos | Porto,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,henrik-larsson,Henrik Larsson,Celtic | Barcelona,Sweden,Unknown,2,0,0,12,12,1,1,1,2003,0,train
+2004,johan-micoud,Johan Micoud,Werder Bremen,France,Unknown,0,0,0,,,,0,0,,0,train
+2004,jose-antonio-reyes,José Antonio Reyes,Sevilla | Arsenal,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2004,juninho,Juninho,Lyon,Brazil,Unknown,1,0,0,25,25,7,0,1,1997,0,train
+2004,kaka,Kaká,Milan,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2004,ludovic-giuly,Ludovic Giuly,Monaco | Barcelona,France,Unknown,1,0,0,27,27,1,1,1,2003,0,train
+2004,luis-figo,Luís Figo,Real Madrid,Portugal,Unknown,8,1,1,1,27,1,1,1,2003,0,train
+2004,maniche,Maniche,Porto,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2004,michalis-kapsis,Michalis Kapsis,AEK Athens | Bordeaux,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,milan-baros,Milan Baroš,Liverpool,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+2004,mista,Mista,Valencia,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2004,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,8,2,0,3,3,1,1,1,2003,0,train
+2004,patrick-vieira,Patrick Vieira,Arsenal,France,Unknown,3,0,0,15,27,1,1,1,2003,0,train
+2004,paul-scholes,Paul Scholes,Manchester United,England,Unknown,2,0,0,27,27,1,1,1,2003,0,train
+2004,pavel-nedved,Pavel Nedvěd,Juventus,Czech Republic,Unknown,4,1,1,1,1,1,1,1,2003,0,train
+2004,petr-cech,Petr Čech,Chelsea,Czech Republic,Unknown,0,0,0,,,,0,0,,0,train
+2004,ricardo-carvalho,Ricardo Carvalho,Porto | Chelsea,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2004,roberto-ayala,Roberto Ayala,Valencia,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2004,ronaldinho,Ronaldinho,Barcelona,Brazil,Unknown,2,0,0,12,22,1,1,1,2003,0,train
+2004,ronaldo,Ronaldo,Real Madrid,Brazil,Unknown,7,4,2,1,11,1,1,1,2003,0,train
+2004,ruben-baraja,Rubén Baraja,Valencia,Spain,Unknown,1,0,0,24,24,2,0,1,2002,0,train
+2004,ruud-van-nistelrooy,Ruud van Nistelrooy,Manchester United,Netherlands,Unknown,2,0,0,6,6,1,1,1,2003,0,train
+2004,samuel-eto-o,Samuel Eto'o,Mallorca | Barcelona,Cameroon,Unknown,1,0,0,27,27,1,1,1,2003,0,train
+2004,theodoros-zagorakis,Theodoros Zagorakis,AEK Athens | Bologna,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,thierry-henry,Thierry Henry,Arsenal,France,Unknown,4,1,0,2,2,1,1,1,2003,0,train
+2004,traianos-dellas,Traianos Dellas,Roma,Greece,Unknown,0,0,0,,,,0,0,,0,train
+2004,vicente,Vicente,Valencia,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2004,wayne-rooney,Wayne Rooney,Everton,England,Unknown,0,0,0,,,,0,0,,0,train
+2004,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,8,3,1,1,5,1,1,1,2003,0,train
+2004,zlatan-ibrahimovic,Zlatan Ibrahimović,Ajax | Juventus,Sweden,Unknown,1,0,0,20,20,1,1,1,2003,0,train
+2005,adriano,Adriano,Internazionale,Brazil,Unknown,1,0,0,6,6,1,1,1,2004,0,train
+2005,andrea-pirlo,Andrea Pirlo,Milan,Italy,Unknown,1,0,0,30,30,1,1,1,2004,0,train
+2005,andriy-shevchenko,Andriy Shevchenko,Milan,Ukraine,Unknown,5,3,1,1,1,1,1,1,2004,0,train
+2005,arjen-robben,Arjen Robben,Chelsea,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2005,claude-makelele,Claude Makélélé,Chelsea,France,Unknown,1,0,0,27,27,2,0,1,2003,0,train
+2005,cris,Cris,Lyon,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2005,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Unknown,1,0,0,12,12,1,1,1,2004,0,train
+2005,david-trezeguet,David Trezeguet,Juventus,France,Unknown,3,0,0,12,27,2,0,1,2003,0,train
+2005,deco,Deco,Barcelona,Portugal,Unknown,2,1,0,2,2,1,1,1,2004,0,train
+2005,dida,Dida,Milan,Brazil,Unknown,1,0,0,13,13,2,0,1,2003,0,train
+2005,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,1,0,0,17,17,1,1,1,2004,0,train
+2005,diego-forlan,Diego Forlán,Villarreal,Uruguay,Unknown,0,0,0,,,,0,0,,0,train
+2005,emerson,Emerson,Juventus,Brazil,Unknown,1,0,0,30,30,1,1,1,2004,0,train
+2005,fabio-cannavaro,Fabio Cannavaro,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2005,frank-lampard,Frank Lampard,Chelsea,England,Unknown,1,0,0,17,17,1,1,1,2004,0,train
+2005,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,3,0,0,9,17,1,1,1,2004,0,train
+2005,gregory-coupet,Grégory Coupet,Lyon,France,Unknown,0,0,0,,,,0,0,,0,train
+2005,jamie-carragher,Jamie Carragher,Liverpool,England,Unknown,0,0,0,,,,0,0,,0,train
+2005,john-terry,John Terry,Chelsea,England,Unknown,0,0,0,,,,0,0,,0,train
+2005,juan-roman-riquelme,Juan Román Riquelme,Villarreal,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2005,juninho,Juninho,Lyon,Brazil,Unknown,2,0,0,25,30,1,1,1,2004,0,train
+2005,kaka,Kaká,Milan,Brazil,Unknown,1,0,0,15,15,1,1,1,2004,0,train
+2005,lilian-thuram,Lilian Thuram,Juventus,France,Unknown,4,0,0,7,27,2,0,1,2003,0,train
+2005,luis-figo,Luís Figo,Real Madrid | Internazionale,Portugal,Unknown,9,1,1,1,22,1,1,1,2004,0,train
+2005,luis-garcia,Luis García,Liverpool,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2005,mark-van-bommel,Mark van Bommel,PSV Eindhoven | Barcelona,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2005,mauro-camoranesi,Mauro Camoranesi,Juventus,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2005,michael-ballack,Michael Ballack,Bayern Munich,Germany,Unknown,2,0,0,5,20,2,0,1,2003,0,train
+2005,michael-essien,Michael Essien,Lyon | Chelsea,Ghana,Unknown,0,0,0,,,,0,0,,0,train
+2005,michael-owen,Michael Owen,Real Madrid | Newcastle United,England,Unknown,4,1,1,1,27,2,0,1,2003,0,train
+2005,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,9,2,0,3,28,1,1,1,2004,0,train
+2005,park-ji-sung,Park Ji-sung,PSV Eindhoven | Manchester United,South Korea,Unknown,0,0,0,,,,0,0,,0,train
+2005,patrick-vieira,Patrick Vieira,Arsenal | Juventus,France,Unknown,4,0,0,15,30,1,1,1,2004,0,train
+2005,pavel-nedved,Pavel Nedvěd,Juventus,Czech Republic,Unknown,5,1,1,1,7,1,1,1,2004,0,train
+2005,petr-cech,Petr Čech,Chelsea,Czech Republic,Unknown,1,0,0,30,30,1,1,1,2004,0,train
+2005,raul,Raúl,Real Madrid,Spain,Unknown,8,1,0,2,7,2,0,1,2003,0,train
+2005,roberto-carlos,Roberto Carlos,Real Madrid,Brazil,Unknown,7,1,0,2,8,2,0,1,2003,0,train
+2005,robinho,Robinho,Real Madrid,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2005,ronaldinho,Ronaldinho,Barcelona,Brazil,Unknown,3,1,0,3,3,1,1,1,2004,1,train
+2005,ronaldo,Ronaldo,Real Madrid,Brazil,Unknown,8,4,2,1,30,1,1,1,2004,0,train
+2005,roy-makaay,Roy Makaay,Bayern Munich,Netherlands,Unknown,2,0,0,13,13,2,0,1,2003,0,train
+2005,ruud-van-nistelrooy,Ruud van Nistelrooy,Manchester United,Netherlands,Unknown,3,0,0,6,9,1,1,1,2004,0,train
+2005,samuel-eto-o,Samuel Eto'o,Barcelona,Cameroon,Unknown,2,0,0,15,15,1,1,1,2004,0,train
+2005,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,1,0,0,25,25,4,0,1,2001,0,train
+2005,thierry-henry,Thierry Henry,Arsenal,France,Unknown,5,1,0,2,4,1,1,1,2004,0,train
+2005,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,1,0,0,8,8,1,1,1,2004,0,train
+2005,xavi,Xavi,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2005,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,9,3,1,1,23,1,1,1,2004,0,train
+2005,zlatan-ibrahimovic,Zlatan Ibrahimović,Juventus,Sweden,Unknown,2,0,0,14,14,1,1,1,2004,0,train
+2006,andrea-pirlo,Andrea Pirlo,Milan,Italy,Unknown,2,0,0,25,25,1,1,1,2005,0,train
+2006,andriy-shevchenko,Andriy Shevchenko,Milan | Chelsea,Ukraine,Unknown,6,3,1,1,5,1,1,1,2005,0,train
+2006,arjen-robben,Arjen Robben,Chelsea,Netherlands,Unknown,1,0,0,25,25,1,1,1,2005,0,train
+2006,bastian-schweinsteiger,Bastian Schweinsteiger,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2006,carles-puyol,Carles Puyol,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2006,cesc-fabregas,Cesc Fàbregas,Arsenal,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2006,claude-makelele,Claude Makélélé,Chelsea,France,Unknown,2,0,0,13,13,1,1,1,2005,0,train
+2006,cris,Cris,Lyon,Brazil,Unknown,1,0,0,25,25,1,1,1,2005,0,train
+2006,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Unknown,2,0,0,12,20,1,1,1,2005,0,train
+2006,david-villa,David Villa,Valencia,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2006,deco,Deco,Barcelona,Portugal,Unknown,3,1,0,2,25,1,1,1,2005,0,train
+2006,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,2,0,0,14,14,1,1,1,2005,0,train
+2006,edison-mendez,Édison Méndez,LDU Quito | PSV Eindhoven,Ecuador,Unknown,0,0,0,,,,0,0,,0,train
+2006,fabio-cannavaro,Fabio Cannavaro,Juventus | Real Madrid,Italy,Unknown,1,0,0,25,25,1,1,1,2005,1,train
+2006,fabio-grosso,Fabio Grosso,Palermo | Internazionale,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2006,fernando-torres,Fernando Torres,Atlético Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2006,florent-malouda,Florent Malouda,Lyon,France,Unknown,0,0,0,,,,0,0,,0,train
+2006,franck-ribery,Franck Ribéry,Marseille,France,Unknown,0,0,0,,,,0,0,,0,train
+2006,frank-lampard,Frank Lampard,Chelsea,England,Unknown,2,1,0,2,2,1,1,1,2005,0,train
+2006,gennaro-gattuso,Gennaro Gattuso,Milan,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2006,gianluca-zambrotta,Gianluca Zambrotta,Juventus | Barcelona,Italy,Unknown,1,0,0,27,27,3,0,1,2003,0,train
+2006,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,4,0,0,9,19,1,1,1,2005,0,train
+2006,gregory-coupet,Grégory Coupet,Lyon,France,Unknown,1,0,0,25,25,1,1,1,2005,0,train
+2006,jens-lehmann,Jens Lehmann,Arsenal,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2006,joe-cole,Joe Cole,Chelsea,England,Unknown,0,0,0,,,,0,0,,0,train
+2006,john-terry,John Terry,Chelsea,England,Unknown,1,0,0,11,11,1,1,1,2005,0,train
+2006,juan-roman-riquelme,Juan Román Riquelme,Villarreal,Argentina,Unknown,1,0,0,14,14,1,1,1,2005,0,train
+2006,juninho,Juninho,Lyon,Brazil,Unknown,3,0,0,12,12,1,1,1,2005,0,train
+2006,kaka,Kaká,Milan,Brazil,Unknown,2,0,0,9,9,1,1,1,2005,0,train
+2006,lilian-thuram,Lilian Thuram,Juventus | Barcelona,France,Unknown,5,0,0,7,25,1,1,1,2005,0,train
+2006,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2006,luca-toni,Luca Toni,Fiorentina,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2006,ludovic-giuly,Ludovic Giuly,Barcelona,France,Unknown,2,0,0,24,24,2,0,1,2004,0,train
+2006,lukas-podolski,Lukas Podolski,1. FC Köln | Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2006,mahamadou-diarra,Mahamadou Diarra,Real Madrid,Mali,Unknown,0,0,0,,,,0,0,,0,train
+2006,michael-essien,Michael Essien,Chelsea,Ghana,Unknown,1,0,0,22,22,1,1,1,2005,0,train
+2006,miroslav-klose,Miroslav Klose,Werder Bremen,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2006,patrick-vieira,Patrick Vieira,Juventus | Internazionale,France,Unknown,5,0,0,15,25,1,1,1,2005,0,train
+2006,philipp-lahm,Philipp Lahm,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2006,ronaldinho,Ronaldinho,Barcelona,Brazil,Unknown,4,2,1,1,1,1,1,1,2005,0,train
+2006,samuel-eto-o,Samuel Eto'o,Barcelona,Cameroon,Unknown,3,0,0,10,10,1,1,1,2005,0,train
+2006,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,2,1,0,3,3,1,1,1,2005,0,train
+2006,thierry-henry,Thierry Henry,Arsenal,France,Unknown,6,1,0,2,4,1,1,1,2005,0,train
+2006,tiago,Tiago,Lyon,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2006,tim-cahill,Tim Cahill,Everton,Australia,Unknown,0,0,0,,,,0,0,,0,train
+2006,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,2,0,0,8,25,1,1,1,2005,0,train
+2006,william-gallas,William Gallas,Chelsea | Arsenal,France,Unknown,0,0,0,,,,0,0,,0,train
+2006,willy-sagnol,Willy Sagnol,Bayern Munich,France,Unknown,0,0,0,,,,0,0,,0,train
+2006,zinedine-zidane,Zinedine Zidane,Real Madrid,France,Unknown,10,3,1,1,18,1,1,1,2005,0,train
+2007,andrea-pirlo,Andrea Pirlo,Milan,Italy,Unknown,3,0,0,9,9,1,1,1,2006,0,train
+2007,carlos-tevez,Carlos Tevez,West Ham United | Manchester United,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2007,cesc-fabregas,Cesc Fàbregas,Arsenal,Spain,Unknown,1,0,0,27,27,1,1,1,2006,0,train
+2007,clarence-seedorf,Clarence Seedorf,Milan,Netherlands,Unknown,3,0,0,17,30,3,0,1,2004,0,train
+2007,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Unknown,3,0,0,12,14,1,1,1,2006,0,train
+2007,dani-alves,Dani Alves,Sevilla,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2007,david-beckham,David Beckham,Real Madrid | LA Galaxy,England,Unknown,7,1,0,2,30,3,0,1,2004,0,train
+2007,david-villa,David Villa,Valencia,Spain,Unknown,1,0,0,25,25,1,1,1,2006,0,train
+2007,deco,Deco,Barcelona,Portugal,Unknown,4,1,0,2,11,1,1,1,2006,0,train
+2007,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,3,0,0,8,8,1,1,1,2006,0,train
+2007,diego,Diego,Werder Bremen,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2007,dimitar-berbatov,Dimitar Berbatov,Tottenham Hotspur,Bulgaria,Unknown,0,0,0,,,,0,0,,0,train
+2007,eric-abidal,Eric Abidal,Lyon | Barcelona,France,Unknown,0,0,0,,,,0,0,,0,train
+2007,fabio-cannavaro,Fabio Cannavaro,Real Madrid,Italy,Unknown,2,1,1,1,1,1,1,1,2006,0,train
+2007,fernando-torres,Fernando Torres,Atlético Madrid | Liverpool,Spain,Unknown,1,0,0,27,27,1,1,1,2006,0,train
+2007,filippo-inzaghi,Filippo Inzaghi,Milan,Italy,Unknown,2,0,0,22,22,4,0,1,2003,0,train
+2007,florent-malouda,Florent Malouda,Lyon | Chelsea,France,Unknown,1,0,0,27,27,1,1,1,2006,0,train
+2007,francesco-totti,Francesco Totti,Roma,Italy,Unknown,4,0,0,5,30,3,0,1,2004,0,train
+2007,franck-ribery,Franck Ribéry,Marseille | Bayern Munich,France,Unknown,1,0,0,13,13,1,1,1,2006,0,train
+2007,frederic-kanoute,Frédéric Kanouté,Sevilla,Mali,Unknown,0,0,0,,,,0,0,,0,train
+2007,gennaro-gattuso,Gennaro Gattuso,Milan,Italy,Unknown,1,0,0,14,14,1,1,1,2006,0,train
+2007,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,5,1,0,2,2,1,1,1,2006,0,train
+2007,guillermo-ochoa,Guillermo Ochoa,América,Mexico,Unknown,0,0,0,,,,0,0,,0,train
+2007,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,1,0,0,27,27,4,0,1,2003,0,train
+2007,juan-roman-riquelme,Juan Román Riquelme,Villarreal | Boca Juniors,Argentina,Unknown,2,0,0,14,27,1,1,1,2006,0,train
+2007,kaka,Kaká,Milan,Brazil,Unknown,3,0,0,9,11,1,1,1,2006,1,train
+2007,kolo-toure,Kolo Touré,Arsenal,Ivory Coast,Unknown,0,0,0,,,,0,0,,0,train
+2007,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,1,0,0,20,20,1,1,1,2006,0,train
+2007,luca-toni,Luca Toni,Bayern Munich,Italy,Unknown,1,0,0,20,20,1,1,1,2006,0,train
+2007,mahamadou-diarra,Mahamadou Diarra,Real Madrid,Mali,Unknown,1,0,0,27,27,1,1,1,2006,0,train
+2007,michael-essien,Michael Essien,Chelsea,Ghana,Unknown,2,0,0,22,27,1,1,1,2006,0,train
+2007,miroslav-klose,Miroslav Klose,Werder Bremen | Bayern Munich,Germany,Unknown,1,0,0,7,7,1,1,1,2006,0,train
+2007,paolo-maldini,Paolo Maldini,Milan,Italy,Unknown,10,2,0,3,6,2,0,1,2005,0,train
+2007,paul-scholes,Paul Scholes,Manchester United,England,Unknown,3,0,0,27,30,3,0,1,2004,0,train
+2007,petr-cech,Petr Čech,Chelsea,Czech Republic,Unknown,2,0,0,14,14,2,0,1,2005,0,train
+2007,raul,Raúl,Real Madrid,Spain,Unknown,9,1,0,2,25,2,0,1,2005,0,train
+2007,ricardo-quaresma,Ricardo Quaresma,Porto,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2007,robin-van-persie,Robin van Persie,Arsenal,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2007,robinho,Robinho,Real Madrid,Brazil,Unknown,1,0,0,25,25,2,0,1,2005,0,train
+2007,rogerio-ceni,Rogério Ceni,São Paulo,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2007,ronaldinho,Ronaldinho,Barcelona,Brazil,Unknown,5,2,1,1,4,1,1,1,2006,0,train
+2007,ruud-van-nistelrooy,Ruud van Nistelrooy,Real Madrid,Netherlands,Unknown,4,0,0,6,25,2,0,1,2005,0,train
+2007,ryan-giggs,Ryan Giggs,Manchester United,Wales,Unknown,4,0,0,9,28,6,0,1,2001,0,train
+2007,samuel-eto-o,Samuel Eto'o,Barcelona,Cameroon,Unknown,4,0,0,6,6,1,1,1,2006,0,train
+2007,shunsuke-nakamura,Shunsuke Nakamura,Celtic,Japan,Unknown,0,0,0,,,,0,0,,0,train
+2007,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,3,1,0,3,27,1,1,1,2006,0,train
+2007,thierry-henry,Thierry Henry,Arsenal | Barcelona,France,Unknown,7,2,0,2,3,1,1,1,2006,0,train
+2007,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,3,0,0,8,27,1,1,1,2006,0,train
+2007,younis-mahmoud,Younis Mahmoud,Al-Gharafa,Iraq,Unknown,0,0,0,,,,0,0,,0,train
+2007,zlatan-ibrahimovic,Zlatan Ibrahimović,Internazionale,Sweden,Unknown,3,0,0,8,8,2,0,1,2005,0,train
+2008,andrey-arshavin,Andrey Arshavin,Zenit Saint Petersburg,Russia,Unknown,0,0,0,,,,0,0,,0,train
+2008,cesc-fabregas,Cesc Fàbregas,Arsenal,Spain,Unknown,2,0,0,8,8,1,1,1,2007,0,train
+2008,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Unknown,4,1,0,2,2,1,1,1,2007,1,train
+2008,david-villa,David Villa,Valencia,Spain,Unknown,2,0,0,25,36,1,1,1,2007,0,train
+2008,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,4,0,0,4,4,1,1,1,2007,0,train
+2008,edwin-van-der-sar,Edwin van der Sar,Manchester United,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2008,emmanuel-adebayor,Emmanuel Adebayor,Arsenal,Togo,Unknown,0,0,0,,,,0,0,,0,train
+2008,fernando-torres,Fernando Torres,Liverpool,Spain,Unknown,2,0,0,27,36,1,1,1,2007,0,train
+2008,franck-ribery,Franck Ribéry,Bayern Munich,France,Unknown,2,0,0,13,17,1,1,1,2007,0,train
+2008,frank-lampard,Frank Lampard,Chelsea,England,Unknown,3,1,0,2,17,2,0,1,2006,0,train
+2008,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,6,1,0,2,19,1,1,1,2007,0,train
+2008,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,2,0,0,27,27,1,1,1,2007,0,train
+2008,kaka,Kaká,Milan,Brazil,Unknown,4,1,1,1,1,1,1,1,2007,0,train
+2008,karim-benzema,Karim Benzema,Lyon,France,Unknown,0,0,0,,,,0,0,,0,train
+2008,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,2,1,0,3,3,1,1,1,2007,0,train
+2008,luca-toni,Luca Toni,Bayern Munich,Italy,Unknown,2,0,0,20,36,1,1,1,2007,0,train
+2008,marcos-senna,Marcos Senna,Villarreal,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2008,michael-ballack,Michael Ballack,Chelsea,Germany,Unknown,3,0,0,5,14,3,0,1,2005,0,train
+2008,nemanja-vidic,Nemanja Vidić,Manchester United,Serbia,Unknown,0,0,0,,,,0,0,,0,train
+2008,pepe,Pepe,Real Madrid,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2008,rafael-van-der-vaart,Rafael van der Vaart,Hamburg | Real Madrid,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2008,ruud-van-nistelrooy,Ruud van Nistelrooy,Real Madrid,Netherlands,Unknown,5,0,0,6,6,1,1,1,2007,0,train
+2008,samuel-eto-o,Samuel Eto'o,Barcelona,Cameroon,Unknown,5,0,0,6,30,1,1,1,2007,0,train
+2008,sergio-aguero,Sergio Agüero,Atlético Madrid,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2008,sergio-ramos,Sergio Ramos,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2008,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,4,1,0,3,13,1,1,1,2007,0,train
+2008,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,4,0,0,8,26,1,1,1,2007,0,train
+2008,xavi,Xavi,Barcelona,Spain,Unknown,1,0,0,25,25,3,0,1,2005,0,train
+2008,yuri-zhirkov,Yuri Zhirkov,CSKA Moscow,Russia,Unknown,0,0,0,,,,0,0,,0,train
+2008,zlatan-ibrahimovic,Zlatan Ibrahimović,Internazionale,Sweden,Unknown,4,0,0,7,7,1,1,1,2007,0,train
+2009,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2009,andrey-arshavin,Andrey Arshavin,Arsenal,Russia,Unknown,1,0,0,6,6,1,1,1,2008,0,train
+2009,cesc-fabregas,Cesc Fàbregas,Arsenal,Spain,Unknown,3,0,0,8,19,1,1,1,2008,0,train
+2009,cristiano-ronaldo,Cristiano Ronaldo,Manchester United | Real Madrid,Portugal,Unknown,5,2,1,1,1,1,1,1,2008,0,train
+2009,david-villa,David Villa,Valencia,Spain,Unknown,3,0,0,7,7,1,1,1,2008,0,train
+2009,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,5,0,0,4,21,1,1,1,2008,0,train
+2009,diego,Diego,Werder Bremen | Juventus,Brazil,Unknown,1,0,0,36,36,2,0,1,2007,0,train
+2009,diego-forlan,Diego Forlán,Atlético Madrid,Uruguay,Unknown,1,0,0,25,25,4,0,1,2005,0,train
+2009,edin-dzeko,Edin Džeko,VfL Wolfsburg,Bosnia and Herzegovina,Unknown,0,0,0,,,,0,0,,0,train
+2009,fernando-torres,Fernando Torres,Liverpool,Spain,Unknown,3,1,0,3,3,1,1,1,2008,0,train
+2009,franck-ribery,Franck Ribéry,Bayern Munich,France,Unknown,3,0,0,13,16,1,1,1,2008,0,train
+2009,frank-lampard,Frank Lampard,Chelsea,England,Unknown,4,1,0,2,15,1,1,1,2008,0,train
+2009,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,3,0,0,4,4,1,1,1,2008,0,train
+2009,john-terry,John Terry,Chelsea,England,Unknown,2,0,0,11,20,3,0,1,2006,0,train
+2009,julio-cesar,Júlio César,Internazionale,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2009,kaka,Kaká,Milan | Real Madrid,Brazil,Unknown,5,1,1,1,9,1,1,1,2008,0,train
+2009,karim-benzema,Karim Benzema,Lyon | Real Madrid,France,Unknown,1,0,0,26,26,1,1,1,2008,0,train
+2009,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,3,2,0,2,2,1,1,1,2008,1,train
+2009,luis-fabiano,Luís Fabiano,Sevilla,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2009,maicon,Maicon,Internazionale,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2009,nemanja-vidic,Nemanja Vidić,Manchester United,Serbia,Unknown,1,0,0,21,21,1,1,1,2008,0,train
+2009,ryan-giggs,Ryan Giggs,Manchester United,Wales,Unknown,5,0,0,9,30,2,0,1,2007,0,train
+2009,samuel-eto-o,Samuel Eto'o,Barcelona | Internazionale,Cameroon,Unknown,6,0,0,6,17,1,1,1,2008,0,train
+2009,steven-gerrard,Steven Gerrard,Liverpool,England,Unknown,5,1,0,3,10,1,1,1,2008,0,train
+2009,thierry-henry,Thierry Henry,Barcelona,France,Unknown,8,2,0,2,19,2,0,1,2007,0,train
+2009,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,5,0,0,8,13,1,1,1,2008,0,train
+2009,xavi,Xavi,Barcelona,Spain,Unknown,2,0,0,5,5,1,1,1,2008,0,train
+2009,yaya-toure,Yaya Touré,Barcelona,Ivory Coast,Unknown,0,0,0,,,,0,0,,0,train
+2009,yoann-gourcuff,Yoann Gourcuff,Bordeaux,France,Unknown,0,0,0,,,,0,0,,0,train
+2009,zlatan-ibrahimovic,Zlatan Ibrahimović,Internazionale | Barcelona,Sweden,Unknown,5,0,0,7,8,1,1,1,2008,0,train
+2010,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,1,0,0,4,4,1,1,1,2009,0,train
+2010,arjen-robben,Arjen Robben,Bayern Munich,Netherlands,Unknown,2,0,0,25,27,4,0,1,2006,0,train
+2010,asamoah-gyan,Asamoah Gyan,Sunderland,Ghana,Unknown,0,0,0,,,,0,0,,0,train
+2010,bastian-schweinsteiger,Bastian Schweinsteiger,Bayern Munich,Germany,Unknown,1,0,0,27,27,4,0,1,2006,0,train
+2010,carles-puyol,Carles Puyol,Barcelona,Spain,Unknown,1,0,0,17,17,4,0,1,2006,0,train
+2010,cesc-fabregas,Cesc Fàbregas,Arsenal,Spain,Unknown,4,0,0,8,12,1,1,1,2009,0,train
+2010,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,6,3,1,1,2,1,1,1,2009,0,train
+2010,dani-alves,Dani Alves,Barcelona,Brazil,Unknown,1,0,0,15,15,3,0,1,2007,0,train
+2010,david-villa,David Villa,Valencia | Barcelona,Spain,Unknown,4,0,0,7,26,1,1,1,2009,0,train
+2010,didier-drogba,Didier Drogba,Chelsea,Ivory Coast,Unknown,6,0,0,4,9,1,1,1,2009,0,train
+2010,diego-forlan,Diego Forlán,Atlético Madrid,Uruguay,Unknown,2,0,0,19,19,1,1,1,2009,0,train
+2010,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,4,0,0,4,16,1,1,1,2009,0,train
+2010,julio-cesar,Júlio César,Internazionale,Brazil,Unknown,1,0,0,21,21,1,1,1,2009,0,train
+2010,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,4,3,1,1,1,1,1,1,2009,1,train
+2010,maicon,Maicon,Internazionale,Brazil,Unknown,1,0,0,24,24,1,1,1,2009,0,train
+2010,mesut-ozil,Mesut Özil,Real Madrid,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2010,miroslav-klose,Miroslav Klose,Bayern Munich,Germany,Unknown,2,0,0,7,36,3,0,1,2007,0,train
+2010,philipp-lahm,Philipp Lahm,Bayern Munich,Germany,Unknown,1,0,0,25,25,4,0,1,2006,0,train
+2010,samuel-eto-o,Samuel Eto'o,Internazionale,Cameroon,Unknown,7,0,0,5,5,1,1,1,2009,0,train
+2010,thomas-muller,Thomas Müller,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2010,wesley-sneijder,Wesley Sneijder,Internazionale,Netherlands,Unknown,0,0,0,,,,0,0,,0,train
+2010,xabi-alonso,Xabi Alonso,Real Madrid,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2010,xavi,Xavi,Barcelona,Spain,Unknown,3,1,0,3,3,1,1,1,2009,0,train
+2011,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,2,1,0,2,2,1,1,1,2010,0,train
+2011,bastian-schweinsteiger,Bastian Schweinsteiger,Bayern Munich,Germany,Unknown,2,0,0,16,16,1,1,1,2010,0,train
+2011,cesc-fabregas,Cesc Fàbregas,Arsenal | Barcelona,Spain,Unknown,5,0,0,8,20,1,1,1,2010,0,train
+2011,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,7,3,1,1,6,1,1,1,2010,0,train
+2011,dani-alves,Dani Alves,Barcelona,Brazil,Unknown,2,0,0,15,23,1,1,1,2010,0,train
+2011,david-villa,David Villa,Barcelona,Spain,Unknown,5,0,0,7,8,1,1,1,2010,0,train
+2011,diego-forlan,Diego Forlán,Atlético Madrid | Internazionale,Uruguay,Unknown,3,0,0,5,5,1,1,1,2010,0,train
+2011,eric-abidal,Eric Abidal,Barcelona,France,Unknown,1,0,0,36,36,4,0,1,2007,0,train
+2011,gerard-pique,Gerard Piqué,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2011,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,5,0,0,4,7,1,1,1,2010,0,train
+2011,karim-benzema,Karim Benzema,Real Madrid,France,Unknown,2,0,0,26,30,2,0,1,2009,0,train
+2011,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,5,4,2,1,1,1,1,1,2010,1,train
+2011,luis-suarez-uy,Luis Suárez,Ajax | Liverpool,Uruguay,Unknown,0,0,0,,,,0,0,,0,train
+2011,mesut-ozil,Mesut Özil,Real Madrid,Germany,Unknown,1,0,0,13,13,1,1,1,2010,0,train
+2011,nani,Nani,Manchester United,Portugal,Unknown,0,0,0,,,,0,0,,0,train
+2011,neymar,Neymar,Santos,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2011,samuel-eto-o,Samuel Eto'o,Internazionale | Anzhi Makhachkala,Cameroon,Unknown,8,0,0,5,12,1,1,1,2010,0,train
+2011,sergio-aguero,Sergio Agüero,Atlético Madrid | Manchester City,Argentina,Unknown,1,0,0,14,14,3,0,1,2008,0,train
+2011,thomas-muller,Thomas Müller,Bayern Munich,Germany,Unknown,1,0,0,15,15,1,1,1,2010,0,train
+2011,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,6,0,0,8,8,2,0,1,2009,0,train
+2011,wesley-sneijder,Wesley Sneijder,Internazionale,Netherlands,Unknown,1,0,0,4,4,1,1,1,2010,0,train
+2011,xabi-alonso,Xabi Alonso,Real Madrid,Spain,Unknown,1,0,0,10,10,1,1,1,2010,0,train
+2011,xavi,Xavi,Barcelona,Spain,Unknown,4,2,0,3,3,1,1,1,2010,0,train
+2012,andrea-pirlo,Andrea Pirlo,Juventus,Italy,Unknown,4,0,0,5,5,5,0,1,2007,0,train
+2012,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,3,1,0,2,4,1,1,1,2011,0,train
+2012,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,8,4,1,1,2,1,1,1,2011,0,train
+2012,didier-drogba,Didier Drogba,Chelsea | Shanghai Shenhua,Ivory Coast,Unknown,7,0,0,4,9,2,0,1,2010,0,train
+2012,gerard-pique,Gerard Piqué,Barcelona,Spain,Unknown,1,0,0,23,23,1,1,1,2011,0,train
+2012,gianluigi-buffon,Gianluigi Buffon,Juventus,Italy,Unknown,7,1,0,2,18,4,0,1,2008,0,train
+2012,iker-casillas,Iker Casillas,Real Madrid,Spain,Unknown,6,0,0,4,9,1,1,1,2011,0,train
+2012,karim-benzema,Karim Benzema,Real Madrid,France,Unknown,3,0,0,20,20,1,1,1,2011,0,train
+2012,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,6,5,3,1,1,1,1,1,2011,1,train
+2012,manuel-neuer,Manuel Neuer,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2012,mario-balotelli,Mario Balotelli,Manchester City,Italy,Unknown,0,0,0,,,,0,0,,0,train
+2012,mesut-ozil,Mesut Özil,Real Madrid,Germany,Unknown,2,0,0,11,11,1,1,1,2011,0,train
+2012,neymar,Neymar,Santos,Brazil,Unknown,1,0,0,10,10,1,1,1,2011,0,train
+2012,radamel-falcao,Radamel Falcao,Atlético Madrid,Colombia,Unknown,0,0,0,,,,0,0,,0,train
+2012,robin-van-persie,Robin van Persie,Arsenal | Manchester United,Netherlands,Unknown,1,0,0,30,30,5,0,1,2007,0,train
+2012,sergio-aguero,Sergio Agüero,Manchester City,Argentina,Unknown,2,0,0,14,17,1,1,1,2011,0,train
+2012,sergio-busquets,Sergio Busquets,Barcelona,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2012,sergio-ramos,Sergio Ramos,Real Madrid,Spain,Unknown,1,0,0,21,21,4,0,1,2008,0,train
+2012,wayne-rooney,Wayne Rooney,Manchester United,England,Unknown,7,0,0,5,5,1,1,1,2011,0,train
+2012,xabi-alonso,Xabi Alonso,Real Madrid,Spain,Unknown,2,0,0,10,16,1,1,1,2011,0,train
+2012,xavi,Xavi,Barcelona,Spain,Unknown,5,3,0,3,3,1,1,1,2011,0,train
+2012,yaya-toure,Yaya Touré,Manchester City,Ivory Coast,Unknown,1,0,0,28,28,3,0,1,2009,0,train
+2012,zlatan-ibrahimovic,Zlatan Ibrahimović,Milan | Paris Saint-Germain,Sweden,Unknown,6,0,0,7,7,3,0,1,2009,0,train
+2013,andrea-pirlo,Andrea Pirlo,Juventus,Italy,Unknown,5,0,0,5,7,1,1,1,2012,0,train
+2013,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,4,2,0,2,3,1,1,1,2012,0,train
+2013,arjen-robben,Arjen Robben,Bayern Munich,Netherlands,Unknown,3,0,0,14,14,3,0,1,2010,0,train
+2013,bastian-schweinsteiger,Bastian Schweinsteiger,Bayern Munich,Germany,Unknown,3,0,0,15,15,2,0,1,2011,0,train
+2013,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,9,5,1,1,2,1,1,1,2012,1,train
+2013,eden-hazard,Eden Hazard,Chelsea,Belgium,Unknown,0,0,0,,,,0,0,,0,train
+2013,edinson-cavani,Edinson Cavani,Napoli | Paris Saint-Germain,Uruguay,Unknown,0,0,0,,,,0,0,,0,train
+2013,franck-ribery,Franck Ribéry,Bayern Munich,France,Unknown,4,0,0,13,28,4,0,1,2009,0,train
+2013,gareth-bale,Gareth Bale,Tottenham Hotspur | Real Madrid,Wales,Unknown,0,0,0,,,,0,0,,0,train
+2013,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,7,6,4,1,1,1,1,1,2012,0,train
+2013,luis-suarez-uy,Luis Suárez,Liverpool,Uruguay,Unknown,1,0,0,6,6,2,0,1,2011,0,train
+2013,manuel-neuer,Manuel Neuer,Bayern Munich,Germany,Unknown,1,0,0,19,19,1,1,1,2012,0,train
+2013,mesut-ozil,Mesut Özil,Real Madrid | Arsenal,Germany,Unknown,3,0,0,11,14,1,1,1,2012,0,train
+2013,neymar,Neymar,Santos | Barcelona,Brazil,Unknown,2,0,0,10,13,1,1,1,2012,0,train
+2013,philipp-lahm,Philipp Lahm,Bayern Munich,Germany,Unknown,2,0,0,22,22,3,0,1,2010,0,train
+2013,radamel-falcao,Radamel Falcao,Atlético Madrid | Monaco,Colombia,Unknown,1,0,0,5,5,1,1,1,2012,0,train
+2013,robert-lewandowski,Robert Lewandowski,Borussia Dortmund,Poland,Unknown,0,0,0,,,,0,0,,0,train
+2013,robin-van-persie,Robin van Persie,Manchester United,Netherlands,Unknown,2,0,0,9,9,1,1,1,2012,0,train
+2013,thiago-silva,Thiago Silva,Paris Saint-Germain,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2013,thomas-muller,Thomas Müller,Bayern Munich,Germany,Unknown,2,0,0,13,13,2,0,1,2011,0,train
+2013,xavi,Xavi,Barcelona,Spain,Unknown,6,3,0,3,4,1,1,1,2012,0,train
+2013,yaya-toure,Yaya Touré,Manchester City,Ivory Coast,Unknown,2,0,0,12,12,1,1,1,2012,0,train
+2013,zlatan-ibrahimovic,Zlatan Ibrahimović,Paris Saint-Germain,Sweden,Unknown,7,0,0,7,10,1,1,1,2012,0,train
+2014,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,5,2,0,2,6,1,1,1,2013,0,train
+2014,angel-di-maria,Ángel Di María,Real Madrid | Manchester United,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2014,arjen-robben,Arjen Robben,Bayern Munich,Netherlands,Unknown,4,0,0,8,8,1,1,1,2013,0,train
+2014,bastian-schweinsteiger,Bastian Schweinsteiger,Bayern Munich,Germany,Unknown,4,0,0,15,17,1,1,1,2013,0,train
+2014,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,10,6,2,1,1,1,1,1,2013,1,train
+2014,david-luiz,David Luiz,Chelsea,Brazil,Unknown,0,0,0,,,,0,0,,0,train
+2014,diego-costa,Diego Costa,Atlético Madrid | Chelsea,Spain,Unknown,0,0,0,,,,0,0,,0,train
+2014,gareth-bale,Gareth Bale,Real Madrid,Wales,Unknown,1,0,0,9,9,1,1,1,2013,0,train
+2014,james-rodriguez,James Rodríguez,Monaco | Real Madrid,Colombia,Unknown,0,0,0,,,,0,0,,0,train
+2014,javier-mascherano,Javier Mascherano,Barcelona,Argentina,Unknown,0,0,0,,,,0,0,,0,train
+2014,karim-benzema,Karim Benzema,Real Madrid,France,Unknown,4,0,0,20,22,2,0,1,2012,0,train
+2014,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,8,7,4,1,2,1,1,1,2013,0,train
+2014,manuel-neuer,Manuel Neuer,Bayern Munich,Germany,Unknown,2,0,0,19,23,1,1,1,2013,0,train
+2014,mario-gotze,Mario Götze,Bayern Munich,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2014,neymar,Neymar,Barcelona,Brazil,Unknown,3,0,0,5,5,1,1,1,2013,0,train
+2014,paul-pogba,Paul Pogba,Juventus,France,Unknown,0,0,0,,,,0,0,,0,train
+2014,philipp-lahm,Philipp Lahm,Bayern Munich,Germany,Unknown,3,0,0,14,14,1,1,1,2013,0,train
+2014,sergio-ramos,Sergio Ramos,Real Madrid,Spain,Unknown,2,0,0,18,18,2,0,1,2012,0,train
+2014,thibaut-courtois,Thibaut Courtois,Atlético Madrid | Chelsea,Belgium,Unknown,0,0,0,,,,0,0,,0,train
+2014,thomas-muller,Thomas Müller,Bayern Munich,Germany,Unknown,3,0,0,13,17,1,1,1,2013,0,train
+2014,toni-kroos,Toni Kroos,Bayern Munich | Real Madrid,Germany,Unknown,0,0,0,,,,0,0,,0,train
+2014,yaya-toure,Yaya Touré,Manchester City,Ivory Coast,Unknown,3,0,0,12,12,1,1,1,2013,0,train
+2014,zlatan-ibrahimovic,Zlatan Ibrahimović,Paris Saint-Germain,Sweden,Unknown,8,0,0,4,4,1,1,1,2013,0,train
+2015,alexis-sanchez,Alexis Sánchez,Arsenal,Chile,Unknown,0,0,0,,,,0,0,,0,train
+2015,andres-iniesta,Andrés Iniesta,Barcelona,Spain,Unknown,6,2,0,2,17,1,1,1,2014,0,train
+2015,arjen-robben,Arjen Robben,Bayern Munich,Netherlands,Unknown,5,0,0,4,4,1,1,1,2014,0,train
+2015,arturo-vidal,Arturo Vidal,Juventus | Bayern Munich,Chile,Unknown,0,0,0,,,,0,0,,0,train
+2015,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Portugal,Unknown,11,7,3,1,1,1,1,1,2014,0,train
+2015,eden-hazard,Eden Hazard,Chelsea,Belgium,Unknown,1,0,0,22,22,2,0,1,2013,0,train
+2015,gareth-bale,Gareth Bale,Real Madrid,Wales,Unknown,2,0,0,9,12,1,1,1,2014,0,train
+2015,ivan-rakitic,Ivan Rakitić,Barcelona,Croatia,Unknown,0,0,0,,,,0,0,,0,train
+2015,james-rodriguez,James Rodríguez,Real Madrid,Colombia,Unknown,1,0,0,8,8,1,1,1,2014,0,train
+2015,javier-mascherano,Javier Mascherano,Barcelona,Argentina,Unknown,1,0,0,19,19,1,1,1,2014,0,train
+2015,karim-benzema,Karim Benzema,Real Madrid,France,Unknown,5,0,0,16,16,1,1,1,2014,0,train
+2015,kevin-de-bruyne,Kevin De Bruyne,VfL Wolfsburg | Manchester City,Belgium,Unknown,0,0,0,,,,0,0,,0,train
+2015,lionel-messi,Lionel Messi,Barcelona,Argentina,Unknown,9,8,4,1,2,1,1,1,2014,1,train
+2015,luis-suarez-uy,Luis Suárez,Barcelona,Uruguay,Unknown,2,0,0,6,19,2,0,1,2013,0,train
+2015,manuel-neuer,Manuel Neuer,Bayern Munich,Germany,Unknown,3,1,0,3,3,1,1,1,2014,0,train
+2015,neymar,Neymar,Barcelona,Brazil,Unknown,4,0,0,5,7,1,1,1,2014,0,train
+2015,paul-pogba,Paul Pogba,Juventus,France,Unknown,1,0,0,22,22,1,1,1,2014,0,train
+2015,robert-lewandowski,Robert Lewandowski,Bayern Munich,Poland,Unknown,1,0,0,13,13,2,0,1,2013,0,train
+2015,sergio-aguero,Sergio Agüero,Manchester City,Argentina,Unknown,3,0,0,14,17,3,0,1,2012,0,train
+2015,thomas-muller,Thomas Müller,Bayern Munich,Germany,Unknown,4,0,0,5,5,1,1,1,2014,0,train
+2015,toni-kroos,Toni Kroos,Real Madrid,Germany,Unknown,1,0,0,9,9,1,1,1,2014,0,train
+2015,yaya-toure,Yaya Touré,Manchester City,Ivory Coast,Unknown,4,0,0,12,14,1,1,1,2014,0,train
+2015,zlatan-ibrahimovic,Zlatan Ibrahimović,Paris Saint-Germain,Sweden,Unknown,9,0,0,4,13,1,1,1,2014,0,train
+2016,andres-iniesta,Andrés Iniesta,Barcelona,Unknown,Unknown,7,2,0,2,9,1,1,1,2015,0,validation
+2016,antoine-griezmann,Antoine Griezmann,Atlético Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,arturo-vidal,Arturo Vidal,Bayern Munich,Unknown,Unknown,1,0,0,17,17,1,1,1,2015,0,validation
+2016,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Unknown,Unknown,12,8,3,1,2,1,1,1,2015,1,validation
+2016,diego-godin,Diego Godín,Atlético Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,dimitri-payet,Dimitri Payet,West Ham United,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,gareth-bale,Gareth Bale,Real Madrid,Unknown,Unknown,3,0,0,9,16,1,1,1,2015,0,validation
+2016,gianluigi-buffon,Gianluigi Buffon,Juventus,Unknown,Unknown,8,1,0,2,16,4,0,1,2012,0,validation
+2016,gonzalo-higuain,Gonzalo Higuaín,Napoli | Juventus,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,hugo-lloris,Hugo Lloris,Tottenham Hotspur,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,jamie-vardy,Jamie Vardy,Leicester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Unknown,Unknown,1,0,0,18,18,1,1,1,2015,0,validation
+2016,koke,Koke,Atlético Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,lionel-messi,Lionel Messi,Barcelona,Unknown,Unknown,10,9,5,1,1,1,1,1,2015,0,validation
+2016,luis-suarez-uy,Luis Suárez,Barcelona,Unknown,Unknown,3,0,0,5,5,1,1,1,2015,0,validation
+2016,luka-modric,Luka Modrić,Real Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,manuel-neuer,Manuel Neuer,Bayern Munich,Unknown,Unknown,4,1,0,3,7,1,1,1,2015,0,validation
+2016,neymar,Neymar,Barcelona,Unknown,Unknown,5,1,0,3,3,1,1,1,2015,0,validation
+2016,paul-pogba,Paul Pogba,Juventus | Manchester United,Unknown,Unknown,2,0,0,15,15,1,1,1,2015,0,validation
+2016,paulo-dybala,Paulo Dybala,Juventus,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,pepe,Pepe,Real Madrid,Unknown,Unknown,1,0,0,26,26,8,0,1,2008,0,validation
+2016,pierre-emerick-aubameyang,Pierre-Emerick Aubameyang,Borussia Dortmund,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,riyad-mahrez,Riyad Mahrez,Leicester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,robert-lewandowski,Robert Lewandowski,Bayern Munich,Unknown,Unknown,2,0,0,4,4,1,1,1,2015,0,validation
+2016,rui-patricio,Rui Patrício,Sporting CP,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2016,sergio-aguero,Sergio Agüero,Manchester City,Unknown,Unknown,4,0,0,13,13,1,1,1,2015,0,validation
+2016,sergio-ramos,Sergio Ramos,Real Madrid,Unknown,Unknown,3,0,0,18,23,2,0,1,2014,0,validation
+2016,thomas-muller,Thomas Müller,Bayern Munich,Unknown,Unknown,5,0,0,5,6,1,1,1,2015,0,validation
+2016,toni-kroos,Toni Kroos,Real Madrid,Unknown,Unknown,2,0,0,9,21,1,1,1,2015,0,validation
+2016,zlatan-ibrahimovic,Zlatan Ibrahimović,Paris Saint-Germain | Manchester United,Unknown,Unknown,10,0,0,4,11,1,1,1,2015,0,validation
+2017,antoine-griezmann,Antoine Griezmann,Atlético Madrid,Unknown,Unknown,1,1,0,3,3,1,1,1,2016,0,validation
+2017,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid,Unknown,Unknown,13,9,4,1,1,1,1,1,2016,1,validation
+2017,david-de-gea,David de Gea,Manchester United,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,dries-mertens,Dries Mertens,Napoli,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,eden-hazard,Eden Hazard,Chelsea,Unknown,Unknown,2,0,0,8,8,2,0,1,2015,0,validation
+2017,edin-dzeko,Edin Džeko,Roma,Unknown,Unknown,1,0,0,13,13,8,0,1,2009,0,validation
+2017,edinson-cavani,Edinson Cavani,Paris Saint-Germain,Unknown,Unknown,1,0,0,20,20,4,0,1,2013,0,validation
+2017,gianluigi-buffon,Gianluigi Buffon,Juventus,Unknown,Unknown,9,1,0,2,9,1,1,1,2016,0,validation
+2017,harry-kane,Harry Kane,Tottenham Hotspur,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,isco,Isco,Real Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,jan-oblak,Jan Oblak,Atlético Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,karim-benzema,Karim Benzema,Real Madrid,Unknown,Unknown,6,0,0,16,20,2,0,1,2015,0,validation
+2017,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Unknown,Unknown,2,0,0,18,20,1,1,1,2016,0,validation
+2017,kylian-mbappe,Kylian Mbappé,Monaco | Paris Saint-Germain,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,leonardo-bonucci,Leonardo Bonucci,Juventus | Milan,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,lionel-messi,Lionel Messi,Barcelona,Unknown,Unknown,11,10,5,1,2,1,1,1,2016,0,validation
+2017,luis-suarez-uy,Luis Suárez,Barcelona,Unknown,Unknown,4,0,0,4,4,1,1,1,2016,0,validation
+2017,luka-modric,Luka Modrić,Real Madrid,Unknown,Unknown,1,0,0,17,17,1,1,1,2016,0,validation
+2017,marcelo,Marcelo,Real Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,mats-hummels,Mats Hummels,Bayern Munich,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,n-golo-kante,N'Golo Kanté,Chelsea,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,neymar,Neymar,Barcelona | Paris Saint-Germain,Unknown,Unknown,6,1,0,3,5,1,1,1,2016,0,validation
+2017,paulo-dybala,Paulo Dybala,Juventus,Unknown,Unknown,1,0,0,20,20,1,1,1,2016,0,validation
+2017,philippe-coutinho,Philippe Coutinho,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,pierre-emerick-aubameyang,Pierre-Emerick Aubameyang,Borussia Dortmund,Unknown,Unknown,1,0,0,11,11,1,1,1,2016,0,validation
+2017,radamel-falcao,Radamel Falcao,Monaco,Unknown,Unknown,2,0,0,5,11,4,0,1,2013,0,validation
+2017,robert-lewandowski,Robert Lewandowski,Bayern Munich,Unknown,Unknown,3,0,0,4,16,1,1,1,2016,0,validation
+2017,sadio-mane,Sadio Mané,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2017,sergio-ramos,Sergio Ramos,Real Madrid,Unknown,Unknown,4,0,0,18,20,1,1,1,2016,0,validation
+2017,toni-kroos,Toni Kroos,Real Madrid,Unknown,Unknown,3,0,0,9,17,1,1,1,2016,0,validation
+2018,alisson,Alisson,Roma | Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2018,antoine-griezmann,Antoine Griezmann,Atlético Madrid,Unknown,Unknown,2,1,0,3,18,1,1,1,2017,0,validation
+2018,cristiano-ronaldo,Cristiano Ronaldo,Real Madrid | Juventus,Unknown,Unknown,14,10,5,1,1,1,1,1,2017,0,validation
+2018,diego-godin,Diego Godín,Atlético Madrid,Unknown,Unknown,1,0,0,20,20,2,0,1,2016,0,validation
+2018,eden-hazard,Eden Hazard,Chelsea,Unknown,Unknown,3,0,0,8,19,1,1,1,2017,0,validation
+2018,edinson-cavani,Edinson Cavani,Paris Saint-Germain,Unknown,Unknown,2,0,0,11,11,1,1,1,2017,0,validation
+2018,gareth-bale,Gareth Bale,Real Madrid,Unknown,Unknown,4,0,0,6,6,2,0,1,2016,0,validation
+2018,harry-kane,Harry Kane,Tottenham Hotspur,Unknown,Unknown,1,0,0,10,10,1,1,1,2017,0,validation
+2018,hugo-lloris,Hugo Lloris,Tottenham Hotspur,Unknown,Unknown,1,0,0,20,20,2,0,1,2016,0,validation
+2018,isco,Isco,Real Madrid,Unknown,Unknown,1,0,0,12,12,1,1,1,2017,0,validation
+2018,ivan-rakitic,Ivan Rakitić,Barcelona,Unknown,Unknown,1,0,0,23,23,3,0,1,2015,0,validation
+2018,jan-oblak,Jan Oblak,Atlético Madrid,Unknown,Unknown,1,0,0,26,26,1,1,1,2017,0,validation
+2018,karim-benzema,Karim Benzema,Real Madrid,Unknown,Unknown,7,0,0,16,25,1,1,1,2017,0,validation
+2018,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Unknown,Unknown,3,0,0,14,14,1,1,1,2017,0,validation
+2018,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,Unknown,Unknown,1,0,0,7,7,1,1,1,2017,0,validation
+2018,lionel-messi,Lionel Messi,Barcelona,Unknown,Unknown,12,11,5,1,2,1,1,1,2017,0,validation
+2018,luis-suarez-uy,Luis Suárez,Barcelona,Unknown,Unknown,5,0,0,4,13,1,1,1,2017,0,validation
+2018,luka-modric,Luka Modrić,Real Madrid,Unknown,Unknown,2,0,0,5,5,1,1,1,2017,1,validation
+2018,marcelo,Marcelo,Real Madrid,Unknown,Unknown,1,0,0,16,16,1,1,1,2017,0,validation
+2018,mario-mandzukic,Mario Mandžukić,Juventus,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2018,mohamed-salah,Mohamed Salah,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2018,n-golo-kante,N'Golo Kanté,Chelsea,Unknown,Unknown,1,0,0,8,8,1,1,1,2017,0,validation
+2018,neymar,Neymar,Paris Saint-Germain,Unknown,Unknown,7,2,0,3,3,1,1,1,2017,0,validation
+2018,paul-pogba,Paul Pogba,Manchester United,Unknown,Unknown,3,0,0,14,14,2,0,1,2016,0,validation
+2018,raphael-varane,Raphaël Varane,Real Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2018,roberto-firmino,Roberto Firmino,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2018,sadio-mane,Sadio Mané,Liverpool,Unknown,Unknown,1,0,0,23,23,1,1,1,2017,0,validation
+2018,sergio-aguero,Sergio Agüero,Manchester City,Unknown,Unknown,5,0,0,13,20,2,0,1,2016,0,validation
+2018,sergio-ramos,Sergio Ramos,Real Madrid,Unknown,Unknown,5,0,0,6,6,1,1,1,2017,0,validation
+2018,thibaut-courtois,Thibaut Courtois,Chelsea | Real Madrid,Unknown,Unknown,1,0,0,20,20,4,0,1,2014,0,validation
+2019,alisson,Alisson,Liverpool,Unknown,Unknown,1,0,0,25,25,1,1,1,2018,0,validation
+2019,antoine-griezmann,Antoine Griezmann,Atlético Madrid | Barcelona,Unknown,Unknown,3,2,0,3,3,1,1,1,2018,0,validation
+2019,bernardo-silva,Bernardo Silva,Manchester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,cristiano-ronaldo,Cristiano Ronaldo,Juventus,Unknown,Unknown,15,11,5,1,2,1,1,1,2018,0,validation
+2019,donny-van-de-beek,Donny van de Beek,Ajax,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,dusan-tadic,Dušan Tadić,Ajax,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,eden-hazard,Eden Hazard,Chelsea | Real Madrid,Unknown,Unknown,4,0,0,8,8,1,1,1,2018,0,validation
+2019,frenkie-de-jong,Frenkie de Jong,Ajax | Barcelona,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,georginio-wijnaldum,Georginio Wijnaldum,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,hugo-lloris,Hugo Lloris,Tottenham Hotspur,Unknown,Unknown,2,0,0,20,29,1,1,1,2018,0,validation
+2019,joao-felix,João Félix,Benfica | Atlético Madrid,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,kalidou-koulibaly,Kalidou Koulibaly,Napoli,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,karim-benzema,Karim Benzema,Real Madrid,Unknown,Unknown,8,0,0,16,17,1,1,1,2018,0,validation
+2019,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Unknown,Unknown,4,0,0,9,9,1,1,1,2018,0,validation
+2019,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,Unknown,Unknown,2,0,0,4,4,1,1,1,2018,0,validation
+2019,lionel-messi,Lionel Messi,Barcelona,Unknown,Unknown,13,11,5,1,5,1,1,1,2018,1,validation
+2019,marc-andre-ter-stegen,Marc-André ter Stegen,Barcelona,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,marquinhos,Marquinhos,Paris Saint-Germain,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,matthijs-de-ligt,Matthijs de Ligt,Ajax | Juventus,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,mohamed-salah,Mohamed Salah,Liverpool,Unknown,Unknown,1,0,0,6,6,1,1,1,2018,0,validation
+2019,pierre-emerick-aubameyang,Pierre-Emerick Aubameyang,Arsenal,Unknown,Unknown,2,0,0,11,21,2,0,1,2017,0,validation
+2019,raheem-sterling,Raheem Sterling,Manchester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,riyad-mahrez,Riyad Mahrez,Manchester City,Unknown,Unknown,1,0,0,7,7,3,0,1,2016,0,validation
+2019,robert-lewandowski,Robert Lewandowski,Bayern Munich,Unknown,Unknown,4,0,0,4,9,2,0,1,2017,0,validation
+2019,roberto-firmino,Roberto Firmino,Liverpool,Unknown,Unknown,1,0,0,19,19,1,1,1,2018,0,validation
+2019,sadio-mane,Sadio Mané,Liverpool,Unknown,Unknown,2,0,0,22,22,1,1,1,2018,0,validation
+2019,sergio-aguero,Sergio Agüero,Manchester City,Unknown,Unknown,6,0,0,13,16,1,1,1,2018,0,validation
+2019,son-heung-min,Son Heung-min,Tottenham Hotspur,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,trent-alexander-arnold,Trent Alexander-Arnold,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2019,virgil-van-dijk,Virgil van Dijk,Liverpool,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,bruno-fernandes,Bruno Fernandes,Manchester United,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,cesar-azpilicueta,Cesar Azpilicueta,Chelsea,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,cristiano-ronaldo,Cristiano Ronaldo,Juventus | Manchester United,Unknown,Unknown,16,12,5,1,3,2,1,1,2019,0,validation
+2021,erling-haaland,Erling Haaland,Borussia Dortmund,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,gerard-moreno,Gerard Moreno,Villarreal,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,gianluigi-donnarumma,Gianluigi Donnarumma,Milan | Paris Saint-Germain,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,giorgio-chiellini,Giorgio Chiellini,Juventus,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,harry-kane,Harry Kane,Tottenham Hotspur,Unknown,Unknown,2,0,0,10,10,3,0,1,2018,0,validation
+2021,jorginho,Jorginho,Chelsea,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,karim-benzema,Karim Benzema,Real Madrid,Unknown,Unknown,9,0,0,16,26,2,1,1,2019,0,validation
+2021,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Unknown,Unknown,5,0,0,9,14,2,1,1,2019,0,validation
+2021,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,Unknown,Unknown,3,0,0,4,6,2,1,1,2019,0,validation
+2021,lautaro-martinez,Lautaro Martínez,Inter Milan,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,leonardo-bonucci,Leonardo Bonucci,Juventus,Unknown,Unknown,1,0,0,21,21,4,0,1,2017,0,validation
+2021,lionel-messi,Lionel Messi,Barcelona | Paris Saint-Germain,Unknown,Unknown,14,12,6,1,1,2,1,1,2019,1,validation
+2021,luis-suarez-uy,Luis Suárez,Atlético Madrid,Unknown,Unknown,6,0,0,4,13,3,0,1,2018,0,validation
+2021,luka-modric,Luka Modrić,Real Madrid,Unknown,Unknown,3,1,1,1,1,3,0,1,2018,0,validation
+2021,mason-mount,Mason Mount,Chelsea,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,mohamed-salah,Mohamed Salah,Liverpool,Unknown,Unknown,2,0,0,5,5,2,1,1,2019,0,validation
+2021,n-golo-kante,N'Golo Kanté,Chelsea,Unknown,Unknown,2,0,0,8,11,3,0,1,2018,0,validation
+2021,neymar,Neymar,Paris Saint-Germain,Unknown,Unknown,8,2,0,3,12,3,0,1,2018,0,validation
+2021,nicolo-barella,Nicolò Barella,Inter Milan,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,pedri,Pedri,Barcelona,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,phil-foden,Phil Foden,Manchester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,raheem-sterling,Raheem Sterling,Manchester City,Unknown,Unknown,1,0,0,12,12,2,1,1,2019,0,validation
+2021,riyad-mahrez,Riyad Mahrez,Manchester City,Unknown,Unknown,2,0,0,7,10,2,1,1,2019,0,validation
+2021,robert-lewandowski,Robert Lewandowski,Bayern Munich,Unknown,Unknown,5,0,0,4,8,2,1,1,2019,0,validation
+2021,romelu-lukaku,Romelu Lukaku,Inter Milan | Chelsea,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,ruben-dias,Rúben Dias,Manchester City,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2021,simon-kjr,Simon Kjær,Milan,Unknown,Unknown,0,0,0,,,,0,0,,0,validation
+2022,antonio-rudiger,Antonio Rüdiger,Chelsea,Germany,Defender,0,0,0,,,,0,0,,0,test
+2022,bernardo-silva,Bernardo Silva,Manchester City,Portugal,Midfielder,1,0,0,9,9,3,0,1,2019,0,test
+2022,casemiro,Casemiro,Real Madrid,Brazil,Midfielder,0,0,0,,,,0,0,,0,test
+2022,christopher-nkunku,Christopher Nkunku,RB Leipzig,France,Forward,0,0,0,,,,0,0,,0,test
+2022,cristiano-ronaldo,Cristiano Ronaldo,Manchester United,Portugal,Forward,17,12,5,1,6,1,1,1,2021,0,test
+2022,darwin-nunez,Darwin Núñez,Benfica,Uruguay,Forward,0,0,0,,,,0,0,,0,test
+2022,dusan-vlahovic,Dušan Vlahović,Juventus,Serbia,Forward,0,0,0,,,,0,0,,0,test
+2022,erling-haaland,Erling Haaland,Borussia Dortmund,Norway,Forward,1,0,0,11,11,1,1,1,2021,0,test
+2022,fabinho,Fabinho,Liverpool,Brazil,Midfielder,0,0,0,,,,0,0,,0,test
+2022,harry-kane,Harry Kane,Tottenham Hotspur,England,Forward,3,0,0,10,23,1,1,1,2021,0,test
+2022,joao-cancelo,João Cancelo,Manchester City,Portugal,Defender,0,0,0,,,,0,0,,0,test
+2022,joshua-kimmich,Joshua Kimmich,Bayern Munich,Germany,Midfielder,0,0,0,,,,0,0,,0,test
+2022,karim-benzema,Karim Benzema,Real Madrid,France,Forward,10,0,0,4,4,1,1,1,2021,1,test
+2022,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Belgium,Midfielder,6,0,0,8,8,1,1,1,2021,0,test
+2022,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,France,Forward,4,0,0,4,9,1,1,1,2021,0,test
+2022,luis-diaz,Luis Díaz,Liverpool,Colombia,Midfielder,0,0,0,,,,0,0,,0,test
+2022,luka-modric,Luka Modrić,Real Madrid,Croatia,Midfielder,4,1,1,1,29,1,1,1,2021,0,test
+2022,mike-maignan,Mike Maignan,AC Milan,France,Goalkeeper,0,0,0,,,,0,0,,0,test
+2022,mohamed-salah,Mohamed Salah,Liverpool,Egypt,Forward,3,0,0,5,7,1,1,1,2021,0,test
+2022,phil-foden,Phil Foden,Manchester City,England,Midfielder,1,0,0,25,25,1,1,1,2021,0,test
+2022,rafael-leao,Rafael Leão,AC Milan,Portugal,Forward,0,0,0,,,,0,0,,0,test
+2022,riyad-mahrez,Riyad Mahrez,Manchester City,Algeria,Midfielder,3,0,0,7,19,1,1,1,2021,0,test
+2022,robert-lewandowski,Robert Lewandowski,Bayern Munich,Poland,Forward,6,1,0,2,2,1,1,1,2021,0,test
+2022,sadio-mane,Sadio Mané,Liverpool,Senegal,Forward,3,0,0,4,4,3,0,1,2019,0,test
+2022,sebastien-haller,Sébastien Haller,Ajax,Ivory Coast,Forward,0,0,0,,,,0,0,,0,test
+2022,son-heung-min,Son Heung-min,Tottenham Hotspur,South Korea,Forward,1,0,0,22,22,3,0,1,2019,0,test
+2022,thibaut-courtois,Thibaut Courtois,Real Madrid,Belgium,Goalkeeper,2,0,0,14,14,4,0,1,2018,0,test
+2022,trent-alexander-arnold,Trent Alexander-Arnold,Liverpool,England,Defender,1,0,0,19,19,3,0,1,2019,0,test
+2022,vinicius-junior,Vinícius Júnior,Real Madrid,Brazil,Midfielder,0,0,0,,,,0,0,,0,test
+2022,virgil-van-dijk,Virgil van Dijk,Liverpool,Netherlands,Defender,1,1,0,2,2,3,0,1,2019,0,test
+2023,andre-onana,André Onana,Manchester United,Cameroon,Goalkeeper,0,0,0,,,,0,0,,0,test
+2023,antoine-griezmann,Antoine Griezmann,Atlético Madrid,France,Forward,4,2,0,3,18,4,0,1,2019,0,test
+2023,bernardo-silva,Bernardo Silva,Manchester City,Portugal,Midfielder,2,0,0,9,22,1,1,1,2022,0,test
+2023,bukayo-saka,Bukayo Saka,Arsenal,England,Forward,0,0,0,,,,0,0,,0,test
+2023,emiliano-martinez,Emiliano Martínez,Aston Villa,Argentina,Goalkeeper,0,0,0,,,,0,0,,0,test
+2023,erling-haaland,Erling Haaland,Manchester City,Norway,Forward,2,0,0,10,10,1,1,1,2022,0,test
+2023,harry-kane,Harry Kane,Tottenham Hotspur,England,Forward,4,0,0,10,21,1,1,1,2022,0,test
+2023,ilkay-gundogan,İlkay Gündoğan,Manchester City,Germany,Midfielder,0,0,0,,,,0,0,,0,test
+2023,jamal-musiala,Jamal Musiala,Bayern Munich,Germany,Midfielder,0,0,0,,,,0,0,,0,test
+2023,josko-gvardiol,Joško Gvardiol,RB Leipzig,Croatia,Defender,0,0,0,,,,0,0,,0,test
+2023,jude-bellingham,Jude Bellingham,Real Madrid,England,Midfielder,0,0,0,,,,0,0,,0,test
+2023,julian-alvarez,Julián Álvarez,Manchester City,Argentina,Forward,0,0,0,,,,0,0,,0,test
+2023,karim-benzema,Karim Benzema,Al-Ittihad,France,Forward,11,1,1,1,1,1,1,1,2022,0,test
+2023,kevin-de-bruyne,Kevin De Bruyne,Manchester City,Belgium,Midfielder,7,1,0,3,3,1,1,1,2022,0,test
+2023,khvicha-kvaratskhelia,Khvicha Kvaratskhelia,Napoli,Georgia,Forward,0,0,0,,,,0,0,,0,test
+2023,kim-min-jae,Kim Min-jae,Bayern Munich,South Korea,Defender,0,0,0,,,,0,0,,0,test
+2023,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,France,Forward,5,0,0,4,6,1,1,1,2022,0,test
+2023,lautaro-martinez,Lautaro Martínez,Inter Milan,Argentina,Forward,1,0,0,21,21,2,0,1,2021,0,test
+2023,lionel-messi,Lionel Messi,Inter Miami,Argentina,Forward,15,13,7,1,1,2,0,1,2021,1,test
+2023,luka-modric,Luka Modrić,Real Madrid,Croatia,Midfielder,5,1,1,1,9,1,1,1,2022,0,test
+2023,martin-degaard,Martin Ødegaard,Arsenal,Norway,Midfielder,0,0,0,,,,0,0,,0,test
+2023,mohamed-salah,Mohamed Salah,Liverpool,Egypt,Forward,4,0,0,5,5,1,1,1,2022,0,test
+2023,nicolo-barella,Nicolò Barella,Inter Milan,Italy,Midfielder,1,0,0,26,26,2,0,1,2021,0,test
+2023,randal-kolo-muani,Randal Kolo Muani,Eintracht Frankfurt,France,Forward,0,0,0,,,,0,0,,0,test
+2023,robert-lewandowski,Robert Lewandowski,Barcelona,Poland,Forward,7,1,0,2,4,1,1,1,2022,0,test
+2023,rodri,Rodri,Manchester City,Spain,Midfielder,0,0,0,,,,0,0,,0,test
+2023,ruben-dias,Rúben Dias,Manchester City,Portugal,Defender,1,0,0,26,26,2,0,1,2021,0,test
+2023,victor-osimhen,Victor Osimhen,Napoli,Nigeria,Forward,0,0,0,,,,0,0,,0,test
+2023,vinicius-junior,Vinícius Júnior,Real Madrid,Brazil,Forward,1,0,0,8,8,1,1,1,2022,0,test
+2023,yassine-bounou,Yassine Bounou,Sevilla,Morocco,Goalkeeper,0,0,0,,,,0,0,,0,test
+2024,ademola-lookman,Ademola Lookman,Atalanta,Nigeria,Forward,0,0,0,,,,0,0,,0,test
+2024,alex-grimaldo,Álex Grimaldo,Bayer Leverkusen,Spain,Defender,0,0,0,,,,0,0,,0,test
+2024,antonio-rudiger,Antonio Rüdiger,Real Madrid,Germany,Defender,1,0,0,25,25,2,0,1,2022,0,test
+2024,artem-dovbyk,Artem Dovbyk,Girona,Ukraine,Forward,0,0,0,,,,0,0,,0,test
+2024,bukayo-saka,Bukayo Saka,Arsenal,England,Forward,1,0,0,24,24,1,1,1,2023,0,test
+2024,cole-palmer,Cole Palmer,Chelsea,England,Forward,0,0,0,,,,0,0,,0,test
+2024,dani-carvajal,Dani Carvajal,Real Madrid,Spain,Defender,0,0,0,,,,0,0,,0,test
+2024,dani-olmo,Dani Olmo,RB Leipzig,Spain,Midfielder,0,0,0,,,,0,0,,0,test
+2024,declan-rice,Declan Rice,Arsenal,England,Midfielder,0,0,0,,,,0,0,,0,test
+2024,emiliano-martinez,Emiliano Martínez,Aston Villa,Argentina,Goalkeeper,1,0,0,15,15,1,1,1,2023,0,test
+2024,erling-haaland,Erling Haaland,Manchester City,Norway,Forward,3,1,0,2,2,1,1,1,2023,0,test
+2024,federico-valverde,Federico Valverde,Real Madrid,Uruguay,Midfielder,0,0,0,,,,0,0,,0,test
+2024,florian-wirtz,Florian Wirtz,Bayer Leverkusen,Germany,Midfielder,0,0,0,,,,0,0,,0,test
+2024,granit-xhaka,Granit Xhaka,Bayer Leverkusen,Switzerland,Midfielder,0,0,0,,,,0,0,,0,test
+2024,hakan-calhanoglu,Hakan Çalhanoğlu,Inter Milan,Turkey,Midfielder,0,0,0,,,,0,0,,0,test
+2024,harry-kane,Harry Kane,Bayern Munich,England,Forward,5,0,0,10,19,1,1,1,2023,0,test
+2024,jude-bellingham,Jude Bellingham,Real Madrid,England,Midfielder,1,0,0,18,18,1,1,1,2023,0,test
+2024,kylian-mbappe,Kylian Mbappé,Paris Saint-Germain,France,Forward,6,1,0,3,3,1,1,1,2023,0,test
+2024,lamine-yamal,Lamine Yamal,Barcelona,Spain,Forward,0,0,0,,,,0,0,,0,test
+2024,lautaro-martinez,Lautaro Martínez,Inter Milan,Argentina,Forward,2,0,0,20,20,1,1,1,2023,0,test
+2024,martin-degaard,Martin Ødegaard,Arsenal,Norway,Midfielder,1,0,0,28,28,1,1,1,2023,0,test
+2024,mats-hummels,Mats Hummels,Borussia Dortmund,Germany,Defender,1,0,0,27,27,7,0,1,2017,0,test
+2024,nico-williams,Nico Williams,Athletic Bilbao,Spain,Forward,0,0,0,,,,0,0,,0,test
+2024,phil-foden,Phil Foden,Manchester City,England,Midfielder,2,0,0,22,22,2,0,1,2022,0,test
+2024,rodri,Rodri,Manchester City,Spain,Midfielder,1,0,0,5,5,1,1,1,2023,1,test
+2024,ruben-dias,Rúben Dias,Manchester City,Portugal,Defender,2,0,0,26,30,1,1,1,2023,0,test
+2024,toni-kroos,Toni Kroos,Real Madrid,Germany,Midfielder,4,0,0,9,17,7,0,1,2017,0,test
+2024,vinicius-junior,Vinícius Júnior,Real Madrid,Brazil,Forward,2,0,0,6,6,1,1,1,2023,0,test
+2024,vitinha,Vitinha,Paris Saint-Germain,Portugal,Midfielder,0,0,0,,,,0,0,,0,test
+2024,william-saliba,William Saliba,Arsenal,France,Defender,0,0,0,,,,0,0,,0,test
+2025,achraf-hakimi,Achraf Hakimi,Paris Saint-Germain,Morocco,Defender,0,0,0,,,,0,0,,0,test
+2025,alexis-mac-allister,Alexis Mac Allister,Liverpool,Argentina,Midfielder,0,0,0,,,,0,0,,0,test
+2025,cole-palmer,Cole Palmer,Chelsea,England,Forward,1,0,0,25,25,1,1,1,2024,0,test
+2025,declan-rice,Declan Rice,Arsenal,England,Midfielder,1,0,0,26,26,1,1,1,2024,0,test
+2025,denzel-dumfries,Denzel Dumfries,Inter Milan,Netherlands,Defender,0,0,0,,,,0,0,,0,test
+2025,desire-doue,Désiré Doué,Paris Saint-Germain,France,Midfielder,0,0,0,,,,0,0,,0,test
+2025,erling-haaland,Erling Haaland,Manchester City,Norway,Forward,4,1,0,2,5,1,1,1,2024,0,test
+2025,fabian-ruiz,Fabián Ruiz,Paris Saint-Germain,Spain,Midfielder,0,0,0,,,,0,0,,0,test
+2025,florian-wirtz,Florian Wirtz,Bayer Leverkusen,Germany,Midfielder,1,0,0,12,12,1,1,1,2024,0,test
+2025,gianluigi-donnarumma,Gianluigi Donnarumma,Paris Saint-Germain,Italy,Goalkeeper,1,0,0,10,10,4,0,1,2021,0,test
+2025,harry-kane,Harry Kane,Bayern Munich,England,Forward,6,0,0,10,10,1,1,1,2024,0,test
+2025,joao-neves,João Neves,Paris Saint-Germain,Portugal,Midfielder,0,0,0,,,,0,0,,0,test
+2025,jude-bellingham,Jude Bellingham,Real Madrid,England,Midfielder,2,1,0,3,3,1,1,1,2024,0,test
+2025,khvicha-kvaratskhelia,Khvicha Kvaratskhelia,Napoli | Paris Saint-Germain,Georgia,Forward,1,0,0,17,17,2,0,1,2023,0,test
+2025,kylian-mbappe,Kylian Mbappé,Real Madrid,France,Forward,7,1,0,3,6,1,1,1,2024,0,test
+2025,lamine-yamal,Lamine Yamal,Barcelona,Spain,Forward,1,0,0,8,8,1,1,1,2024,0,test
+2025,lautaro-martinez,Lautaro Martínez,Inter Milan,Argentina,Forward,3,0,0,7,7,1,1,1,2024,0,test
+2025,michael-olise,Michael Olise,Bayern Munich,France,Forward,0,0,0,,,,0,0,,0,test
+2025,mohamed-salah,Mohamed Salah,Liverpool,Egypt,Forward,5,0,0,5,11,2,0,1,2023,0,test
+2025,nuno-mendes,Nuno Mendes,Paris Saint-Germain,Portugal,Defender,0,0,0,,,,0,0,,0,test
+2025,ousmane-dembele,Ousmane Dembélé,Paris Saint-Germain,France,Forward,0,0,0,,,,0,0,,1,test
+2025,pedri,Pedri,Barcelona,Spain,Midfielder,1,0,0,24,24,4,0,1,2021,0,test
+2025,raphinha,Raphinha,Barcelona,Brazil,Forward,0,0,0,,,,0,0,,0,test
+2025,robert-lewandowski,Robert Lewandowski,Barcelona,Poland,Forward,8,1,0,2,12,2,0,1,2023,0,test
+2025,scott-mctominay,Scott McTominay,Manchester United | Napoli,Scotland,Midfielder,0,0,0,,,,0,0,,0,test
+2025,serhou-guirassy,Serhou Guirassy,Borussia Dortmund,Guinea,Forward,0,0,0,,,,0,0,,0,test
+2025,viktor-gyokeres,Viktor Gyökeres,Sporting CP,Sweden,Forward,0,0,0,,,,0,0,,0,test
+2025,vinicius-junior,Vinicius Junior,Real Madrid,Brazil,Forward,3,1,0,2,2,1,1,1,2024,0,test
+2025,virgil-van-dijk,Virgil van Dijk,Liverpool,Netherlands,Defender,2,1,0,2,16,3,0,1,2022,0,test
+2025,vitinha,Vitinha,Paris Saint-Germain,Portugal,Midfielder,1,0,0,27,27,1,1,1,2024,0,test

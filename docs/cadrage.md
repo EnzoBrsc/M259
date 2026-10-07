@@ -17,8 +17,10 @@ anciennes tables peuvent omettre des nommés sans points. Le terme
 `previous_appearances` signifie donc apparitions observées, pas nominations
 officielles exhaustives. Nous ne prédisons pas sur tous les footballeurs.
 
-La première version contient le poste lorsqu'il est renseigné et des historiques
-de participation, podium et victoire. Les buts, passes, minutes et trophées
+La première version explore le poste lorsqu'il est renseigné et utilise des
+historiques de participation, podium et victoire comme entrées. Le poste est
+exclu des entrées car il n'est renseigné que dans les éditions de test.
+Les buts, passes, minutes et trophées
 collectifs ne sont pas disponibles dans cette source ; ils ne sont pas inventés.
 Cette base mesure d'abord la capacité prédictive de l'historique de reconnaissance.
 Le club et la nationalité restent des métadonnées, hors des variables autorisées
@@ -35,7 +37,7 @@ pour cette première expérience. `data/README.md` détaille leur qualité.
 - Un fichier `data/processed/features.json` fournit la liste explicite des entrées.
   Le binôme doit sélectionner cette liste, jamais toutes les colonnes sauf la cible.
 - Aucune caractéristique manquante n'est reconstruite avec une édition future.
-  Le poste absent devient `Unknown` ; cette absence doit faire l'objet d'une analyse.
+  Le poste absent devient `Unknown` pour l'exploration.
 - Les transformations apprises (imputation, encodage, mise à l'échelle) sont ajustées
   uniquement sur l'entraînement, dans un pipeline.
 
@@ -74,8 +76,8 @@ périodes d'évaluation, variantes de noms et erreurs possibles de la source.
 Le passage à une évaluation par saison à partir de 2022 nécessite de documenter
 les fenêtres exactes avant toute intégration de statistiques sportives.
 Les valeurs manquantes de poste sont concentrées dans le passé : un modèle
-peut apprendre un effet de période. Rapporter également une expérience sans
-poste. Quatre éditions de test donnent une évaluation très incertaine.
+pourrait apprendre un effet de période. Le poste reste donc exclu de la première
+expérience. Quatre éditions de test donnent une évaluation très incertaine.
 
 Le vote reste subjectif. Une interface éventuelle présentera un pronostic
 expérimental avec ses limites, sans promesse de résultat ni conseil de pari.
