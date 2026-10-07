@@ -105,6 +105,8 @@ class TrainingTests(unittest.TestCase):
     def test_csv_headers_and_semicolon(self):
         with self.assertRaises(InputError):
             read_csv(b"edition,edition\n2000,2000\n")
+        with self.assertRaisesRegex(InputError, "nombre de champs"):
+            read_csv(b"edition,joueur\ninattendu,2099,Fictif\n")
         self.assertEqual(read_csv(b"edition;joueur\n2000;Fictif\n").iloc[0].joueur, "Fictif")
 
 

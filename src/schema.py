@@ -99,17 +99,23 @@ def load_config(path):
 def read_csv(source):
     """CSV UTF-8, virgule ou point-virgule ; pas de conversion silencieuse."""
     try:
+        if not isinstance(source, bytes) and Path(source).stat().st_size > MAX_CSV_BYTES:
+            raise InputError("CSV trop volumineux : maximum 10 Mio.")
         payload = source if isinstance(source, bytes) else Path(source).read_bytes()
         if len(payload) > MAX_CSV_BYTES:
             raise InputError("CSV trop volumineux : maximum 10 Mio.")
         text = payload.decode("utf-8-sig")
         first = text.splitlines()[0] if text.splitlines() else ""
         delimiter = ";" if first.count(";") > first.count(",") else ","
-        header = next(csv.reader(io.StringIO(text), delimiter=delimiter), [])
+        rows = csv.reader(io.StringIO(text), delimiter=delimiter, strict=True)
+        header = next(rows, [])
         if not header or any(not c.strip() for c in header) or len(header) != len(set(header)):
             raise InputError("En-tête CSV absent, vide ou contenant des colonnes en double.")
+        for line, row in enumerate(rows, start=2):
+            if row and len(row) != len(header):
+                raise InputError(f"Ligne CSV {line} : nombre de champs différent de l'en-tête.")
         return pd.read_csv(io.StringIO(text), sep=delimiter, dtype=str, keep_default_na=False)
-    except (OSError, UnicodeDecodeError, pd.errors.ParserError, pd.errors.EmptyDataError) as exc:
+    except (OSError, UnicodeDecodeError, csv.Error, pd.errors.ParserError, pd.errors.EmptyDataError) as exc:
         raise InputError(f"Impossible de lire le CSV UTF-8 : {exc}") from exc
 
 
