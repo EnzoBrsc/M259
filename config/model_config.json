@@ -1,0 +1,31 @@
+{
+  "edition_column": "edition",
+  "player_column": "player",
+  "player_id_column": "player_id",
+  "target_column": "winner",
+  "split_column": "split",
+  "history_edition_column": "history_last_edition",
+  "numeric_features": [
+    "previous_appearances", "previous_top3", "previous_wins",
+    "previous_best_rank", "previous_last_rank", "years_since_previous",
+    "appeared_previous_edition", "has_history"
+  ],
+  "categorical_features": [],
+  "baseline_feature": "previous_wins",
+  "feature_notes": {
+    "previous_appearances": "data/README.md et features.json : nombre de tables annuelles observées strictement avant l'édition. Snapshot communautaire attribué dans data/raw/provenance.json, non exhaustif des nommés.",
+    "previous_top3": "Nombre de rangs <= 3 strictement antérieurs, ex aequo inclus ; src/prepare_data.py met à jour l'historique après l'édition. Aucun rang courant.",
+    "previous_wins": "Nombre de victoires dans les éditions déjà publiées, strictement antérieures. Référence simple fixée dans docs/cadrage.md avant évaluation.",
+    "previous_best_rank": "Meilleur rang dans les seules éditions précédentes ; absent à la première apparition. Ce rang historique autorisé n'est pas le classement du vote courant.",
+    "previous_last_rank": "Rang de la dernière apparition strictement antérieure ; absent sans historique. Source et construction : data/README.md, src/prepare_data.py.",
+    "years_since_previous": "Écart en années calendaires avec la dernière apparition strictement antérieure ; absent sans historique, sans interpolation de 2020.",
+    "appeared_previous_edition": "Présence à la précédente édition attribuée connue avant le vote (2019 pour 2021). Compteur construit sans utiliser les résultats courants.",
+    "has_history": "Indicateur d'au moins une apparition observée avant l'édition, sans reconstruction depuis le futur. Contrôlé par tests/test_prepare_data.py."
+  },
+  "test_editions": 4,
+  "min_train_editions": 21,
+  "validation_editions": 5,
+  "random_seed": 42,
+  "data_available_before_vote": true,
+  "history_uses_previous_editions_only": true
+}

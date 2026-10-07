@@ -49,6 +49,9 @@ class ModelConfig:
     random_seed: int = 42
     data_available_before_vote: bool = False
     history_uses_previous_editions_only: bool = False
+    player_id_column: str | None = None
+    split_column: str | None = None
+    history_edition_column: str | None = None
 
     @property
     def features(self):
@@ -63,11 +66,19 @@ class ModelConfig:
             if not isinstance(values, list) or any(not isinstance(v, str) or not v.strip() for v in values):
                 raise InputError(f"Configuration : {attr} doit être une liste de noms.")
         names = [self.edition_column, self.player_column, self.target_column] + self.features
+        for attr in ("player_id_column", "split_column", "history_edition_column"):
+            value = getattr(self, attr)
+            if value is not None:
+                if not isinstance(value, str) or not value.strip():
+                    raise InputError(f"Configuration : {attr} doit être un nom de colonne.")
+                names.append(value)
         if len(names) != len(set(names)) or len(names) != len({normalized_name(n) for n in names}):
             raise InputError("Les rôles et variables doivent avoir des noms distincts.")
         if not self.numeric_features or self.baseline_feature not in self.numeric_features:
             raise InputError("La référence simple nécessite une variable numérique déclarée.")
-        forbidden = [f for f in self.features if is_leaking_feature(f)]
+        # Exceptions exactes documentées par Luca ; jamais le rang du vote courant.
+        historical_ranks = {"previous_best_rank", "previous_last_rank"}
+        forbidden = [f for f in self.features if is_leaking_feature(f) and f not in historical_ranks]
         if forbidden:
             raise InputError(f"Variables pouvant révéler le résultat du vote interdites : {forbidden}")
         if not isinstance(self.feature_notes, dict) or any(
@@ -126,8 +137,11 @@ def validate_frame(frame, config, *, training):
     if frame.columns.duplicated().any():
         raise InputError("Colonnes en double.")
     required = [config.edition_column, config.player_column] + config.features
+    if config.player_id_column:
+        required.append(config.player_id_column)
     if training:
         required += [config.target_column]
+        required += [c for c in (config.split_column, config.history_edition_column) if c]
     missing = sorted(set(required) - set(frame.columns))
     if missing:
         raise InputError(f"Colonnes manquantes : {', '.join(missing)}")
@@ -144,7 +158,14 @@ def validate_frame(frame, config, *, training):
     if editions.isna().any() or not np.isfinite(editions).all() or (editions % 1 != 0).any() or (editions <= 0).any():
         raise InputError("L'édition doit être un entier positif, ordonnable chronologiquement.")
     result[config.edition_column] = editions.astype(int)
-    duplicate_keys = pd.DataFrame({"edition": editions, "joueur": players.str.casefold()})
+    identities = players.str.casefold()
+    if config.player_id_column:
+        identities = result[config.player_id_column].astype("string").str.strip()
+        if identities.isna().any() or identities.eq("").any():
+            raise InputError("Chaque candidat doit avoir un identifiant non vide.")
+        result[config.player_id_column] = identities.astype(str)
+        identities = identities.str.casefold()
+    duplicate_keys = pd.DataFrame({"edition": editions, "joueur": identities})
     if duplicate_keys.duplicated().any():
         raise InputError("Un joueur apparaît plusieurs fois dans une même édition.")
     for name in config.numeric_features:
@@ -156,6 +177,12 @@ def validate_frame(frame, config, *, training):
     for name in config.categorical_features:
         result[name] = result[name].map(lambda x: np.nan if pd.isna(x) or not str(x).strip() else str(x).strip())
     if training:
+        if config.history_edition_column:
+            raw = result[config.history_edition_column].replace(r"^\s*$", np.nan, regex=True)
+            past = pd.to_numeric(raw, errors="coerce")
+            if ((raw.notna() & past.isna()).any() or np.isinf(past).any()
+                    or ((past.notna()) & ((past <= 0) | (past % 1 != 0) | (past >= editions))).any()):
+                raise InputError("L'historique doit provenir strictement d'une édition antérieure.")
         target = pd.to_numeric(result[config.target_column], errors="coerce")
         if target.isna().any() or not target.isin([0, 1]).all():
             raise InputError("La cible doit être binaire : 0 = non-gagnant, 1 = gagnant.")
