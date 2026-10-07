@@ -28,3 +28,8 @@ Desktop.ini
 
 # Journaux
 *.log
+
+# Modèles et exports régénérables, conservés localement
+artifacts/
+outputs/
+.test-artifacts/
