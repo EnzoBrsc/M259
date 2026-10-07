@@ -1,0 +1,14 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  "python.terminal.activateEnvironment": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
+  },
+  "search.exclude": {
+    "**/.venv": true
+  },
+  "files.watcherExclude": {
+    "**/.venv/**": true
+  }
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Journaux
+*.log

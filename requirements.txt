@@ -1,0 +1,7 @@
+# Versions des bibliotheques principales verifiees avec Python 3.13
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+ipykernel==7.4.0
