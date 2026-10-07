@@ -1,0 +1,20 @@
+{
+  "edition_column": "edition",
+  "player_column": "joueur",
+  "target_column": "gagnant",
+  "numeric_features": ["buts", "passes_decisives", "minutes"],
+  "categorical_features": ["poste"],
+  "baseline_feature": "buts",
+  "feature_notes": {
+    "buts": "EXEMPLE FICTIF : remplacer par la source, la période et la date de disponibilité documentées par Luca.",
+    "passes_decisives": "EXEMPLE FICTIF : à documenter avec Luca.",
+    "minutes": "EXEMPLE FICTIF : à documenter avec Luca.",
+    "poste": "EXEMPLE FICTIF : à documenter avec Luca."
+  },
+  "test_editions": 2,
+  "min_train_editions": 3,
+  "validation_editions": 3,
+  "random_seed": 42,
+  "data_available_before_vote": false,
+  "history_uses_previous_editions_only": false
+}
