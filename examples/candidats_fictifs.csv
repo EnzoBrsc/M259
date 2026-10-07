@@ -1,5 +1,4 @@
-edition,joueur,buts,passes_decisives,minutes,poste
-2099,Joueur Fictif Alpha,25,10,2600,attaque
-2099,Joueur Fictif Beta,15,20,2800,milieu
-2099,Joueur Fictif Gamma,30,5,2400,attaque
-2099,Joueur Fictif Delta,2,4,3000,defense
+edition,player_id,player,previous_appearances,previous_top3,previous_wins,previous_best_rank,previous_last_rank,years_since_previous,appeared_previous_edition,has_history
+2099,fictif-alpha,Joueur Fictif Alpha,3,1,0,3,7,1,1,1
+2099,fictif-beta,Joueur Fictif Beta,0,0,0,,,,0,0
+2099,fictif-gamma,Joueur Fictif Gamma,5,2,1,1,4,2,0,1

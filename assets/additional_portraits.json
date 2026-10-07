@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Luis Díaz",
+    "provider": "FC Bayern Munich",
+    "source_url": "https://fcbayern.com/en/teams/first-team/luis-diaz",
+    "image_url": "https://img.fcbayern.com/image/upload/f_auto/q_auto/ar_1%3A1%2Cc_fill%2Cg_custom%2Cw_768/v1785247487/cms/public/images/fcbayern-com/players/spielerportraits/teaser/luis-diaz.png",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Tom Bischof",
+    "provider": "FC Bayern Munich",
+    "source_url": "https://fcbayern.com/fcbayerntv/de/video/portraitvideos/herren/tom-bischof",
+    "image_url": "https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-1x191-seo/v1755772802/cms/public/images/fcbayern-com/players/spielerportraits/teaser/tom-bischof.png",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Said El Mala",
+    "provider": "1. FC Köln",
+    "source_url": "https://fc.de/mannschaften/maenner/kader/said-el-mala",
+    "image_url": "https://images.ctfassets.net/nurz7nsnha04/1v1PMr7ZonWQsP3Q4bEUqI/0e44b05c6fd854eedd03173a6d9f4cc1/6567.jpg",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Janis Blaswich",
+    "provider": "worldfootball.net",
+    "source_url": "https://www.worldfootball.net/player_summary/janis-blaswich/",
+    "image_url": "https://s.hs-data.com/bilder/spieler/gross/144037.jpg?fallback=png",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Lukas Kübler",
+    "provider": "Playmakerstats",
+    "source_url": "https://www.playmakerstats.com/player/lukas-kubler/215722?epoca_id=153",
+    "image_url": "https://cdn-img.zerozero.pt/img/planteis/new/53/31/8805331_lukas_kubler_20250209215722.jpg",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Lamine Yamal",
+    "provider": "FC Barcelona",
+    "source_url": "https://www.fcbarcelona.com/en/football/first-team/players/129404/lamine-yamal-nasraoui-ebana",
+    "image_url": "https://www.fcbarcelona.com/photo-resources/2024/10/13/d942d5c0-5ada-423c-baf1-4d2ba5ebe3bb/19-Lamine-M.png?height=790&width=670",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Sadio Mané",
+    "provider": "ogol / zerozero",
+    "source_url": "https://www.ogol.com.br/jogador/sadio-mane/240701?epoca_id=151",
+    "image_url": "https://cdn-img.zerozero.pt/img/planteis/new/50/52/6325052_sadio_mane_20240602192223.jpg",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Virgil van Dijk",
+    "provider": "Liverpool FC",
+    "source_url": "https://www.liverpoolfc.com/news/virgil-van-dijk-receives-special-honour-willem-ii",
+    "image_url": "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2025-08/virgil-van-dijk-2526-bodyshot_eb62918c7334e39f7ba555d572aa7975.png?itok=gxhxmIe8",
+    "verified_on": "2026-10-07"
+  },
+  {
+    "name": "Rodri",
+    "provider": "Premier League / FPL",
+    "source_url": "https://fantasy.premierleague.com/",
+    "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220566.png",
+    "source_identity": "Rodrigo 'Rodri' Hernandez Cascante",
+    "source_id": 220566,
+    "verified_on": "2026-10-07"
+  }
+]

@@ -33,3 +33,6 @@ Desktop.ini
 artifacts/
 outputs/
 .test-artifacts/
+
+# Audits de règle régénérables ; historique nettoyé et rapports conservés
+data/selections/processed/*_rule_audit.csv

@@ -1,6 +1,7 @@
 """Classer des candidats avec la pipeline sauvegardée, sans la réentraîner."""
 
 import argparse
+import hashlib
 import platform
 import sys
 from pathlib import Path
@@ -12,14 +13,14 @@ import joblib
 import sklearn
 from sklearn.pipeline import Pipeline
 
-from src.schema import InputError, ModelConfig, read_csv, validate_frame
-from src.train import model_scores, ranking
+from src.schema import MAX_CSV_BYTES, InputError, ModelConfig, read_csv, validate_frame
+from src.train import aggregate, evaluate_editions, model_scores, ranking
 
 SCORE_NOTICE = (
     "Les scores servent à classer les candidats d'une même édition. "
     "Ils ne sont pas des probabilités fiables de gagner : ils ne sont ni "
     "calibrés ni normalisés entre candidats. Les égalités sont départagées "
-    "par ordre alphabétique, sans preuve de supériorité sportive."
+    "par identifiant déclaré (sinon par nom), sans preuve de supériorité sportive."
 )
 
 
@@ -61,11 +62,33 @@ def predict_csv(source, bundle, config):
     return predict_candidates(read_csv(source), bundle, config)
 
 
+def predict_historical_csv(source, bundle, config):
+    """Rejouer exclusivement le test réservé du snapshot qui a servi à l'étude."""
+    if not isinstance(source, bytes) and Path(source).stat().st_size > MAX_CSV_BYTES:
+        raise InputError("CSV trop volumineux : maximum 10 Mio.")
+    payload = source if isinstance(source, bytes) else Path(source).read_bytes()
+    if len(payload) > MAX_CSV_BYTES:
+        raise InputError("CSV trop volumineux : maximum 10 Mio.")
+    if hashlib.sha256(payload).hexdigest() != bundle.get("training_data_sha256"):
+        raise InputError("Le CSV historique doit être le snapshot exact utilisé pour entraîner ce modèle. Pour de nouveaux candidats, choisissez le mode candidats et retirez la cible/métadonnées.")
+    frame = validate_frame(read_csv(payload), config, training=True)
+    years = bundle.get("final_test_editions", [])
+    if not years or min(years) <= max(bundle["trained_editions"]):
+        raise InputError("Le modèle ne déclare pas de test historique indépendant.")
+    test = frame.loc[frame[config.edition_column].isin(years)].copy()
+    if sorted(test[config.edition_column].unique().tolist()) != sorted(years):
+        raise InputError("Des éditions du test final sont absentes du CSV.")
+    scores = model_scores(bundle["pipeline"], test[config.features])
+    details = evaluate_editions(test, scores, config)
+    return ranking(test, scores, config), {"metrics": aggregate(details), "by_edition": details}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--model", default="artifacts/ballon_or/model.joblib")
     parser.add_argument("--input", required=True, help="CSV UTF-8 conforme au contrat du modèle")
     parser.add_argument("--output", default="outputs/classement.csv")
+    parser.add_argument("--historical-test", action="store_true", help="Rejouer le test réservé du snapshot historique, sans prédiction sur les éditions apprises")
     args = parser.parse_args()
     try:
         destination = Path(args.output)
@@ -74,12 +97,17 @@ def main():
         if destination.exists():
             raise InputError("Le fichier d'export existe déjà. Choisir un autre chemin.")
         bundle, config = load_model(args.model)
-        result = predict_csv(args.input, bundle, config)
+        if args.historical_test:
+            result, evaluation = predict_historical_csv(args.input, bundle, config)
+        else:
+            result = predict_csv(args.input, bundle, config)
         destination.parent.mkdir(parents=True, exist_ok=True)
         result.to_csv(destination, index=False, encoding="utf-8-sig")
     except (InputError, OSError) as exc:
         parser.exit(2, f"Erreur : {exc}\n")
     print(f"Classement exporté : {destination}\n{SCORE_NOTICE}")
+    if args.historical_test:
+        print(f"Évaluation rétrospective du test réservé uniquement : {evaluation['metrics']}")
 
 
 if __name__ == "__main__":

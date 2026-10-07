@@ -87,7 +87,9 @@ def ranking(frame, scores, config):
         "joueur": frame[config.player_column].to_numpy(),
         "score": scores,
     })
-    result["_tie"] = result.joueur.str.casefold()
+    if config.player_id_column:
+        result["player_id"] = frame[config.player_id_column].to_numpy()
+    result["_tie"] = result["player_id" if config.player_id_column else "joueur"].str.casefold()
     result = result.sort_values(["edition", "score", "_tie"], ascending=[True, False, True], kind="stable")
     result["rang"] = result.groupby("edition").cumcount() + 1
     return result.drop(columns="_tie").reset_index(drop=True)
@@ -98,8 +100,11 @@ def evaluate_editions(frame, scores, config):
     details = []
     for edition, candidates in ordered.groupby("edition", sort=True):
         source = frame.loc[frame[config.edition_column].eq(edition)]
-        winner = source.loc[source[config.target_column].eq(1), config.player_column].iloc[0]
-        winner_row = candidates.loc[candidates.joueur.eq(winner)].iloc[0]
+        winner_source = source.loc[source[config.target_column].eq(1)].iloc[0]
+        winner = winner_source[config.player_column]
+        identity_column = "player_id" if config.player_id_column else "joueur"
+        identity = winner_source[config.player_id_column or config.player_column]
+        winner_row = candidates.loc[candidates[identity_column].eq(identity)].iloc[0]
         counts = candidates.groupby("score").size()
         details.append({
             "edition": int(edition), "gagnant_reel": winner,
@@ -108,6 +113,9 @@ def evaluate_editions(frame, scores, config):
             "rang_gagnant": int(winner_row["rang"]),
             "top_1": int(winner_row["rang"] == 1),
             "top_3": int(winner_row["rang"] <= 3),
+            "rang_reciproque": float(1 / winner_row["rang"]),
+            "top_1_aleatoire": float(1 / len(candidates)),
+            "top_3_aleatoire": float(min(3, len(candidates)) / len(candidates)),
             "nombre_candidats": len(candidates),
             "egalite_score_gagnant": bool(counts.loc[winner_row.score] > 1),
             "egalite_premiere_place": bool(counts.loc[candidates.iloc[0].score] > 1),
@@ -118,7 +126,9 @@ def evaluate_editions(frame, scores, config):
 def aggregate(details):
     return {"editions": len(details),
             "top_1": float(np.mean([d["top_1"] for d in details])),
-            "top_3": float(np.mean([d["top_3"] for d in details]))}
+            "top_3": float(np.mean([d["top_3"] for d in details])),
+            **{key: float(np.mean([d[key] for d in details])) for key in
+               ("rang_reciproque", "top_1_aleatoire", "top_3_aleatoire")}}
 
 
 def chronological_plan(editions, config):
@@ -132,6 +142,17 @@ def chronological_plan(editions, config):
     for position in range(len(development) - config.validation_editions, len(development)):
         folds.append({"train": development[:position], "validation": [development[position]]})
     return {"development": development, "test": test, "folds": folds}
+
+
+def validate_split(frame, config, plan):
+    """Contrôler le découpage livré plutôt que le remplacer silencieusement."""
+    if not config.split_column:
+        return
+    validation = {year for fold in plan["folds"] for year in fold["validation"]}
+    expected = frame[config.edition_column].map(
+        lambda year: "test" if year in plan["test"] else "validation" if year in validation else "train")
+    if not frame[config.split_column].eq(expected).all():
+        raise InputError("Le découpage train/validation/test du CSV ne correspond pas au protocole configuré.")
 
 
 def select_model(development, config, plan):
@@ -166,6 +187,7 @@ def run_training(data_path, config_path, output_dir, *, framing_path="docs/cadra
         raise InputError("Le dossier de résultats n'est pas vide. Utiliser un nouveau dossier pour conserver les anciens essais.")
     frame = validate_frame(read_csv(data_path), config, training=True)
     plan = chronological_plan(frame[config.edition_column], config)
+    validate_split(frame, config, plan)
     development = frame.loc[frame[config.edition_column].isin(plan["development"])].copy()
     model, chosen, validation = select_model(development, config, plan)
     # Le choix est figé avant de calculer la moindre performance sur le test.
@@ -175,7 +197,7 @@ def run_training(data_path, config_path, output_dir, *, framing_path="docs/cadra
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
         "config": config.to_dict(), "chronology": plan,
         "selection_rule": "validation top_1, puis top_3, puis ordre fixe de la grille ; jamais le test final",
-        "tie_rule": "score décroissant puis nom du joueur sans distinction de casse ; égalités signalées",
+        "tie_rule": f"score décroissant puis {config.player_id_column or config.player_column} sans distinction de casse ; égalités signalées",
         "selected": chosen, "validation": validation,
         "final_test": {"metrics": aggregate(test_details), "by_edition": test_details},
         "score_warning": "Scores de classement non calibrés ; pas des probabilités fiables de victoire par édition.",
@@ -186,6 +208,8 @@ def run_training(data_path, config_path, output_dir, *, framing_path="docs/cadra
     output.mkdir(parents=True, exist_ok=True)
     joblib.dump({"format_version": 1, "pipeline": model, "config": config.to_dict(),
                  "model_name": chosen["model"], "parameters": chosen["parameters"],
+                 "final_test_editions": plan["test"],
+                 "training_data_sha256": hashlib.sha256(Path(data_path).read_bytes()).hexdigest(),
                  "trained_editions": plan["development"], "versions": report["versions"]}, output / "model.joblib")
     (output / "results.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     rows = [{"model": r["model"], "parameters": json.dumps(r["parameters"], sort_keys=True), **r["metrics"]} for r in validation]

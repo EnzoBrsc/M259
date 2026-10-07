@@ -1,0 +1,551 @@
+{
+  "retrieved_on": "2026-10-07",
+  "portraits": {
+    "adrien-rabiot": {
+      "name": "Adrien Rabiot",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/4059.png",
+      "source_url": "https://www.foxsports.com/soccer/adrien-rabiot-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "alphonso-davies": {
+      "name": "Alphonso Davies",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/44670.png",
+      "source_url": "https://www.foxsports.com/soccer/alphonso-davies-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "amine-sbai": {
+      "name": "Amine Sbaï",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/108577.png",
+      "source_url": "https://www.foxsports.com/soccer/amine-sbai-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "andreas-christensen": {
+      "name": "Andreas Christensen",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/26547.png",
+      "source_url": "https://www.foxsports.com/soccer/andreas-christensen-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "ansu-fati": {
+      "name": "Ansu Fati",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/71741.png",
+      "source_url": "https://www.foxsports.com/soccer/ansu-fati-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "anthony-lopes": {
+      "name": "Anthony Lopes",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/4783.png",
+      "source_url": "https://www.foxsports.com/soccer/anthony-lopes-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "antonio-rudiger": {
+      "name": "Antonio Rüdiger",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/2330.png",
+      "source_url": "https://www.foxsports.com/soccer/antonio-rudiger-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "bernardo-silva": {
+      "name": "Bernardo Silva",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/3660.png",
+      "source_url": "https://www.foxsports.com/soccer/bernardo-silva-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "bremer": {
+      "name": "Bremer",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/53958.png",
+      "source_url": "https://www.foxsports.com/soccer/bremer-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "brian-brobbey": {
+      "name": "Brian Brobbey",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/83893.png",
+      "source_url": "https://www.foxsports.com/soccer/brian-brobbey-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "carlos-soler": {
+      "name": "Carlos Soler",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/42993.png",
+      "source_url": "https://www.foxsports.com/soccer/carlos-soler-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "casemiro": {
+      "name": "Casemiro",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/866.png",
+      "source_url": "https://www.foxsports.com/soccer/casemiro-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "christoph-baumgartner": {
+      "name": "Christoph Baumgartner",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/69563.png",
+      "source_url": "https://www.foxsports.com/soccer/christoph-baumgartner-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "corentin-tolisso": {
+      "name": "Corentin Tolisso",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/4800.png",
+      "source_url": "https://www.foxsports.com/soccer/corentin-tolisso-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "cristian-romero": {
+      "name": "Cristian Romero",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/42526.png",
+      "source_url": "https://www.foxsports.com/soccer/cristian-romero-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "deniz-undav": {
+      "name": "Deniz Undav",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/91697.png",
+      "source_url": "https://www.foxsports.com/soccer/deniz-undav-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "donyell-malen": {
+      "name": "Donyell Malen",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/36678.png",
+      "source_url": "https://www.foxsports.com/soccer/donyell-malen-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "erling-haaland": {
+      "name": "Erling Haaland",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/66617.png",
+      "source_url": "https://www.foxsports.com/soccer/erling-haaland-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "ernest-nuamah": {
+      "name": "Ernest Nuamah",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/102455.png",
+      "source_url": "https://www.foxsports.com/soccer/ernest-nuamah-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "federico-dimarco": {
+      "name": "Federico Dimarco",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/30415.png",
+      "source_url": "https://www.foxsports.com/soccer/federico-dimarco-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "guela-doue": {
+      "name": "Guéla Doué",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/107161.png",
+      "source_url": "https://www.foxsports.com/soccer/guela-doue-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "hakan-calhanoglu": {
+      "name": "Hakan Çalhanoğlu",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/2188.png",
+      "source_url": "https://www.foxsports.com/soccer/hakan-calhanoglu-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "harry-kane": {
+      "name": "Harry Kane",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/453.png",
+      "source_url": "https://www.foxsports.com/soccer/harry-kane-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "ismael-saibari": {
+      "name": "Ismael Saibari",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/83937.png",
+      "source_url": "https://www.foxsports.com/soccer/ismael-saibari-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "jamal-musiala": {
+      "name": "Jamal Musiala",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/76930.png",
+      "source_url": "https://www.foxsports.com/soccer/jamal-musiala-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "johan-manzambi": {
+      "name": "Johan Manzambi",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/129648.png",
+      "source_url": "https://www.foxsports.com/soccer/johan-manzambi-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "jonathan-david": {
+      "name": "Jonathan David",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/52420.png",
+      "source_url": "https://www.foxsports.com/soccer/jonathan-david-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "joao-cancelo": {
+      "name": "João Cancelo",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/3661.png",
+      "source_url": "https://www.foxsports.com/soccer/joao-cancelo-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "joao-palhinha": {
+      "name": "João Palhinha",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/31756.png",
+      "source_url": "https://www.foxsports.com/soccer/joao-palhinha-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "jude-bellingham": {
+      "name": "Jude Bellingham",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/71310.png",
+      "source_url": "https://www.foxsports.com/soccer/jude-bellingham-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "konrad-laimer": {
+      "name": "Konrad Laimer",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/27381.png",
+      "source_url": "https://www.foxsports.com/soccer/konrad-laimer-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "kylian-mbappe": {
+      "name": "Kylian Mbappé",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/40670.png",
+      "source_url": "https://www.foxsports.com/soccer/kylian-mbappe-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "lautaro-martinez": {
+      "name": "Lautaro Martínez",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/39831.png",
+      "source_url": "https://www.foxsports.com/soccer/lautaro-martinez-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "mads-hermansen": {
+      "name": "Mads Hermansen",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/77541.png",
+      "source_url": "https://www.foxsports.com/soccer/mads-hermansen-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "marcus-thuram": {
+      "name": "Marcus Thuram",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/52822.png",
+      "source_url": "https://www.foxsports.com/soccer/marcus-thuram-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "mark-flekken": {
+      "name": "Mark Flekken",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/35109.png",
+      "source_url": "https://www.foxsports.com/soccer/mark-flekken-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "mats-wieffer": {
+      "name": "Mats Wieffer",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/80187.png",
+      "source_url": "https://www.foxsports.com/soccer/mats-wieffer-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "mattia-zaccagni": {
+      "name": "Mattia Zaccagni",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/23348.png",
+      "source_url": "https://www.foxsports.com/soccer/mattia-zaccagni-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "maximilian-mittelstadt": {
+      "name": "Maximilian Mittelstädt",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/31337.png",
+      "source_url": "https://www.foxsports.com/soccer/maximilian-mittelstadt-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "michael-olise": {
+      "name": "Michael Olise",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/69191.png",
+      "source_url": "https://www.foxsports.com/soccer/michael-olise-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "mohamed-salah": {
+      "name": "Mohamed Salah",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/224.png",
+      "source_url": "https://www.foxsports.com/soccer/mohamed-salah-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "nahuel-molina": {
+      "name": "Nahuel Molina",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/42282.png",
+      "source_url": "https://www.foxsports.com/soccer/nahuel-molina-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "nuno-mendes": {
+      "name": "Nuno Mendes",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/74576.png",
+      "source_url": "https://www.foxsports.com/soccer/nuno-mendes-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "ousmane-dembele": {
+      "name": "Ousmane Dembélé",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/39732.png",
+      "source_url": "https://www.foxsports.com/soccer/ousmane-dembele-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "pascal-gross": {
+      "name": "Pascal Gross",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/35263.png",
+      "source_url": "https://www.foxsports.com/soccer/pascal-gross-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "patrik-schick": {
+      "name": "Patrik Schick",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/26939.png",
+      "source_url": "https://www.foxsports.com/soccer/patrik-schick-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "pavel-sulc": {
+      "name": "Pavel Šulc",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/79140.png",
+      "source_url": "https://www.foxsports.com/soccer/pavel-sulc-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "rayan-ait-nouri": {
+      "name": "Rayan Aït-Nouri",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/62325.png",
+      "source_url": "https://www.foxsports.com/soccer/rayan-ait-nouri-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "richarlison": {
+      "name": "Richarlison",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/43669.png",
+      "source_url": "https://www.foxsports.com/soccer/richarlison-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "robert-lewandowski": {
+      "name": "Robert Lewandowski",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/2100.png",
+      "source_url": "https://www.foxsports.com/soccer/robert-lewandowski-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "vinicius-junior": {
+      "name": "Vinicius Junior",
+      "image_url": "https://b.fssta.com/uploads/application/soccer/headshots/53004.png",
+      "source_url": "https://www.foxsports.com/soccer/vinicius-junior-player",
+      "provider": "FOX Sports",
+      "verified_on": "2026-10-07"
+    },
+    "antoine-semenyo": {
+      "name": "Antoine Semenyo",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p437730.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Antoine Semenyo",
+      "source_id": 437730
+    },
+    "bruno-fernandes": {
+      "name": "Bruno Fernandes",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p141746.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Bruno Borges Fernandes",
+      "source_id": 141746
+    },
+    "carl-rushworth": {
+      "name": "Carl Rushworth",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p472739.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Carl Rushworth",
+      "source_id": 472739
+    },
+    "igor-thiago": {
+      "name": "Igor Thiago",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p502500.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Igor Thiago Nascimento Rodrigues",
+      "source_id": 502500
+    },
+    "james-tarkowski": {
+      "name": "James Tarkowski",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p17761.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "James Tarkowski",
+      "source_id": 17761
+    },
+    "lewis-hall": {
+      "name": "Lewis Hall",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p487838.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Lewis Hall",
+      "source_id": 487838
+    },
+    "marc-guehi": {
+      "name": "Marc Guéhi",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p209036.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Marc Guéhi",
+      "source_id": 209036
+    },
+    "reece-james": {
+      "name": "Reece James",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p225796.png",
+      "source_url": "https://fantasy.premierleague.com/",
+      "provider": "Premier League / FPL",
+      "verified_on": "2026-10-07",
+      "source_identity": "Reece James",
+      "source_id": 225796
+    },
+    "luis-diaz": {
+      "name": "Luis Díaz",
+      "provider": "FC Bayern Munich",
+      "source_url": "https://fcbayern.com/en/teams/first-team/luis-diaz",
+      "image_url": "https://img.fcbayern.com/image/upload/f_auto/q_auto/ar_1%3A1%2Cc_fill%2Cg_custom%2Cw_768/v1785247487/cms/public/images/fcbayern-com/players/spielerportraits/teaser/luis-diaz.png",
+      "verified_on": "2026-10-07"
+    },
+    "tom-bischof": {
+      "name": "Tom Bischof",
+      "provider": "FC Bayern Munich",
+      "source_url": "https://fcbayern.com/fcbayerntv/de/video/portraitvideos/herren/tom-bischof",
+      "image_url": "https://img.fcbayern.com/image/upload/f_auto/q_auto/t_cms-1x191-seo/v1755772802/cms/public/images/fcbayern-com/players/spielerportraits/teaser/tom-bischof.png",
+      "verified_on": "2026-10-07"
+    },
+    "said-el-mala": {
+      "name": "Said El Mala",
+      "provider": "1. FC Köln",
+      "source_url": "https://fc.de/mannschaften/maenner/kader/said-el-mala",
+      "image_url": "https://images.ctfassets.net/nurz7nsnha04/1v1PMr7ZonWQsP3Q4bEUqI/0e44b05c6fd854eedd03173a6d9f4cc1/6567.jpg",
+      "verified_on": "2026-10-07"
+    },
+    "janis-blaswich": {
+      "name": "Janis Blaswich",
+      "provider": "worldfootball.net",
+      "source_url": "https://www.worldfootball.net/player_summary/janis-blaswich/",
+      "image_url": "https://s.hs-data.com/bilder/spieler/gross/144037.jpg?fallback=png",
+      "verified_on": "2026-10-07"
+    },
+    "lukas-kubler": {
+      "name": "Lukas Kübler",
+      "provider": "Playmakerstats",
+      "source_url": "https://www.playmakerstats.com/player/lukas-kubler/215722?epoca_id=153",
+      "image_url": "https://cdn-img.zerozero.pt/img/planteis/new/53/31/8805331_lukas_kubler_20250209215722.jpg",
+      "verified_on": "2026-10-07"
+    },
+    "lamine-yamal": {
+      "name": "Lamine Yamal",
+      "provider": "FC Barcelona",
+      "source_url": "https://www.fcbarcelona.com/en/football/first-team/players/129404/lamine-yamal-nasraoui-ebana",
+      "image_url": "https://www.fcbarcelona.com/photo-resources/2024/10/13/d942d5c0-5ada-423c-baf1-4d2ba5ebe3bb/19-Lamine-M.png?height=790&width=670",
+      "verified_on": "2026-10-07"
+    },
+    "sadio-mane": {
+      "name": "Sadio Mané",
+      "provider": "ogol / zerozero",
+      "source_url": "https://www.ogol.com.br/jogador/sadio-mane/240701?epoca_id=151",
+      "image_url": "https://cdn-img.zerozero.pt/img/planteis/new/50/52/6325052_sadio_mane_20240602192223.jpg",
+      "verified_on": "2026-10-07"
+    },
+    "virgil-van-dijk": {
+      "name": "Virgil van Dijk",
+      "provider": "Liverpool FC",
+      "source_url": "https://www.liverpoolfc.com/news/virgil-van-dijk-receives-special-honour-willem-ii",
+      "image_url": "https://backend.liverpoolfc.com/sites/default/files/styles/lg/public/2025-08/virgil-van-dijk-2526-bodyshot_eb62918c7334e39f7ba555d572aa7975.png?itok=gxhxmIe8",
+      "verified_on": "2026-10-07"
+    },
+    "rodri": {
+      "name": "Rodri",
+      "provider": "Premier League / FPL",
+      "source_url": "https://fantasy.premierleague.com/",
+      "image_url": "https://resources.premierleague.com/premierleague/photos/players/250x250/p220566.png",
+      "source_identity": "Rodrigo 'Rodri' Hernandez Cascante",
+      "source_id": 220566,
+      "verified_on": "2026-10-07"
+    }
+  },
+  "unavailable": {
+    "Abde Ezzalzouli": "HTTP Error 406: Not Acceptable",
+    "Adrià Pedrosa": "HTTP Error 406: Not Acceptable",
+    "Alberto Moleiro": "HTTP Error 406: Not Acceptable",
+    "Alejandro Grimaldo": "HTTP Error 406: Not Acceptable",
+    "Andrei Radu": "HTTP Error 406: Not Acceptable",
+    "Bryan Okoh": "Image autre qu'un portrait identifié",
+    "Calvin Brackelmann": "HTTP Error 406: Not Acceptable",
+    "Cameron Archer": "HTTP Error 406: Not Acceptable",
+    "Casper Tengstedt": "Image autre qu'un portrait identifié",
+    "Charalambos Kostoulas": "HTTP Error 406: Not Acceptable",
+    "Daniel Maldini": "HTTP Error 406: Not Acceptable",
+    "Diego Moreira": "HTTP Error 406: Not Acceptable",
+    "Esteban Lepaul": "Image autre qu'un portrait identifié",
+    "Fer Niño": "HTTP Error 406: Not Acceptable",
+    "Giorgio Scalvini": "HTTP Error 406: Not Acceptable",
+    "Gustavo Varela": "Image autre qu'un portrait identifié",
+    "Hervé Koffi": "HTTP Error 406: Not Acceptable",
+    "Ignace Van Der Brempt": "HTTP Error 406: Not Acceptable",
+    "Ivan Provedel": "HTTP Error 406: Not Acceptable",
+    "Jannik Schuster": "HTTP Error 406: Not Acceptable",
+    "Joan García": "HTTP Error 406: Not Acceptable",
+    "João Mário Lopes": "HTTP Error 406: Not Acceptable",
+    "Lassine Sinayoko": "HTTP Error 406: Not Acceptable",
+    "Lucas Ahijado": "Image autre qu'un portrait identifié",
+    "Lucas Bretelle": "Image autre qu'un portrait identifié",
+    "Manu Koné": "HTTP Error 406: Not Acceptable",
+    "Marquinhos": "Identité non confirmée sur la fiche",
+    "Mason Greenwood": "Image autre qu'un portrait identifié",
+    "Matthieu Udol": "HTTP Error 406: Not Acceptable",
+    "Michael Amir Murillo": "HTTP Error 406: Not Acceptable",
+    "Miguel Gutiérrez": "Image autre qu'un portrait identifié",
+    "Miguel Román": "HTTP Error 406: Not Acceptable",
+    "Mike Maignan": "Image autre qu'un portrait identifié",
+    "Nicolás Capaldo": "Image autre qu'un portrait identifié",
+    "Nicolás Paz": "Image autre qu'un portrait identifié",
+    "Nuno Tavares": "HTTP Error 406: Not Acceptable",
+    "Pablo Durán": "Image autre qu'un portrait identifié",
+    "Pablo Pagis": "HTTP Error 406: Not Acceptable",
+    "Paris Brunner": "HTTP Error 406: Not Acceptable",
+    "Prosper Peter": "Identité non confirmée sur la fiche",
+    "Raphinha": "Image autre qu'un portrait identifié",
+    "Raúl": "Image autre qu'un portrait identifié",
+    "Romano Schmid": "HTTP Error 406: Not Acceptable",
+    "Roy Revivo": "HTTP Error 406: Not Acceptable",
+    "Sheraldo Becker": "HTTP Error 406: Not Acceptable",
+    "Strahinja Pavlovic": "HTTP Error 406: Not Acceptable",
+    "Thierno Barry": "HTTP Error 406: Not Acceptable",
+    "Ulisses Garcia": "HTTP Error 406: Not Acceptable",
+    "Zachary Athekame": "HTTP Error 406: Not Acceptable",
+    "Álex Jiménez": "HTTP Error 406: Not Acceptable"
+  }
+}

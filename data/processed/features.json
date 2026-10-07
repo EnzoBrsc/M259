@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "target": "winner",
+  "group": "edition",
+  "numeric_features": [
+    "previous_appearances",
+    "previous_top3",
+    "previous_wins",
+    "previous_best_rank",
+    "previous_last_rank",
+    "years_since_previous",
+    "appeared_previous_edition",
+    "has_history"
+  ],
+  "categorical_features": [],
+  "excluded_columns": [
+    "edition",
+    "player_id",
+    "player",
+    "club",
+    "nationality",
+    "position",
+    "history_last_edition",
+    "winner",
+    "split"
+  ],
+  "nullable_features": [
+    "previous_best_rank",
+    "previous_last_rank",
+    "years_since_previous"
+  ],
+  "position_policy": "Excluded: available only in test years, never backfilled.",
+  "split_policy": {
+    "train": [
+      1995,
+      2015
+    ],
+    "validation": [
+      2016,
+      2021
+    ],
+    "test": [
+      2022,
+      2025
+    ]
+  }
+}

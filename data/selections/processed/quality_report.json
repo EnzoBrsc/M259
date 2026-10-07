@@ -1,0 +1,4643 @@
+{
+  "as_of": "2026-10-07",
+  "label_kind": "derived_statistical",
+  "duplicate_appearances_removed": {
+    "Premier League": 814,
+    "La Liga": 849,
+    "Bundesliga": 488,
+    "Serie A": 540,
+    "Ligue 1": 729
+  },
+  "excluded_unknown_positions": {
+    "TOTW": [
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:251658",
+        "player": "Sean Longstaff"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:194801",
+        "player": "Harry Wilson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:265923",
+        "player": "Melvin Bard"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:299641",
+        "player": "Tino Livramento"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:294039",
+        "player": "Tani Oluwaseyi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:207343",
+        "player": "Giovani Lo Celso"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:265912",
+        "player": "Maxence Caqueret"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:310860",
+        "player": "Matija Frigan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:276653",
+        "player": "Adrián Bernabé"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:136865",
+        "player": "Ricardo Rodríguez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:193644",
+        "player": "Duván Zapata"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:146335",
+        "player": "Marten de Roon"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:250284",
+        "player": "Santiago Castro"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:240109",
+        "player": "Aleksandar Stankovic"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:215378",
+        "player": "Benjamin Pavard"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:219725",
+        "player": "Sandi Lovric"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:319437",
+        "player": "Nicolò Bertola"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:324505",
+        "player": "Fran Pérez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:260242",
+        "player": "Pol Lozano"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:83494",
+        "player": "Miguel Rodríguez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:388076",
+        "player": "Iker Córdoba"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:214330",
+        "player": "Josan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:246532",
+        "player": "Brahim Díaz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:380286",
+        "player": "Carlos Espí"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:346612",
+        "player": "Endrick"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:328289",
+        "player": "Arnau Ortiz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:230896",
+        "player": "Romain Del Castillo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:286769",
+        "player": "Zakaria Eddahchouri"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:387493",
+        "player": "Julio Díaz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:323702",
+        "player": "Gavi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:131634",
+        "player": "Wojciech Szczesny"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:323703",
+        "player": "Alejandro Balde"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:283827",
+        "player": "Álvaro Fidalgo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:383912",
+        "player": "Alberto Risco"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:396387",
+        "player": "Óscar López"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:231049",
+        "player": "Fábio Carvalho"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:359796",
+        "player": "El Hadji Malick Diouf"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:376481",
+        "player": "Estêvão"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:376274",
+        "player": "Geovany Quenda"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:399562",
+        "player": "Mahdi Nicoll-Jazuli"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:196914",
+        "player": "Pere Milla"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:319781",
+        "player": "Rubén Sánchez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:389448",
+        "player": "Matia Barzic"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:178980",
+        "player": "Serge Gnabry"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:220796",
+        "player": "Tim Skarke"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:263202",
+        "player": "Derrick Köhn"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:376261",
+        "player": "Manga Foe Ondoa"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:355859",
+        "player": "Adam Bakoune"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:412249",
+        "player": "Yvan Maye"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:416515",
+        "player": "Mathis Mout"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:303980",
+        "player": "Laurs Skjellerup"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:331231",
+        "player": "Benjamín Domínguez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:282643",
+        "player": "Folarin Balogun"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:277718",
+        "player": "Mohammed Salisu"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:397994",
+        "player": "Mathys Detourbet"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:411449",
+        "player": "Pape Cabral"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:194450",
+        "player": "James Maddison"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:356379",
+        "player": "Lucas Bergvall"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:266599",
+        "player": "Mohammed Kudus"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:236209",
+        "player": "Tammy Abraham"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:388522",
+        "player": "Ibrahim Mbaye"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:278061",
+        "player": "Georginio Rutter"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:274285",
+        "player": "Costinha"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:261087",
+        "player": "Matt O'Riley"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:289942",
+        "player": "Michael Svoboda"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:209581",
+        "player": "Mikel Merino"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:397263",
+        "player": "Max Dowman"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:287266",
+        "player": "Martín Zubimendi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:258906",
+        "player": "Viktor Gyökeres"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:251400",
+        "player": "Eberechi Eze"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:283586",
+        "player": "Jake O'Brien"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:340640",
+        "player": "Tyler Dibling"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:282978",
+        "player": "Hayden Hackney"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:295370",
+        "player": "Jaden Philogene"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:256607",
+        "player": "Florentino"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:181092",
+        "player": "Chuba Akpom"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:261598",
+        "player": "Zian Flemming"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:179233",
+        "player": "Fabian Schär"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:396630",
+        "player": "Aladji Bamba"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:359108",
+        "player": "Bazoumana Touré"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:377894",
+        "player": "Robinio Vaz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:306557",
+        "player": "Mohamed-Ali Cho"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:277531",
+        "player": "Joe Gelhardt"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:310599",
+        "player": "Tim Iroegbunam"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:134190",
+        "player": "Chris Wood"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:287869",
+        "player": "Igor Jesus"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:213718",
+        "player": "Ibrahim Sangaré"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:303765",
+        "player": "Luca Netz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:260168",
+        "player": "Joel Latibeaudiere"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:324541",
+        "player": "Loum Tchaouna"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:282647",
+        "player": "Ellis Simms"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:158151",
+        "player": "Iván Balliu"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:313024",
+        "player": "Alexandre Alemão"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:323971",
+        "player": "Nico Serrano"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:393762",
+        "player": "Maroan Sannadi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:209579",
+        "player": "Álex Berenguer"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:388805",
+        "player": "Peio Canales"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:382532",
+        "player": "Youssef Lekhedim"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:214995",
+        "player": "Borja Iglesias"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:414293",
+        "player": "Hugo Burcio"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:289439",
+        "player": "Giorgi Guliashvili"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:250508",
+        "player": "José Ángel Carmona"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:271635",
+        "player": "Alfonso González"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:376423",
+        "player": "Marc Bernal"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:217289",
+        "player": "Gabriel Jesus"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:271352",
+        "player": "Shuto Machino"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:256966",
+        "player": "Daiki Hashioka"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:290398",
+        "player": "Eric Martel"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:154603",
+        "player": "Danny da Costa"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:267798",
+        "player": "Lennard Maloney"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:300961",
+        "player": "Ransford-Yeboah Königsdörffer"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:416636",
+        "player": "Ayoube Amaimouni"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:365997",
+        "player": "Oscar Højlund"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:305556",
+        "player": "Nnamdi Collins"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:305555",
+        "player": "Ansgar Knauff"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:346208",
+        "player": "Keisuke Goto"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:171701",
+        "player": "Lukas Kübler"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:238525",
+        "player": "Lucas Höler"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:179571",
+        "player": "Vincenzo Grifo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:410645",
+        "player": "Louis Lemke"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:238542",
+        "player": "Bakery Jatta"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:228319",
+        "player": "Borna Sosa"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:191352",
+        "player": "Luca Waldschmidt"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:407196",
+        "player": "Salim Musah"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:159139",
+        "player": "Mitchell Weiser"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:305821",
+        "player": "Oskar Wójcik"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:399865",
+        "player": "Mick Schmetgens"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:140624",
+        "player": "Jeffrey Gouweleeuw"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:332689",
+        "player": "Rodrigo Ribeiro"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:228503",
+        "player": "Alexis Claude-Maurice"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:302793",
+        "player": "Seol Young-Woo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:266657",
+        "player": "Yannik Keitel"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:355487",
+        "player": "Leo Sauer"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:290811",
+        "player": "Jamie Leweling"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:259878",
+        "player": "Nikolas Nartey"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:220703",
+        "player": "Ramy Bensebaini"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:173907",
+        "player": "Marcel Sabitzer"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:234426",
+        "player": "Riccardo Orsolini"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:228333",
+        "player": "Nikola Moro"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:68070",
+        "player": "Lorenzo De Silvestri"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:330707",
+        "player": "Emirhan Ilkhan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:297786",
+        "player": "Gaetano Oristanio"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:245538",
+        "player": "Sandro Kulenovic"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:271191",
+        "player": "Nathan Patterson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:258933",
+        "player": "Giorgi Chakvetadze"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:270010",
+        "player": "Alessandro Zanoli"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:377170",
+        "player": "Idrissa Gueye"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:263508",
+        "player": "Bayo Youssouf"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:324705",
+        "player": "Alieu Fadera"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:265965",
+        "player": "Yukinari Sugawara"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:304151",
+        "player": "Kevin Carlos"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:193977",
+        "player": "Roberto Gagliardini"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:340705",
+        "player": "Daniele Ghilardi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:297300",
+        "player": "Devyne Rensch"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:336104",
+        "player": "Konstantinos Koulierakis"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:309185",
+        "player": "Ange-Yoan Bonny"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:286369",
+        "player": "Luis Henrique"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:388285",
+        "player": "Toni Fernández"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:361838",
+        "player": "Lamine Dabo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:224044",
+        "player": "Albert Gudmundsson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:241430",
+        "player": "Manuel Lazzari"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:218439",
+        "player": "Alfonso Pedraza"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:398780",
+        "player": "Zabi Gueu"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:402888",
+        "player": "Rudy Matondo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:225559",
+        "player": "Jonathan Ikoné"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:219153",
+        "player": "Vincent Marchetti"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:246805",
+        "player": "Thibault De Smet"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:350501",
+        "player": "Samuel Amo-Ameyaw"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:371556",
+        "player": "Yaya Diémé"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:316560",
+        "player": "Dário Essugo"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:362794",
+        "player": "Conrad Harder"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:312399",
+        "player": "Mamadou Simbakoli"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:412871",
+        "player": "Harouna Djibirin"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:357154",
+        "player": "Lilian Raolisoa"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:206993",
+        "player": "Haris Belkebla"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:3129214",
+        "player": "Yacouba Kone"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:232335",
+        "player": "Antoine Rabillard"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:279137",
+        "player": "Brahimi Bilal"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:368592",
+        "player": "Nosa Obaretin"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:325992",
+        "player": "Théo Le Bris"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:297345",
+        "player": "Souleymane Faye"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:309651",
+        "player": "Isak Jensen"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:303308",
+        "player": "Tanner Tessmann"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:379066",
+        "player": "Kail Boudache"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:265953",
+        "player": "Keito Nakamura"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:408345",
+        "player": "Khalis Merah"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:365562",
+        "player": "Noah Nartey"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:250758",
+        "player": "Bryan Reynolds"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:399428",
+        "player": "Sion Oppong"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:411169",
+        "player": "Enzo Koffi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:371557",
+        "player": "Ismail Bouneb"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:223452",
+        "player": "Lewis Cook"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:332948",
+        "player": "Ben Gannon-Doak"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:72487",
+        "player": "David Brooks"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:312182",
+        "player": "Daniel Jebbison"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:360149",
+        "player": "Alex Tóth"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:350661",
+        "player": "Lewis Koumas"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:356075",
+        "player": "Trey Nyoni"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:259653",
+        "player": "Brenden Aaronson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:258956",
+        "player": "Lukas Nmecha"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:346662",
+        "player": "Jean-Mattéo Bahoya"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:203072",
+        "player": "Daniel James"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:241012",
+        "player": "Ismaïla Sarr"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:197399",
+        "player": "Jefferson Lerma"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:283672",
+        "player": "Jérémy Doku"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:328464",
+        "player": "Nico O'Reilly"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:340645",
+        "player": "Malick Fofana"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:265915",
+        "player": "Wilson Isidor"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:290207",
+        "player": "Trai Hume"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:301525",
+        "player": "Rodrigo Muniz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:336460",
+        "player": "Hugo Larsson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:330764",
+        "player": "Kevin"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:276327",
+        "player": "Joshua Zirkzee"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Premier League",
+        "player_id": "espn:231167",
+        "player": "Mason Mount"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:314403",
+        "player": "Saba Sazonov"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:292225",
+        "player": "Ramón Enríquez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:373542",
+        "player": "Adrián Niño"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:277206",
+        "player": "Julián Álvarez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:220626",
+        "player": "Adama Traoré"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:331742",
+        "player": "Diego Villares"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:202717",
+        "player": "Dani Ceballos"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:415438",
+        "player": "Carlos Macià"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:3102194",
+        "player": "Yanis Kasonga Musuayi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:407397",
+        "player": "Ifeanyi Ndukwe"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:280806",
+        "player": "Harvey Elliott"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:264177",
+        "player": "Luis Rioja"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:409380",
+        "player": "Aimar Blázquez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:283891",
+        "player": "Aihen Muñoz"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "La Liga",
+        "player_id": "espn:307487",
+        "player": "Arsen Zakharyan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:180998",
+        "player": "Robert Andrich"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:174967",
+        "player": "Lucas Vázquez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:413839",
+        "player": "Samba Konate"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:372232",
+        "player": "Andrija Maksimovic"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:231674",
+        "player": "Maximilian Wöber"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:386465",
+        "player": "Vitalie Becker"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:253816",
+        "player": "Ron Schallenberg"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:237224",
+        "player": "Hwang Hee-Chan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:306991",
+        "player": "Noel Futkeu"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:323882",
+        "player": "Luca Sirch"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:358496",
+        "player": "Maurice Krattenmacher"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:275987",
+        "player": "Nicholas Mickelson"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:366828",
+        "player": "Jonah Sticker"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:231764",
+        "player": "Steffen Tigges"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:245940",
+        "player": "Felix Götze"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:220823",
+        "player": "Tom Baack"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:139520",
+        "player": "Andrej Kramaric"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Bundesliga",
+        "player_id": "espn:331057",
+        "player": "Fisnik Asllani"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:255650",
+        "player": "Marin Pongracic"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:297784",
+        "player": "Wilfried Gnonto"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:262591",
+        "player": "Pedro Gonçalves"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:346622",
+        "player": "Costantino Favasuli"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:245637",
+        "player": "David Neres"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:282564",
+        "player": "Lorenzo Lucca"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:318394",
+        "player": "Wisdom Amey"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:252447",
+        "player": "Alessio Zerbin"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:324433",
+        "player": "Anouar El Azzouzi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:388779",
+        "player": "Matteo Cichella"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:387491",
+        "player": "Jesús Rodriguez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:276822",
+        "player": "Samuele Ricci"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:253569",
+        "player": "Pontus Almqvist"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:403234",
+        "player": "Vitinha"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:386505",
+        "player": "David Puczka"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:130036",
+        "player": "Stephan El Shaarawy"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:257058",
+        "player": "Hamed Traoré"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:243787",
+        "player": "Lloyd Kelly"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:298349",
+        "player": "Nick Woltemade"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:297337",
+        "player": "Pape Matar Sarr"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:260300",
+        "player": "Edon Zhegrova"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:271679",
+        "player": "Giacomo Raspadori"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:345637",
+        "player": "Davide Bartesaghi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:377563",
+        "player": "Francesco Camarda"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:3123406",
+        "player": "Francisco Esteban Sánchez"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:223292",
+        "player": "Mohamed Kaba"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Serie A",
+        "player_id": "espn:330550",
+        "player": "Amar Ahmed"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:268591",
+        "player": "Romain Faivre"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:307159",
+        "player": "Pierre Ekwah"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:379070",
+        "player": "Rayan Mandengue"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:355998",
+        "player": "Joseph Nonge"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:215574",
+        "player": "Lucas Tousart"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:416403",
+        "player": "Mathis Lainé"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:398380",
+        "player": "Djylian N'Guessan"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:265234",
+        "player": "Ali Abdi"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:416460",
+        "player": "Everton Pereira"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:305669",
+        "player": "Alidu Seidu"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:304011",
+        "player": "Maurits Kjaergaard"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:384005",
+        "player": "Keyliane Abdallah"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:220718",
+        "player": "Ulisses Garcia"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:276160",
+        "player": "Faris Moumbagna"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:422095",
+        "player": "Kelyann Bezahaf"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:353363",
+        "player": "Mika Godts"
+      },
+      {
+        "period_end": "2026-09-20",
+        "competition": "Ligue 1",
+        "player_id": "espn:316128",
+        "player": "Lucas Beraldo"
+      }
+    ],
+    "POTM": [
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:128521",
+        "player": "Timothy Chandler"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:139520",
+        "player": "Andrej Kramaric"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:140624",
+        "player": "Jeffrey Gouweleeuw"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:154603",
+        "player": "Danny da Costa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:159139",
+        "player": "Mitchell Weiser"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:171701",
+        "player": "Lukas Kübler"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:173907",
+        "player": "Marcel Sabitzer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:174967",
+        "player": "Lucas Vázquez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:178980",
+        "player": "Serge Gnabry"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:179571",
+        "player": "Vincenzo Grifo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:180998",
+        "player": "Robert Andrich"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:191352",
+        "player": "Luca Waldschmidt"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:205916",
+        "player": "Janik Bachmann"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:207335",
+        "player": "Luca Schnellbacher"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:218596",
+        "player": "Robert Skov"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:220703",
+        "player": "Ramy Bensebaini"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:220796",
+        "player": "Tim Skarke"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:220823",
+        "player": "Tom Baack"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:222614",
+        "player": "Amara Conde"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:228319",
+        "player": "Borna Sosa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:228503",
+        "player": "Alexis Claude-Maurice"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:231674",
+        "player": "Maximilian Wöber"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:231764",
+        "player": "Steffen Tigges"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:234153",
+        "player": "Cedric Itten"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:237224",
+        "player": "Hwang Hee-Chan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:238525",
+        "player": "Lucas Höler"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:238542",
+        "player": "Bakery Jatta"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:241662",
+        "player": "Martin Terrier"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:245940",
+        "player": "Felix Götze"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:253816",
+        "player": "Ron Schallenberg"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:256966",
+        "player": "Daiki Hashioka"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:259878",
+        "player": "Nikolas Nartey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:260262",
+        "player": "Nicolas Kühn"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:263202",
+        "player": "Derrick Köhn"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:266657",
+        "player": "Yannik Keitel"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:267798",
+        "player": "Lennard Maloney"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:271352",
+        "player": "Shuto Machino"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:275987",
+        "player": "Nicholas Mickelson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:276330",
+        "player": "Oliver Batista Meier"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:277301",
+        "player": "Valentin Gendrey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:290398",
+        "player": "Eric Martel"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:290811",
+        "player": "Jamie Leweling"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:294317",
+        "player": "Carney Chukwuemeka"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:300410",
+        "player": "Loïc Badé"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:300961",
+        "player": "Ransford-Yeboah Königsdörffer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:302793",
+        "player": "Seol Young-Woo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:302981",
+        "player": "Sebastian Sebulonsen"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:305555",
+        "player": "Ansgar Knauff"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:305556",
+        "player": "Nnamdi Collins"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:305821",
+        "player": "Oskar Wójcik"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:306653",
+        "player": "Imad Rondic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:306991",
+        "player": "Noel Futkeu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:307515",
+        "player": "Benedict Hollerbach"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:3098337",
+        "player": "Clemens Lippmann"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:3106924",
+        "player": "Paul Bright Max Erevbenagie"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:3121808",
+        "player": "Rael-Tshimbela Nakuzola"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:322510",
+        "player": "Robin Hranác"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:323882",
+        "player": "Luca Sirch"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:331057",
+        "player": "Fisnik Asllani"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:332689",
+        "player": "Rodrigo Ribeiro"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:337306",
+        "player": "Farès Chaïbi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:342667",
+        "player": "Otto Ruoppi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:346208",
+        "player": "Keisuke Goto"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:346636",
+        "player": "Guela Doué"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:355487",
+        "player": "Leo Sauer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:358496",
+        "player": "Maurice Krattenmacher"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:363038",
+        "player": "Marc Guiu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:365997",
+        "player": "Oscar Højlund"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:366828",
+        "player": "Jonah Sticker"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:368003",
+        "player": "Max Finkgrafe"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:372232",
+        "player": "Andrija Maksimovic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:376056",
+        "player": "Otto Stange"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:378369",
+        "player": "Reigan Heskey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:386465",
+        "player": "Vitalie Becker"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:386884",
+        "player": "Nathan De Cat"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:387472",
+        "player": "Berkay Yilmaz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:390031",
+        "player": "Cyriaque Irié"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:399219",
+        "player": "Luka Djuric"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:399747",
+        "player": "Dariusz Stalmach"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:399865",
+        "player": "Mick Schmetgens"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:403400",
+        "player": "Mert Can Ayhan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:403741",
+        "player": "Yanik Spalt"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:407196",
+        "player": "Salim Musah"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:409108",
+        "player": "Niklas Mohr"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:410645",
+        "player": "Louis Lemke"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:413817",
+        "player": "Luca Reggiani"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:413839",
+        "player": "Samba Konate"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:414334",
+        "player": "Luca Vozar"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:416636",
+        "player": "Ayoube Amaimouni"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Bundesliga",
+        "player_id": "espn:418030",
+        "player": "Malik Pimpong"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:131634",
+        "player": "Wojciech Szczesny"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:158151",
+        "player": "Iván Balliu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:196914",
+        "player": "Pere Milla"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:202717",
+        "player": "Dani Ceballos"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:207343",
+        "player": "Giovani Lo Celso"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:209579",
+        "player": "Álex Berenguer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:214330",
+        "player": "Josan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:214995",
+        "player": "Borja Iglesias"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:217289",
+        "player": "Gabriel Jesus"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:220626",
+        "player": "Adama Traoré"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:230896",
+        "player": "Romain Del Castillo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:231692",
+        "player": "Jules Koundé"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:231905",
+        "player": "Gorka Guruzeta"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:246532",
+        "player": "Brahim Díaz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:250508",
+        "player": "José Ángel Carmona"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:260242",
+        "player": "Pol Lozano"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:264177",
+        "player": "Luis Rioja"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:271635",
+        "player": "Alfonso González"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:274971",
+        "player": "Jens Cajuste"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:277206",
+        "player": "Julián Álvarez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:277314",
+        "player": "Vanja Drkusic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:280806",
+        "player": "Harvey Elliott"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:283827",
+        "player": "Álvaro Fidalgo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:283891",
+        "player": "Aihen Muñoz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:286769",
+        "player": "Zakaria Eddahchouri"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:289439",
+        "player": "Giorgi Guliashvili"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:292225",
+        "player": "Ramón Enríquez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:294039",
+        "player": "Tani Oluwaseyi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:297359",
+        "player": "Jon Pacheco"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:304592",
+        "player": "Couhaib Driouech"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:307487",
+        "player": "Arsen Zakharyan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:3102194",
+        "player": "Yanis Kasonga Musuayi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:313024",
+        "player": "Alexandre Alemão"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:314403",
+        "player": "Saba Sazonov"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:319781",
+        "player": "Rubén Sánchez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:323702",
+        "player": "Gavi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:323703",
+        "player": "Alejandro Balde"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:323971",
+        "player": "Nico Serrano"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:324505",
+        "player": "Fran Pérez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:328289",
+        "player": "Arnau Ortiz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:331742",
+        "player": "Diego Villares"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:346612",
+        "player": "Endrick"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:356228",
+        "player": "Manu Bueno"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:363039",
+        "player": "Héctor Fort"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:373542",
+        "player": "Adrián Niño"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:376147",
+        "player": "Javi Rodríguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:376208",
+        "player": "Joselu Pérez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:376423",
+        "player": "Marc Bernal"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:377843",
+        "player": "Rayane Belaid"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:379231",
+        "player": "Aitor Mañas"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:380286",
+        "player": "Carlos Espí"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:382532",
+        "player": "Youssef Lekhedim"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:383912",
+        "player": "Alberto Risco"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:384985",
+        "player": "Paco Cortés"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:387493",
+        "player": "Julio Díaz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:388076",
+        "player": "Iker Córdoba"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:388805",
+        "player": "Peio Canales"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:389448",
+        "player": "Matia Barzic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:393762",
+        "player": "Maroan Sannadi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:396387",
+        "player": "Óscar López"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:396613",
+        "player": "Alex Marchal"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:407397",
+        "player": "Ifeanyi Ndukwe"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:409380",
+        "player": "Aimar Blázquez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:414293",
+        "player": "Hugo Burcio"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:415276",
+        "player": "Xanet Oláiz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:415438",
+        "player": "Carlos Macià"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "La Liga",
+        "player_id": "espn:83494",
+        "player": "Miguel Rodríguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:187647",
+        "player": "Moses Simon"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:196200",
+        "player": "Lucas Hernández"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:206993",
+        "player": "Haris Belkebla"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:215574",
+        "player": "Lucas Tousart"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:215687",
+        "player": "Florian Sotoca"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:219153",
+        "player": "Vincent Marchetti"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:220718",
+        "player": "Ulisses Garcia"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:224074",
+        "player": "Karim Coulibaly"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:225559",
+        "player": "Jonathan Ikoné"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:231778",
+        "player": "Gaetan Perrin"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:232335",
+        "player": "Antoine Rabillard"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:238712",
+        "player": "Derek Cornelius"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:240660",
+        "player": "Jordan Teze"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:246805",
+        "player": "Thibault De Smet"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:250758",
+        "player": "Bryan Reynolds"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:265234",
+        "player": "Ali Abdi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:265953",
+        "player": "Keito Nakamura"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:268591",
+        "player": "Romain Faivre"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:273021",
+        "player": "Daouda Traoré"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:276160",
+        "player": "Faris Moumbagna"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:277718",
+        "player": "Mohammed Salisu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:279137",
+        "player": "Brahimi Bilal"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:282597",
+        "player": "Isak Jansson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:282643",
+        "player": "Folarin Balogun"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:287078",
+        "player": "Hicham Boudaoui"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:297345",
+        "player": "Souleymane Faye"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:301354",
+        "player": "Ruben Kluivert"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:303308",
+        "player": "Tanner Tessmann"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:304011",
+        "player": "Maurits Kjaergaard"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:305669",
+        "player": "Alidu Seidu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:307159",
+        "player": "Pierre Ekwah"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:309651",
+        "player": "Isak Jensen"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:312399",
+        "player": "Mamadou Simbakoli"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:3124794",
+        "player": "Safouane Benzahra"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:3129214",
+        "player": "Yacouba Kone"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:3131927",
+        "player": "Aboulaye Camara"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:3140852",
+        "player": "Hakim Dongopandji"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:316128",
+        "player": "Lucas Beraldo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:316560",
+        "player": "Dário Essugo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:319161",
+        "player": "Antoine Mendy"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:325992",
+        "player": "Théo Le Bris"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:333845",
+        "player": "Louis Mouton"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:350501",
+        "player": "Samuel Amo-Ameyaw"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:350525",
+        "player": "Christian Mawissa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:353363",
+        "player": "Mika Godts"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:355998",
+        "player": "Joseph Nonge"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:357154",
+        "player": "Lilian Raolisoa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:359934",
+        "player": "Lucas Høgsberg"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:362794",
+        "player": "Conrad Harder"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:363150",
+        "player": "Luc Zogbe"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:364180",
+        "player": "Franjo Ivanovic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:365562",
+        "player": "Noah Nartey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:367360",
+        "player": "Noah Edjouma"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:368334",
+        "player": "Omar Sissoko"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:368592",
+        "player": "Nosa Obaretin"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:371556",
+        "player": "Yaya Diémé"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:371557",
+        "player": "Ismail Bouneb"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:379066",
+        "player": "Kail Boudache"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:379070",
+        "player": "Rayan Mandengue"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:380400",
+        "player": "Julián Vignolo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:384005",
+        "player": "Keyliane Abdallah"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:388878",
+        "player": "Daren Mosengo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:392126",
+        "player": "Aristide Zossou"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:397384",
+        "player": "Ismail Diallo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:397994",
+        "player": "Mathys Detourbet"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:398380",
+        "player": "Djylian N'Guessan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:398780",
+        "player": "Zabi Gueu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:399248",
+        "player": "Justin Bourgault"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:399428",
+        "player": "Sion Oppong"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:401306",
+        "player": "Souleymane Sagnan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:402888",
+        "player": "Rudy Matondo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:403578",
+        "player": "Dro Fernández"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:408345",
+        "player": "Khalis Merah"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:411169",
+        "player": "Enzo Koffi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:411418",
+        "player": "Tadjidine Mmadi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:411449",
+        "player": "Pape Cabral"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:412871",
+        "player": "Harouna Djibirin"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:416403",
+        "player": "Mathis Lainé"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:416458",
+        "player": "Lamfia Dioubaté"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:416460",
+        "player": "Everton Pereira"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Ligue 1",
+        "player_id": "espn:422095",
+        "player": "Kelyann Bezahaf"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:134190",
+        "player": "Chris Wood"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:138924",
+        "player": "Callum Wilson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:168421",
+        "player": "Will Hughes"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:179233",
+        "player": "Fabian Schär"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:181092",
+        "player": "Chuba Akpom"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:190974",
+        "player": "Kenny Tete"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:194450",
+        "player": "James Maddison"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:194801",
+        "player": "Harry Wilson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:197399",
+        "player": "Jefferson Lerma"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:203072",
+        "player": "Daniel James"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:209581",
+        "player": "Mikel Merino"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:213718",
+        "player": "Ibrahim Sangaré"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:223452",
+        "player": "Lewis Cook"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:225426",
+        "player": "Ben Chilwell"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:231049",
+        "player": "Fábio Carvalho"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:231167",
+        "player": "Mason Mount"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:231198",
+        "player": "Tosin Adarabioyo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:236209",
+        "player": "Tammy Abraham"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:236912",
+        "player": "Gustavo Hamer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:239350",
+        "player": "Noussair Mazraoui"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:241012",
+        "player": "Ismaïla Sarr"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:241328",
+        "player": "Ryan Sessegnon"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:251400",
+        "player": "Eberechi Eze"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:251658",
+        "player": "Sean Longstaff"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:256015",
+        "player": "Victor Torp"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:256607",
+        "player": "Florentino"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:258906",
+        "player": "Viktor Gyökeres"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:258956",
+        "player": "Lukas Nmecha"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:259653",
+        "player": "Brenden Aaronson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:260168",
+        "player": "Joel Latibeaudiere"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:261087",
+        "player": "Matt O'Riley"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:261598",
+        "player": "Zian Flemming"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:265915",
+        "player": "Wilson Isidor"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:265923",
+        "player": "Melvin Bard"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:266599",
+        "player": "Mohammed Kudus"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:266697",
+        "player": "Emile Smith Rowe"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:274285",
+        "player": "Costinha"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:274649",
+        "player": "Jaka Bijol"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:276327",
+        "player": "Joshua Zirkzee"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:276546",
+        "player": "Óscar Mingueza"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:277531",
+        "player": "Joe Gelhardt"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:278061",
+        "player": "Georginio Rutter"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:281119",
+        "player": "Jeremie Frimpong"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:282647",
+        "player": "Ellis Simms"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:282978",
+        "player": "Hayden Hackney"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:283586",
+        "player": "Jake O'Brien"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:283672",
+        "player": "Jérémy Doku"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:286090",
+        "player": "Jacob Ramsey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:287266",
+        "player": "Martín Zubimendi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:287869",
+        "player": "Igor Jesus"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:289155",
+        "player": "Benjamin Sesko"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:289942",
+        "player": "Michael Svoboda"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:290207",
+        "player": "Trai Hume"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:292062",
+        "player": "Piero Hincapié"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:293236",
+        "player": "Noni Madueke"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:295370",
+        "player": "Jaden Philogene"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:299641",
+        "player": "Tino Livramento"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:299911",
+        "player": "Mykhailo Mudryk"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:301525",
+        "player": "Rodrigo Muniz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:303765",
+        "player": "Luca Netz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:306557",
+        "player": "Mohamed-Ali Cho"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:307073",
+        "player": "Kasey McAteer"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:310599",
+        "player": "Tim Iroegbunam"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:311173",
+        "player": "Brooke Norton-Cuffy"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:312182",
+        "player": "Daniel Jebbison"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:314858",
+        "player": "Andrey Santos"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:315668",
+        "player": "Darío Osorio"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:318522",
+        "player": "Promise David"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:324541",
+        "player": "Loum Tchaouna"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:325555",
+        "player": "Alejandro Garnacho"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:328464",
+        "player": "Nico O'Reilly"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:330764",
+        "player": "Kevin"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:332948",
+        "player": "Ben Gannon-Doak"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:336460",
+        "player": "Hugo Larsson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:340206",
+        "player": "Leny Yoro"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:340640",
+        "player": "Tyler Dibling"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:340645",
+        "player": "Malick Fofana"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:346662",
+        "player": "Jean-Mattéo Bahoya"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:350661",
+        "player": "Lewis Koumas"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:353151",
+        "player": "Álvaro Rodríguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:354149",
+        "player": "Jens Hjerto Dahl"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:356075",
+        "player": "Trey Nyoni"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:356379",
+        "player": "Lucas Bergvall"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:359108",
+        "player": "Bazoumana Touré"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:359400",
+        "player": "Ibrahim Osman"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:359796",
+        "player": "El Hadji Malick Diouf"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:360149",
+        "player": "Alex Tóth"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:366817",
+        "player": "Sidiki Cherif"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:373927",
+        "player": "Ayyoub Bouaddi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:374519",
+        "player": "Zavier Gozo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:376274",
+        "player": "Geovany Quenda"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:376481",
+        "player": "Estêvão"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:377894",
+        "player": "Robinio Vaz"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:379588",
+        "player": "Rio Ngumoha"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:382839",
+        "player": "Alysson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:388522",
+        "player": "Ibrahim Mbaye"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:395463",
+        "player": "Ryan McAidoo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:396630",
+        "player": "Aladji Bamba"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:397263",
+        "player": "Max Dowman"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:399562",
+        "player": "Mahdi Nicoll-Jazuli"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Premier League",
+        "player_id": "espn:72487",
+        "player": "David Brooks"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:130036",
+        "player": "Stephan El Shaarawy"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:136865",
+        "player": "Ricardo Rodríguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:146335",
+        "player": "Marten de Roon"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:170785",
+        "player": "Hakan Çalhanoglu"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:182627",
+        "player": "Davide Zappacosta"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:189668",
+        "player": "Mario Pasalic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:193644",
+        "player": "Duván Zapata"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:193977",
+        "player": "Roberto Gagliardini"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:206153",
+        "player": "Jérémie Boga"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:215378",
+        "player": "Benjamin Pavard"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:218439",
+        "player": "Alfonso Pedraza"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:219725",
+        "player": "Sandi Lovric"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:223292",
+        "player": "Mohamed Kaba"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:224044",
+        "player": "Albert Gudmundsson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:226211",
+        "player": "Artem Dovbyk"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:228333",
+        "player": "Nikola Moro"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:234426",
+        "player": "Riccardo Orsolini"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:240109",
+        "player": "Aleksandar Stankovic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:241430",
+        "player": "Manuel Lazzari"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:243787",
+        "player": "Lloyd Kelly"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:245538",
+        "player": "Sandro Kulenovic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:245637",
+        "player": "David Neres"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:250284",
+        "player": "Santiago Castro"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:252447",
+        "player": "Alessio Zerbin"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:253569",
+        "player": "Pontus Almqvist"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:255650",
+        "player": "Marin Pongracic"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:257058",
+        "player": "Hamed Traoré"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:258910",
+        "player": "Diogo Leite"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:258933",
+        "player": "Giorgi Chakvetadze"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:259357",
+        "player": "Lion Lauberbach"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:260300",
+        "player": "Edon Zhegrova"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:262591",
+        "player": "Pedro Gonçalves"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:263508",
+        "player": "Bayo Youssouf"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:265912",
+        "player": "Maxence Caqueret"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:265965",
+        "player": "Yukinari Sugawara"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:270010",
+        "player": "Alessandro Zanoli"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:271191",
+        "player": "Nathan Patterson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:271679",
+        "player": "Giacomo Raspadori"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:276653",
+        "player": "Adrián Bernabé"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:276822",
+        "player": "Samuele Ricci"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:281590",
+        "player": "Lautaro Valenti"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:282564",
+        "player": "Lorenzo Lucca"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:282585",
+        "player": "Benoît Badiashile"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:285937",
+        "player": "Mattia Felici"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:286369",
+        "player": "Luis Henrique"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:288488",
+        "player": "Nicola Zalewski"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:288788",
+        "player": "Andrea Ghion"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:297051",
+        "player": "Exequiel Zeballos"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:297300",
+        "player": "Devyne Rensch"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:297337",
+        "player": "Pape Matar Sarr"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:297784",
+        "player": "Wilfried Gnonto"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:297786",
+        "player": "Gaetano Oristanio"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:298349",
+        "player": "Nick Woltemade"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:303919",
+        "player": "Filippo Terracciano"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:303973",
+        "player": "Ardon Jashari"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:303980",
+        "player": "Laurs Skjellerup"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:304151",
+        "player": "Kevin Carlos"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:304217",
+        "player": "Rafael Obrador"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:306390",
+        "player": "Tomas Bobcek"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:306579",
+        "player": "Oier Zarraga"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:309185",
+        "player": "Ange-Yoan Bonny"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:310860",
+        "player": "Matija Frigan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:3123406",
+        "player": "Francisco Esteban Sánchez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:318394",
+        "player": "Wisdom Amey"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:319437",
+        "player": "Nicolò Bertola"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:322771",
+        "player": "Omari Hutchinson"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:323147",
+        "player": "Federico Gatti"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:324433",
+        "player": "Anouar El Azzouzi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:324705",
+        "player": "Alieu Fadera"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:330550",
+        "player": "Amar Ahmed"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:330707",
+        "player": "Emirhan Ilkhan"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:331231",
+        "player": "Benjamín Domínguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:335061",
+        "player": "Daniel Birligea"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:336104",
+        "player": "Konstantinos Koulierakis"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:337058",
+        "player": "Jay Enem"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:340705",
+        "player": "Daniele Ghilardi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:341756",
+        "player": "Medon Berisha"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:345637",
+        "player": "Davide Bartesaghi"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:346596",
+        "player": "Raphael Kofler"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:346622",
+        "player": "Costantino Favasuli"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:347018",
+        "player": "Sulemana"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:349101",
+        "player": "Justin Oboavwoduo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:353013",
+        "player": "Leonardo Colombo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:355859",
+        "player": "Adam Bakoune"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:355997",
+        "player": "Samuel Mbangula"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:358445",
+        "player": "Alexsandro Amorim"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:361838",
+        "player": "Lamine Dabo"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:364685",
+        "player": "Luis Hasa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:376261",
+        "player": "Manga Foe Ondoa"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:377170",
+        "player": "Idrissa Gueye"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:377563",
+        "player": "Francesco Camarda"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:386505",
+        "player": "David Puczka"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:387491",
+        "player": "Jesús Rodriguez"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:387723",
+        "player": "Mattia Liberali"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:387844",
+        "player": "Alessandro Sugamele"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:388285",
+        "player": "Toni Fernández"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:388779",
+        "player": "Matteo Cichella"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:403234",
+        "player": "Vitinha"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:406191",
+        "player": "Ethan Meichtry"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:410325",
+        "player": "Marco Libra"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:412249",
+        "player": "Yvan Maye"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:416515",
+        "player": "Mathis Mout"
+      },
+      {
+        "period_end": "2026-09-30",
+        "competition": "Serie A",
+        "player_id": "espn:68070",
+        "player": "Lorenzo De Silvestri"
+      }
+    ]
+  },
+  "awards": {
+    "TOTS": {
+      "history_rows": 12893,
+      "history_periods": [
+        "2018-06-30",
+        "2019-06-30",
+        "2020-06-30",
+        "2021-06-30",
+        "2022-06-30",
+        "2023-06-30",
+        "2024-06-30",
+        "2025-06-30"
+      ],
+      "candidates_rows": 1589,
+      "candidate_periods": [
+        "2026-06-30"
+      ],
+      "candidates_by_league": {
+        "Bundesliga": 285,
+        "La Liga": 349,
+        "Ligue 1": 277,
+        "Premier League": 340,
+        "Serie A": 338
+      },
+      "rejected_groups": [],
+      "missing_history": {
+        "goals": 0,
+        "assists": 0,
+        "minutes": 0,
+        "matches": 0,
+        "tackles": 114,
+        "interceptions": 105,
+        "saves": 19,
+        "goals_conceded": 19,
+        "clean_sheets": 19
+      },
+      "missing_candidates": {
+        "goals": 0,
+        "assists": 0,
+        "minutes": 0,
+        "matches": 0,
+        "tackles": 55,
+        "interceptions": 55,
+        "saves": 1,
+        "goals_conceded": 1,
+        "clean_sheets": 1
+      }
+    },
+    "TOTY": {
+      "history_rows": 12893,
+      "history_periods": [
+        "2018-06-30",
+        "2019-06-30",
+        "2020-06-30",
+        "2021-06-30",
+        "2022-06-30",
+        "2023-06-30",
+        "2024-06-30",
+        "2025-06-30"
+      ],
+      "candidates_rows": 1589,
+      "candidate_periods": [
+        "2026-06-30"
+      ],
+      "candidates_by_league": {
+        "Bundesliga": 285,
+        "La Liga": 349,
+        "Ligue 1": 277,
+        "Premier League": 340,
+        "Serie A": 338
+      },
+      "rejected_groups": [],
+      "missing_history": {
+        "goals": 0,
+        "assists": 0,
+        "minutes": 0,
+        "matches": 0,
+        "tackles": 114,
+        "interceptions": 105,
+        "saves": 19,
+        "goals_conceded": 19,
+        "clean_sheets": 19
+      },
+      "missing_candidates": {
+        "goals": 0,
+        "assists": 0,
+        "minutes": 0,
+        "matches": 0,
+        "tackles": 55,
+        "interceptions": 55,
+        "saves": 1,
+        "goals_conceded": 1,
+        "clean_sheets": 1
+      }
+    },
+    "TOTW": {
+      "history_rows": 28056,
+      "history_periods": [
+        "2024-08-18",
+        "2024-08-25",
+        "2024-09-01",
+        "2024-09-15",
+        "2024-09-22",
+        "2024-09-29",
+        "2024-10-06",
+        "2024-10-20",
+        "2024-10-27",
+        "2024-11-03",
+        "2024-11-10",
+        "2024-11-24",
+        "2024-12-01",
+        "2024-12-08",
+        "2024-12-15",
+        "2024-12-22",
+        "2024-12-29",
+        "2025-01-05",
+        "2025-01-12",
+        "2025-01-19",
+        "2025-01-26"
+      ],
+      "candidates_rows": 1287,
+      "candidate_periods": [
+        "2026-09-20"
+      ],
+      "candidates_by_league": {
+        "Bundesliga": 229,
+        "La Liga": 318,
+        "Ligue 1": 233,
+        "Premier League": 241,
+        "Serie A": 266
+      },
+      "rejected_groups": [],
+      "missing_history": {
+        "goals": 0,
+        "assists": 0,
+        "matches": 0,
+        "shots_on_goal": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "team_wins": 0,
+        "clean_sheets": 0,
+        "goals_conceded": 0
+      },
+      "missing_candidates": {
+        "goals": 0,
+        "assists": 0,
+        "matches": 0,
+        "shots_on_goal": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "team_wins": 0,
+        "clean_sheets": 0,
+        "goals_conceded": 0
+      }
+    },
+    "POTM": {
+      "history_rows": 11375,
+      "history_periods": [
+        "2024-08-31",
+        "2024-09-30",
+        "2024-10-31",
+        "2024-11-30",
+        "2024-12-31",
+        "2025-01-31"
+      ],
+      "candidates_rows": 1430,
+      "candidate_periods": [
+        "2026-09-30"
+      ],
+      "candidates_by_league": {
+        "Bundesliga": 253,
+        "La Liga": 349,
+        "Ligue 1": 257,
+        "Premier League": 273,
+        "Serie A": 298
+      },
+      "rejected_groups": [],
+      "missing_history": {
+        "goals": 0,
+        "assists": 0,
+        "matches": 0,
+        "shots_on_goal": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "team_wins": 0,
+        "clean_sheets": 0,
+        "goals_conceded": 0
+      },
+      "missing_candidates": {
+        "goals": 0,
+        "assists": 0,
+        "matches": 0,
+        "shots_on_goal": 0,
+        "yellow_cards": 0,
+        "red_cards": 0,
+        "team_wins": 0,
+        "clean_sheets": 0,
+        "goals_conceded": 0
+      }
+    }
+  },
+  "current_matches": {
+    "count": 153,
+    "first_date": "2026-09-03",
+    "last_date": "2026-09-20",
+    "by_league": {
+      "Bundesliga": {
+        "min": "2026-09-04",
+        "max": "2026-09-20"
+      },
+      "La Liga": {
+        "min": "2026-09-03",
+        "max": "2026-09-20"
+      },
+      "Ligue 1": {
+        "min": "2026-09-03",
+        "max": "2026-09-20"
+      },
+      "Premier League": {
+        "min": "2026-09-04",
+        "max": "2026-09-20"
+      },
+      "Serie A": {
+        "min": "2026-09-04",
+        "max": "2026-09-20"
+      }
+    }
+  }
+}

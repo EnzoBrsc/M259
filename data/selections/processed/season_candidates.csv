@@ -1,0 +1,1590 @@
+period_end,competition,player_id,player,goals,assists,minutes,matches,tackles,interceptions,saves,goals_conceded,clean_sheets,position
+2026-06-30,Bundesliga,name-birth:16de0d9ec5d89c71,Álex Grimaldo,8.0,7.0,2521.0,29.0,,,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,name-birth:51fd9057af929127,Lee Jae-sung,4.0,2.0,2185.0,28.0,,,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,name-birth:84813c292be757ed,Chema,3.0,0.0,1310.0,25.0,,,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,name-birth:8a86ec057eeadf0b,Abdoul Coulibaly,1.0,0.0,2120.0,27.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,name-birth:ae3f09f00d37f407,Jeong Woo-yeong,4.0,1.0,1197.0,28.0,,,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,name-birth:b517334a9bf645d5,Yannik Engelhardt,2.0,2.0,2487.0,31.0,,,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,name-birth:ec0b9863f5b023b1,Julian Chabot,0.0,0.0,2294.0,27.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1000269,Albian Hajdari,1.0,2.0,2434.0,30.0,58.0,42.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1002461,Joel Fujita,1.0,3.0,2665.0,32.0,68.0,33.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1002813,Yan Couto,2.0,2.0,997.0,19.0,20.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1002920,Joe Scally,2.0,3.0,2608.0,32.0,48.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1003012,Ezequiél Fernández,0.0,1.0,984.0,20.0,31.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1003339,Jarell Quansah,4.0,0.0,2299.0,28.0,28.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1005343,Justin Njinmah,5.0,0.0,1947.0,33.0,23.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1006489,Loïc Bade,0.0,0.0,1653.0,23.0,33.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1009334,Lorenz Assignon,0.0,0.0,1094.0,24.0,22.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1010117,Fisnik Asllani,10.0,7.0,2335.0,33.0,17.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1010726,Jan Thielmann,3.0,1.0,1540.0,26.0,18.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1012235,Ransford Königsdörffer,5.0,1.0,2329.0,33.0,6.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1014290,Tim Lemperle,8.0,2.0,1944.0,29.0,21.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1014493,Rav van den Berg,0.0,1.0,1131.0,14.0,14.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1019312,Jens Castrop,3.0,1.0,1584.0,26.0,58.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1019321,Igor Matanović,11.0,2.0,1571.0,31.0,23.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1020206,Sebastian Sebulonsen,0.0,0.0,2498.0,31.0,44.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1020422,Yuito Suzuki,4.0,2.0,1632.0,25.0,20.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1021272,Daniel Svensson,2.0,2.0,2454.0,33.0,38.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1028307,Kaishū Sano,1.0,2.0,3059.0,34.0,52.0,66.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1035752,Giorgi Gocholeishvili,0.0,2.0,940.0,24.0,25.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1048569,Nnamdi Collins,1.0,2.0,1500.0,23.0,49.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1048650,Rocco Reitz,0.0,4.0,2627.0,31.0,68.0,49.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:105734,Christian Eriksen,3.0,9.0,2410.0,31.0,38.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1064305,Nicolai Remberg,0.0,2.0,2880.0,32.0,60.0,42.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1066042,Julian Niehues,3.0,0.0,1383.0,24.0,17.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:106662,Stefan Bell,2.0,1.0,1039.0,18.0,12.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1067120,Eren Dinkçi,3.0,1.0,1379.0,22.0,25.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1083382,Lukas Ullrich,0.0,0.0,1305.0,23.0,28.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1083390,Mio Backhaus,0.0,0.0,2880.0,32.0,0.0,0.0,102.0,56.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:1085381,Nicolas Jackson,8.0,1.0,1007.0,23.0,8.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:108579,Harry Kane,36.0,5.0,2377.0,31.0,19.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1086547,Leopold Querfeld,3.0,0.0,2705.0,31.0,52.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1100836,Samuel Mbangula,3.0,2.0,1171.0,26.0,16.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1102528,William Mikelbrencis,0.0,4.0,1372.0,26.0,34.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1107591,Mohamed Amoura,8.0,3.0,1919.0,30.0,38.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1112327,Ísak Jóhannesson,1.0,2.0,1809.0,31.0,27.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1112796,Andreas Hountondji,4.0,0.0,1067.0,21.0,7.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:111483,Michael Gregoritsch,6.0,2.0,913.0,17.0,5.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1119502,Ernest Poku,5.0,5.0,1482.0,29.0,13.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1121923,Antonio Nusa,4.0,3.0,2027.0,31.0,26.0,10.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1122806,Arthur Chaves,2.0,0.0,1069.0,15.0,26.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1125024,Tomoya Ando,0.0,1.0,1260.0,15.0,33.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1126569,Bilal El Khannouss,4.0,5.0,1630.0,25.0,28.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1127788,Aaron Zehnter,2.0,0.0,1456.0,20.0,15.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1127790,Dženan Pejčinović,8.0,0.0,1460.0,30.0,10.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1129365,Anton Kade,6.0,0.0,1743.0,28.0,31.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1129935,Tom Bischof,3.0,3.0,1302.0,26.0,26.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1130647,Jonas Urbig,0.0,0.0,1111.0,14.0,0.0,0.0,32.0,15.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:1131002,Derry Scherhant,5.0,1.0,1301.0,31.0,20.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1131339,Jordy Makengo,0.0,1.0,1178.0,20.0,22.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1133743,Rômulo,9.0,4.0,2188.0,30.0,30.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1134083,Jobe Bellingham,0.0,1.0,1786.0,32.0,44.0,38.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1134203,Kauã Santos,0.0,0.0,1084.0,13.0,1.0,0.0,37.0,32.0,1.0,GK
+2026-06-30,Bundesliga,sofascore:113442,Daniel Heuer Fernandes,0.0,0.0,2970.0,33.0,0.0,0.0,107.0,53.0,6.0,GK
+2026-06-30,Bundesliga,sofascore:1137900,Louis Oppie,1.0,0.0,1620.0,23.0,24.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1142211,Hugo Larsson,2.0,2.0,1812.0,25.0,19.0,31.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1142248,Arijon Ibrahimović,2.0,4.0,2169.0,32.0,34.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1142251,Aleksandar Pavlovic,3.0,1.0,1462.0,24.0,26.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1146148,Jean Mattéo Bahoya,3.0,4.0,1331.0,27.0,31.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1149113,Oscar Højlund,1.0,1.0,1089.0,24.0,29.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1155226,Sael Kumbedi,0.0,5.0,1804.0,24.0,45.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1159759,Nathaniel Brown,4.0,4.0,2656.0,33.0,81.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1173172,Jeanuël Belocian,0.0,1.0,1546.0,22.0,35.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1174761,Arthur,1.0,3.0,1136.0,20.0,20.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1180758,Adam Daghim,2.0,3.0,1364.0,27.0,26.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1184855,Konstantinos Koulierakis,4.0,1.0,2482.0,29.0,39.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1192318,Fares Chaïbi,2.0,9.0,1792.0,28.0,31.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1198074,Aljoscha Kemlein,0.0,2.0,1959.0,30.0,40.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1210666,Tom Rothe,2.0,0.0,1029.0,21.0,20.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:133908,Marcel Sabitzer,1.0,2.0,1817.0,26.0,30.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:136924,Willi Orban,2.0,0.0,2949.0,33.0,47.0,42.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:137692,Frederik Rønnow,0.0,0.0,2640.0,30.0,1.0,1.0,77.0,54.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:138024,Vladimír Coufal,1.0,8.0,3012.0,34.0,60.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:138126,Phillipp Mwene,1.0,2.0,2069.0,29.0,29.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1390682,Mert Kömür,2.0,4.0,1464.0,28.0,15.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1405212,Luka Vušković,6.0,0.0,2442.0,28.0,22.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1407524,Ibrahim Maza,3.0,4.0,1849.0,28.0,41.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1418623,Assan Ouédraogo,4.0,3.0,948.0,19.0,8.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1418649,Finn Jeltsch,0.0,1.0,1511.0,23.0,24.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:142231,Christian Günter,0.0,3.0,1547.0,24.0,19.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:142259,Matthias Ginter,3.0,3.0,2833.0,32.0,22.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:142390,Jonas Hofmann,2.0,2.0,1013.0,23.0,13.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:142525,Lukas Kübler,2.0,2.0,1587.0,23.0,40.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1440948,Can Uzun,8.0,4.0,1156.0,21.0,15.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1462742,Ilyas Ansah,5.0,1.0,1892.0,33.0,17.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:147289,Maximilian Arnold,1.0,4.0,1859.0,25.0,22.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1493305,Leon Avdullahu,0.0,1.0,2834.0,33.0,47.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:149479,Rani Khedira,5.0,1.0,2830.0,32.0,59.0,37.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1494826,Conrad Harder,3.0,3.0,932.0,29.0,10.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:149728,Budu Zivzivadze,6.0,0.0,1142.0,20.0,14.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:1518931,Johan Manzambi,5.0,4.0,2077.0,27.0,35.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:152206,Dominik Kohr,2.0,0.0,2338.0,29.0,48.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1548910,Kacper Potulski,1.0,0.0,1065.0,15.0,15.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1568123,Bazoumana Touré,5.0,9.0,2308.0,30.0,34.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:157377,Silvan Widmer,2.0,1.0,1810.0,27.0,40.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1596573,Ifechukwu Ogbus,0.0,0.0,1177.0,18.0,23.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:1597260,Noahkai Banks,1.0,1.0,1725.0,23.0,42.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:168861,Marnon Busch,1.0,5.0,1915.0,29.0,36.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:168903,Robert Andrich,2.0,0.0,2546.0,32.0,43.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:168985,Janik Haberer,0.0,1.0,1646.0,28.0,35.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:169255,Yannick Gerhardt,1.0,0.0,1068.0,19.0,14.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:171919,Mark Flekken,0.0,0.0,2129.0,24.0,0.0,0.0,79.0,38.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:171961,Vincenzo Grifo,7.0,4.0,1710.0,33.0,10.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1800475,Said El Mala,13.0,4.0,1956.0,34.0,24.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:181581,Jackson Irvine,0.0,1.0,1624.0,24.0,34.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:184661,Leon Goretzka,5.0,3.0,1947.0,31.0,29.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1861975,Lennart Karl,5.0,5.0,1281.0,26.0,25.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:1864760,Hannes Behrens,1.0,2.0,1318.0,16.0,28.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:187185,Marvin Schwäbe,0.0,0.0,3060.0,34.0,1.0,0.0,94.0,63.0,3.0,GK
+2026-06-30,Bundesliga,sofascore:187433,Serge Gnabry,8.0,6.0,1219.0,21.0,18.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:190161,Michael Zetterer,0.0,0.0,1976.0,22.0,0.0,1.0,63.0,33.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:2029648,Christian Kofane,5.0,4.0,1239.0,29.0,13.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:2087085,Yan Diomandé,12.0,8.0,2472.0,33.0,29.0,16.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:226978,Julian Brandt,7.0,4.0,1606.0,29.0,14.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:227672,Jonathan Tah,2.0,1.0,2018.0,28.0,24.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:252343,Adam Dźwigała,1.0,1.0,1288.0,19.0,46.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:253469,Hauke Wahl,2.0,1.0,2592.0,30.0,43.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:253993,Grischa Prömel,7.0,2.0,1758.0,33.0,36.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:254119,Marius Wolf,1.0,1.0,1019.0,29.0,19.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:254429,Patrick Mainka,2.0,2.0,3060.0,34.0,45.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:259117,Joshua Kimmich,2.0,8.0,2280.0,29.0,32.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:259803,Haris Tabaković,13.0,3.0,2382.0,32.0,10.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:280009,Lucas Höler,3.0,1.0,2037.0,33.0,25.0,11.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:280453,Franck Honorat,2.0,6.0,1977.0,28.0,22.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:280551,Manolis Saliakas,1.0,3.0,1106.0,17.0,29.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:280609,Patrik Schick,16.0,3.0,1988.0,28.0,9.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:282229,Nico Elvedi,0.0,2.0,2966.0,33.0,43.0,41.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:293127,Denis Vavro,1.0,0.0,1176.0,17.0,8.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:311676,Jonas Föhrenbach,1.0,1.0,2325.0,27.0,46.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:325061,Nikola Vasilj,0.0,0.0,3060.0,34.0,1.0,0.0,125.0,60.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:327755,Nadiem Amiri,12.0,2.0,2083.0,26.0,31.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:328027,Serhou Guirassy,17.0,1.0,2337.0,33.0,2.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:352544,Sheraldo Becker,3.0,3.0,946.0,14.0,2.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:354878,Dimitris Giannoulis,2.0,5.0,1888.0,27.0,27.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:355486,Stefan Posch,0.0,0.0,1395.0,16.0,12.0,4.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:355492,Konrad Laimer,3.0,9.0,1994.0,29.0,46.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:37096,Péter Gulácsi,0.0,0.0,2008.0,23.0,0.0,0.0,53.0,32.0,9.0,GK
+2026-06-30,Bundesliga,sofascore:378340,Marius Bülter,5.0,4.0,1597.0,32.0,7.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:40244,Oliver Baumann,0.0,0.0,3060.0,34.0,0.0,0.0,97.0,52.0,7.0,GK
+2026-06-30,Bundesliga,sofascore:48557,Christopher Trimmel,0.0,3.0,1861.0,29.0,38.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:542038,Eric Smith,2.0,2.0,2311.0,27.0,34.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:556866,Gregor Kobel,0.0,0.0,3060.0,34.0,0.0,0.0,89.0,34.0,15.0,GK
+2026-06-30,Bundesliga,sofascore:569784,Maximilian Eggestein,3.0,1.0,3060.0,34.0,64.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:575952,Mathias Honsak,2.0,1.0,1249.0,27.0,21.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:576266,Philipp Lienhart,1.0,0.0,1302.0,20.0,18.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:57627,Karol Mets,1.0,0.0,1932.0,23.0,25.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:577726,Ramy Bensebaini,5.0,2.0,1530.0,21.0,28.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:578166,Moritz Nicolas,0.0,0.0,3060.0,34.0,1.0,1.0,136.0,53.0,13.0,GK
+2026-06-30,Bundesliga,sofascore:581302,Robin Koch,3.0,1.0,2833.0,32.0,42.0,46.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:583806,Kevin Diks,5.0,0.0,2464.0,30.0,43.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:584722,Alexander Nübel,0.0,1.0,3060.0,34.0,0.0,1.0,110.0,49.0,11.0,GK
+2026-06-30,Bundesliga,sofascore:591706,Ellyes Skhiri,0.0,0.0,1444.0,25.0,20.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:608362,Oliver Burke,6.0,2.0,1664.0,29.0,12.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:67647,Andrej Kramarić,14.0,6.0,2207.0,34.0,8.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:788949,Maximilian Mittelstädt,6.0,4.0,2186.0,32.0,67.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:789192,Jean-Luc Dompé,3.0,0.0,1138.0,20.0,5.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:790965,Ritsu Doan,5.0,5.0,2364.0,31.0,43.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:791079,Xaver Schlager,3.0,1.0,1837.0,26.0,37.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:794298,Deniz Undav,19.0,7.0,2241.0,29.0,18.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:794995,Niklas Dorsch,0.0,1.0,2258.0,32.0,59.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:796047,Aleix García,3.0,8.0,2667.0,33.0,26.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:796206,Kristijan Jakić,2.0,1.0,1653.0,26.0,34.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:798303,Miro Muheim,0.0,4.0,2435.0,29.0,62.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:798583,Dayot Upamecano,1.0,1.0,1794.0,24.0,44.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:798926,Cedric Zesiger,0.0,0.0,1816.0,27.0,34.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:798936,Benedikt Gimber,0.0,0.0,1436.0,21.0,35.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:799046,Waldemar Anton,2.0,0.0,2880.0,32.0,73.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:800951,Julian Ryerson,0.0,15.0,2266.0,31.0,34.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:801003,Jordan Torunarigha,0.0,0.0,1962.0,24.0,37.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:801030,Atakan Karazor,0.0,1.0,1884.0,28.0,42.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:801263,Jakub Kamiński,7.0,3.0,3016.0,34.0,45.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:815612,Marco Grüll,3.0,1.0,2006.0,33.0,38.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:822340,Phillip Tietz,6.0,2.0,1808.0,29.0,8.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:822564,Finn Dahmen,0.0,0.0,3060.0,34.0,3.0,0.0,106.0,61.0,5.0,GK
+2026-06-30,Bundesliga,sofascore:822600,Exequiel Palacios,0.0,1.0,1099.0,18.0,21.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:822877,Alexis Claude-Maurice,5.0,4.0,2097.0,29.0,41.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:825771,Marco Friedl,1.0,0.0,2546.0,30.0,44.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:825956,Christoph Baumgartner,13.0,8.0,2780.0,33.0,54.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:826171,Senne Lynen,0.0,0.0,2752.0,31.0,63.0,78.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:828571,Bernardo,0.0,0.0,2312.0,29.0,68.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:830127,Romano Schmid,4.0,8.0,2982.0,34.0,46.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:830142,Jens Stage,10.0,2.0,2460.0,29.0,41.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:830803,Danilho Doekhi,5.0,0.0,3060.0,34.0,44.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:831400,Mathias Pereira Lage,2.0,2.0,2018.0,28.0,38.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:836711,Jan-Niklas Beste,2.0,2.0,1704.0,28.0,40.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:837205,Florian Neuhaus,0.0,1.0,930.0,17.0,12.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:841947,Lovro Majer,2.0,3.0,1371.0,28.0,26.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:842188,Elvis Rexhbeçaj,2.0,0.0,1118.0,26.0,18.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:842364,Joakim Mæhle,1.0,2.0,1222.0,16.0,35.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:842526,Bakery Jatta,1.0,1.0,911.0,15.0,15.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:851254,Amos Pieper,0.0,0.0,1502.0,19.0,31.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:855663,Diogo Leite,0.0,0.0,1963.0,23.0,33.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:856076,David Raum,3.0,7.0,2553.0,30.0,48.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:856553,Ridle Baku,2.0,3.0,2504.0,32.0,60.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:857740,Ozan Kabak,4.0,0.0,1751.0,25.0,20.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:860461,Robin Fellhauer,3.0,2.0,2799.0,34.0,57.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:861850,Martijn Kaars,3.0,1.0,1348.0,29.0,7.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:861981,Nikolas Nartey,4.0,3.0,1256.0,28.0,14.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:873106,Hiroki Ito,1.0,2.0,920.0,16.0,4.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:873347,Lars Ritzka,0.0,0.0,966.0,21.0,40.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:877302,András Schäfer,2.0,1.0,1421.0,28.0,41.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:877544,Ragnar Ache,7.0,4.0,1718.0,29.0,13.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:878081,Ermedin Demirović,12.0,3.0,1497.0,25.0,14.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:883262,Edmond Tapsoba,5.0,3.0,2575.0,29.0,31.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:883537,Luis Díaz,15.0,14.0,2447.0,32.0,21.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:885892,James Sands,1.0,0.0,1934.0,24.0,42.0,42.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:886737,Derrick Köhn,1.0,2.0,1899.0,29.0,34.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:887500,Danel Sinani,5.0,3.0,2069.0,30.0,25.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:891510,Chris Führich,7.0,7.0,1698.0,33.0,15.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:891651,Keven Schlotterbeck,0.0,1.0,2031.0,24.0,40.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:8959,Manuel Neuer,0.0,0.0,1859.0,22.0,0.0,0.0,31.0,20.0,6.0,GK
+2026-06-30,Bundesliga,sofascore:896569,Kim Min-jae,1.0,1.0,1602.0,25.0,22.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:901882,Angelo Stiller,2.0,5.0,2743.0,34.0,49.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:901892,Albert Sambi Lokonga,5.0,0.0,1710.0,26.0,31.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:902080,Kamil Grabara,0.0,0.0,3060.0,34.0,1.0,1.0,123.0,69.0,2.0,GK
+2026-06-30,Bundesliga,sofascore:904835,Fabio Vieira,7.0,5.0,2206.0,29.0,20.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:905347,Yukinari Sugawara,0.0,6.0,2428.0,31.0,36.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:906278,Josha Vagnoman,1.0,3.0,1587.0,27.0,30.0,3.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:907463,Felix Nmecha,2.0,3.0,2176.0,29.0,37.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:909485,Marvin Pieringer,4.0,1.0,1650.0,27.0,20.0,10.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:914755,Patrick Osterhage,1.0,0.0,1189.0,20.0,14.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:916176,Cameron Puertas,1.0,2.0,1846.0,28.0,60.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:916943,Ramon Hendriks,0.0,3.0,2025.0,31.0,35.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:916946,Wouter Burger,4.0,5.0,2430.0,30.0,72.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:920022,Omar Traoré,0.0,2.0,1501.0,26.0,24.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:920525,Moritz Jenz,1.0,0.0,1787.0,22.0,32.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:921033,Linton Maina,2.0,0.0,1023.0,24.0,9.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:921789,Rasmus Kristensen,2.0,0.0,1538.0,22.0,46.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:925910,Shuto Machino,3.0,1.0,1076.0,32.0,8.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:927340,Han-Noah Massengo,2.0,1.0,2427.0,33.0,41.0,38.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:927407,Josip Stanišić,2.0,3.0,1857.0,26.0,28.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:929620,Fabian Rieder,6.0,3.0,2343.0,32.0,37.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:930272,Tom Krauß,0.0,2.0,1780.0,26.0,72.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:933707,Jan Schöppner,3.0,3.0,2252.0,31.0,32.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:934385,Maarten Vandevoordt,0.0,0.0,1052.0,12.0,1.0,0.0,31.0,15.0,2.0,GK
+2026-06-30,Bundesliga,sofascore:939830,Jonathan Burkardt,13.0,1.0,1336.0,22.0,8.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:939880,Philipp Sander,2.0,0.0,2445.0,30.0,65.0,50.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:940054,Karim Adeyemi,7.0,4.0,1195.0,28.0,5.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:940871,Nico Schlotterbeck,5.0,1.0,2520.0,28.0,50.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:94312,Daniel Batz,0.0,0.0,1890.0,21.0,0.0,0.0,70.0,27.0,4.0,GK
+2026-06-30,Bundesliga,sofascore:945532,Daniel Elfadli,0.0,0.0,1253.0,21.0,22.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:953097,Cenk Özkacar,0.0,0.0,1791.0,25.0,33.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:953767,Andrej Ilic,5.0,10.0,2257.0,32.0,4.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:95381,Kevin Stöger,1.0,1.0,1324.0,29.0,37.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:954061,Arnaud Kalimuendo,6.0,1.0,1417.0,19.0,11.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:957615,Robin Hranáč,1.0,0.0,2251.0,29.0,25.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:960114,Olivier Deman,1.0,2.0,1254.0,16.0,39.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:963043,Kristoffer Lund,0.0,2.0,2276.0,33.0,38.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:963198,Chrislain Matsima,1.0,1.0,1489.0,18.0,19.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:965778,Arthur Theate,1.0,0.0,2141.0,24.0,35.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:965950,Joël Schmied,0.0,0.0,1078.0,16.0,11.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:96832,Janis Blaswich,0.0,0.0,931.0,11.0,0.0,0.0,41.0,9.0,3.0,GK
+2026-06-30,Bundesliga,sofascore:971481,Arkadiusz Pyrka,0.0,1.0,2576.0,31.0,39.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:973564,Nicolás Capaldo,1.0,3.0,2001.0,26.0,68.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:975798,Malik Tillman,6.0,1.0,1674.0,29.0,38.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:976421,Castello Lukeba,1.0,0.0,2176.0,26.0,31.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:976575,Nicolas Seiwald,0.0,2.0,2694.0,33.0,66.0,56.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:978062,Alexander Prass,3.0,2.0,1308.0,32.0,32.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:978838,Michael Olise,15.0,19.0,2316.0,32.0,24.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:979144,Luca Netz,0.0,2.0,940.0,15.0,16.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:97926,Danny da Costa,2.0,3.0,2695.0,34.0,43.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:979290,Vinicius Souza,0.0,0.0,1764.0,24.0,55.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:979820,Philipp Treu,1.0,2.0,2186.0,28.0,45.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:980621,Paul Nebel,5.0,2.0,2073.0,30.0,50.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:980626,Noah Atubolu,0.0,0.0,3060.0,34.0,0.0,0.0,102.0,57.0,6.0,GK
+2026-06-30,Bundesliga,sofascore:980628,Maximilian Beier,9.0,6.0,2026.0,32.0,26.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:981562,Diant Ramaj,0.0,1.0,2790.0,31.0,1.0,0.0,100.0,67.0,1.0,GK
+2026-06-30,Bundesliga,sofascore:983540,Tiago Tomás,5.0,3.0,1020.0,27.0,15.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:987504,Patrick Wimmer,4.0,3.0,1621.0,25.0,47.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:988252,Tim Siersleben,0.0,0.0,1081.0,15.0,23.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:988639,Eric Martel,2.0,2.0,2559.0,31.0,46.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:990201,Jamie Leweling,7.0,9.0,2367.0,32.0,22.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:991824,Rayan Philippe,5.0,0.0,1285.0,28.0,20.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Bundesliga,sofascore:994556,Carney Chukwuemeka,2.0,0.0,919.0,28.0,21.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:997012,Ansgar Knauff,4.0,1.0,1326.0,28.0,13.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Bundesliga,sofascore:999030,Warmed Omari,0.0,1.0,1605.0,20.0,22.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Bundesliga,sofascore:999276,Aurèle Amenda,0.0,0.0,1678.0,24.0,15.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:0b47628f2491a81f,Youssef Lekhedim,0.0,1.0,1335.0,25.0,,,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:2428074f4d0b3b9b,Viktor Tsyhankov,6.0,5.0,2630.0,32.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:2de12c50f0f316eb,Alejandro Rego,1.0,1.0,1279.0,29.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:3cf6b124cbbfd18c,Abde Rebbach,1.0,4.0,1496.0,30.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:4d7c0541b3a40e69,Alfonso Espino,2.0,0.0,1486.0,30.0,,,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:520159a125e45b9a,Joaquín Martínez Gauna,2.0,3.0,1408.0,21.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:52270c106cfa725f,Kiké,8.0,1.0,1734.0,37.0,,,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,name-birth:688c8122e00f218e,Raúl,7.0,1.0,1041.0,36.0,,,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,name-birth:82616e86a7431eb4,Isaac Palazón Camacho,3.0,3.0,2248.0,31.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:86b37e227e0be220,José Luis García Vayá,2.0,0.0,2225.0,31.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:90b08c520d0ec923,Karl Etta Eyong,7.0,4.0,1672.0,33.0,,,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,name-birth:ad40f30c648816aa,Rahim Bonkano,0.0,0.0,1713.0,27.0,,,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:b147ddf9742d693b,Jonny Castro,0.0,0.0,2994.0,34.0,,,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:b235d976799e7d44,Olasagasti,1.0,5.0,1734.0,33.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:bab78fc2a0595b9c,Peque,2.0,1.0,982.0,26.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:c4147668b63c439a,Manu Sánchez,1.0,2.0,2814.0,33.0,,,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,name-birth:cc26bcf67a6a8e7f,Cucho,11.0,3.0,2580.0,32.0,,,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,name-birth:e05f429928d50a0e,Brugui,1.0,1.0,1005.0,19.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,name-birth:e1182a35306cedbc,Jofre,1.0,0.0,930.0,26.0,,,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1000483,Marc Casado,0.0,1.0,989.0,24.0,18.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1002347,Alejandro Francés,0.0,2.0,1116.0,24.0,25.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1002764,Sergio Carreira,2.0,1.0,2694.0,34.0,32.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1008037,Ilyas Chaira,6.0,2.0,2447.0,36.0,49.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1008259,Javi Rueda,2.0,6.0,1404.0,26.0,20.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1009372,Georges Mikautadze,13.0,6.0,2109.0,32.0,6.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1010165,Abel Bretones,1.0,2.0,1624.0,28.0,33.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1010421,Pep Chavarría,1.0,2.0,2682.0,33.0,54.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1010655,Juanlu Sánchez,0.0,3.0,1990.0,32.0,63.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1010656,Carlos Álvarez,3.0,1.0,1890.0,30.0,22.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1011375,Abde Ezzalzouli,10.0,8.0,2247.0,29.0,53.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1012410,Álvaro Núñez,0.0,2.0,1975.0,25.0,29.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1012444,Alberto Moleiro,10.0,5.0,2478.0,37.0,30.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1014042,Iván Romero,7.0,1.0,2259.0,32.0,33.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1014412,Julen Agirrezabala,0.0,0.0,1620.0,18.0,2.0,0.0,54.0,30.0,4.0,GK
+2026-06-30,La Liga,sofascore:1014595,Marc Aguado,1.0,2.0,2500.0,35.0,48.0,43.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1015240,Carmona,1.0,3.0,2565.0,35.0,65.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1015287,Natan,0.0,0.0,2807.0,33.0,32.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1018190,Isaac Romero,4.0,0.0,1484.0,29.0,16.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1063015,Tyrhys Dolan,2.0,5.0,2415.0,36.0,57.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1064009,Urko González,0.0,1.0,2634.0,36.0,55.0,32.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1064026,Omar El Hilali,0.0,2.0,2826.0,36.0,73.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1066603,Luiz Lúcio Reis Júnior,0.0,0.0,2520.0,28.0,0.0,1.0,73.0,30.0,8.0,GK
+2026-06-30,La Liga,sofascore:1067582,Enzo Boyomo,1.0,2.0,2542.0,30.0,58.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1082981,Pablo Torre,4.0,4.0,1599.0,35.0,22.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1083832,Kervin Arriaga,3.0,3.0,1532.0,27.0,41.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1084081,Arnau Martinez,2.0,3.0,2666.0,35.0,66.0,41.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1084381,Pablo Ibáñez,1.0,1.0,2236.0,37.0,57.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1084399,Carlos Vicente,5.0,0.0,1258.0,21.0,27.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1084730,Bryan Zaragoza,1.0,1.0,1131.0,19.0,10.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1085081,Álvaro Carreras,2.0,3.0,2332.0,28.0,41.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1085400,Nico Williams,6.0,3.0,1674.0,25.0,15.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1087359,Renato Veiga,0.0,0.0,2481.0,32.0,19.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1088565,Ramón Terrats,1.0,2.0,1030.0,29.0,22.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1091116,Arda Güler,4.0,9.0,2014.0,33.0,46.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1094106,Marc Pubill,1.0,1.0,1381.0,19.0,25.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1094827,Gerard Martín,0.0,0.0,2119.0,32.0,40.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1097719,Kike Salas,2.0,0.0,2203.0,26.0,59.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1099352,Giuliano Simeone,4.0,6.0,2099.0,31.0,45.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1100646,Martim Neto,2.0,5.0,1347.0,25.0,21.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1101232,Abdel Abqar,0.0,2.0,1437.0,23.0,38.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:110783,Sergi Darder,1.0,5.0,2680.0,38.0,28.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1108450,Zaid Romero,1.0,0.0,1349.0,15.0,31.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1116388,Jon Aramburu,1.0,0.0,2773.0,35.0,105.0,47.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1119586,Iker Muñoz,0.0,0.0,952.0,19.0,12.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1120669,Hugo Sotelo,0.0,2.0,1338.0,20.0,30.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1122610,Javier Guerra,4.0,6.0,2061.0,36.0,29.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1126779,Williot Swedberg,5.0,5.0,1270.0,29.0,28.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1129360,Clemens Riedel,0.0,1.0,1396.0,20.0,28.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1131909,Leo Román,0.0,0.0,2970.0,33.0,1.0,1.0,100.0,50.0,4.0,GK
+2026-06-30,La Liga,sofascore:1137814,Sergi Altimira,1.0,2.0,1186.0,24.0,51.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1139409,Pablo Marín,0.0,1.0,1502.0,34.0,19.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1142588,Pablo Barrios,1.0,1.0,1661.0,23.0,30.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1145100,Yoel Lago,0.0,0.0,938.0,12.0,19.0,7.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1145642,Víctor Muñoz,6.0,2.0,2656.0,34.0,22.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1153270,Fermin López,6.0,9.0,1797.0,30.0,48.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1154549,Mario Martín,2.0,1.0,2125.0,35.0,56.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1154587,Álvaro Rodríguez,7.0,5.0,2201.0,34.0,24.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1154935,Hugo Álvarez,4.0,2.0,1340.0,28.0,15.0,10.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1156645,Raúl Asencio,2.0,0.0,1708.0,23.0,17.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1170693,Mateo Joseph,2.0,3.0,1699.0,29.0,29.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1172477,Tani Oluwaseyi,2.0,2.0,901.0,27.0,7.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1176744,Dean Huijsen,2.0,2.0,2034.0,28.0,31.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1177401,Alan Matturro,1.0,1.0,947.0,19.0,21.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1186010,Valentín Gómez,1.0,0.0,1882.0,28.0,46.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1216309,Jon Gorrotxategi,1.0,3.0,2210.0,30.0,45.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:134029,Mathew Ryan,0.0,0.0,3240.0,36.0,2.0,1.0,126.0,56.0,9.0,GK
+2026-06-30,La Liga,sofascore:138149,Odysseas Vlachodimos,0.0,0.0,2970.0,33.0,0.0,1.0,89.0,52.0,5.0,GK
+2026-06-30,La Liga,sofascore:138383,Denis Suárez,1.0,2.0,1406.0,30.0,23.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:138572,Dani Carvajal,0.0,1.0,977.0,17.0,14.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:138892,João Cancelo,2.0,2.0,954.0,16.0,27.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1391375,Unai Gómez,1.0,1.0,936.0,26.0,13.0,1.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1391616,Joel Roca,3.0,1.0,1473.0,32.0,23.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1391752,Rodrigo Mendoza,1.0,1.0,1228.0,24.0,16.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1392592,Roberto Férnandez,7.0,3.0,2382.0,38.0,12.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1396048,Carlos Romero,6.0,3.0,3191.0,36.0,97.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1398524,Pablo Durán,2.0,2.0,1425.0,30.0,16.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1398526,Miguel Román,1.0,0.0,1311.0,19.0,27.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1402716,Gonzalo García,6.0,1.0,964.0,30.0,11.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1402912,Lamine Yamal,16.0,11.0,2262.0,28.0,35.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1402913,Pau Cubarsí,1.0,0.0,2703.0,31.0,42.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1403559,Franco Mastantuono,1.0,0.0,1037.0,23.0,20.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:141832,Pedro Bigas,1.0,3.0,2063.0,28.0,36.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:142622,Antonio Rüdiger,1.0,0.0,1490.0,18.0,14.0,4.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1428699,Castrin,1.0,0.0,1277.0,19.0,26.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1458073,Nobel Mendy,2.0,0.0,1797.0,24.0,27.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1466116,Jon Martin,2.0,0.0,2250.0,25.0,31.0,34.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1468046,Santiago Mouriño,1.0,2.0,2377.0,28.0,102.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:146866,Gerard Moreno,10.0,0.0,1343.0,22.0,15.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1485300,Vitor Reis,1.0,1.0,3138.0,36.0,50.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:149370,Moi Gómez,0.0,2.0,1201.0,26.0,20.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1495844,Mikel Jauregizar,2.0,0.0,2831.0,36.0,68.0,46.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:149606,Jeremy Toljan,1.0,4.0,3164.0,37.0,67.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1496360,Matias Moreno,0.0,0.0,2252.0,28.0,33.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:149734,Aymeric Laporte,0.0,1.0,2058.0,25.0,27.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:151138,Dimitri Foulquier,0.0,0.0,1150.0,15.0,15.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1513222,Ángel Pérez,1.0,3.0,1288.0,16.0,15.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1513896,David López,0.0,0.0,1130.0,20.0,11.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1515554,Adrián Liso,3.0,0.0,1702.0,28.0,28.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1525863,Pau Navarro,0.0,0.0,1921.0,23.0,65.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1526627,Javi Rodríguez,0.0,1.0,2558.0,33.0,38.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:1526628,Fer López,1.0,1.0,1170.0,17.0,20.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:1632454,Hugo Rincón,1.0,1.0,1750.0,33.0,47.0,5.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:164343,Paulo Gazzaniga,0.0,0.0,3102.0,35.0,1.0,0.0,116.0,47.0,6.0,GK
+2026-06-30,La Liga,sofascore:1649918,Carlos Espí,11.0,0.0,1343.0,25.0,13.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1649919,Kareem Tunde,0.0,1.0,1133.0,21.0,23.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:175185,Pere Milla,7.0,1.0,1973.0,33.0,37.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:17651,Santi Cazorla,0.0,1.0,940.0,28.0,17.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:187313,Lucas Torró,0.0,1.0,2293.0,34.0,39.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:188365,Héctor Bellerín,2.0,3.0,1822.0,27.0,31.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:190159,André Silva,10.0,0.0,1849.0,31.0,14.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:190405,Leander Dendoncker,1.0,0.0,1330.0,19.0,36.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:191182,Thomas Lemar,3.0,1.0,1258.0,27.0,27.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:19356,Iago Aspas,5.0,3.0,1140.0,32.0,15.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:1939173,Jan Virgili,2.0,4.0,1792.0,31.0,15.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:21555,César Azpilicueta,0.0,1.0,1213.0,17.0,27.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:227922,José Luis Gayà,1.0,2.0,2448.0,32.0,69.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:255999,Omar Mascarell,2.0,2.0,2239.0,30.0,48.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:257091,Duje Ćaleta-Car,1.0,0.0,2150.0,27.0,24.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:260031,Rubén García,2.0,5.0,2229.0,35.0,50.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:280979,Gonçalo Guedes,8.0,4.0,1823.0,32.0,25.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:286167,Aleix Febas,2.0,2.0,3160.0,36.0,77.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:294377,Sergio Herrera,0.0,0.0,3284.0,37.0,0.0,0.0,113.0,47.0,7.0,GK
+2026-06-30,La Liga,sofascore:294593,Álex Moreno,0.0,3.0,2559.0,31.0,43.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:300522,Martin Valjent,0.0,0.0,3308.0,37.0,50.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:305278,Diego Llorente,1.0,0.0,1229.0,18.0,27.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:307702,Djené,0.0,0.0,2578.0,34.0,36.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:309078,Alexander Sørloth,13.0,0.0,1980.0,35.0,14.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:310874,Vedat Muriqi,23.0,1.0,3128.0,37.0,9.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:316148,Thomas Partey,0.0,0.0,934.0,25.0,18.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:325355,José María Giménez,0.0,1.0,1178.0,16.0,25.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:326471,Gerard Gumbau,0.0,3.0,1175.0,28.0,29.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:34120,Alexis Sánchez,4.0,2.0,1308.0,28.0,22.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:344847,Johan Mojica,0.0,4.0,2724.0,35.0,51.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:345111,Álvaro García,4.0,5.0,2101.0,32.0,27.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:345195,Ayoze Pérez,5.0,4.0,1124.0,25.0,22.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:345333,David Costas,1.0,0.0,2066.0,25.0,26.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:350560,Diego Rico,0.0,0.0,1758.0,28.0,47.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:353138,Marcos Llorente,0.0,4.0,2181.0,29.0,59.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:35532,Salomón Rondón,2.0,0.0,1032.0,16.0,3.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:35612,Axel Witsel,1.0,2.0,2526.0,32.0,37.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:358910,Augusto Batalla,0.0,0.0,3060.0,34.0,1.0,0.0,92.0,37.0,11.0,GK
+2026-06-30,La Liga,sofascore:359272,Sofyan Amrabat,0.0,0.0,1295.0,17.0,27.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:360718,Carl Starfelt,0.0,0.0,1491.0,19.0,23.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:368922,Aarón Escandell,0.0,1.0,3240.0,36.0,0.0,0.0,148.0,56.0,10.0,GK
+2026-06-30,La Liga,sofascore:369004,Antonio Sivera,0.0,0.0,3420.0,38.0,2.0,0.0,97.0,56.0,5.0,GK
+2026-06-30,La Liga,sofascore:37318,Ante Budimir,17.0,0.0,2938.0,37.0,21.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:385888,Mauro Arambarri,6.0,2.0,3249.0,37.0,67.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:39182,Daniel Parejo,1.0,0.0,1392.0,32.0,42.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:41789,Robert Lewandowski,14.0,2.0,1664.0,31.0,5.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:44864,Daley Blind,0.0,0.0,2606.0,31.0,55.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:53739,Kiko Femenía,1.0,1.0,2008.0,28.0,39.0,34.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:556884,Matías Dituro,0.0,0.0,1980.0,22.0,0.0,1.0,64.0,29.0,4.0,GK
+2026-06-30,La Liga,sofascore:560756,Dani Calvo,0.0,0.0,1611.0,20.0,27.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:576276,Domingos Duarte,1.0,1.0,2923.0,34.0,31.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:580550,Clément Lenglet,0.0,1.0,1391.0,19.0,21.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:588566,Unai López,0.0,4.0,1612.0,28.0,31.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:592012,Álex Berenguer,2.0,3.0,2154.0,31.0,28.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:593526,Nicolas Pépé,8.0,8.0,2393.0,36.0,31.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:597876,Lucas Ahijado,0.0,1.0,1098.0,20.0,46.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:604258,David Soria,0.0,0.0,3420.0,38.0,0.0,0.0,118.0,38.0,12.0,GK
+2026-06-30,La Liga,sofascore:604954,Borja Mayoral,4.0,1.0,1058.0,16.0,5.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:605374,Tete Morente,1.0,1.0,929.0,13.0,22.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:605672,Gorka Guruzeta,10.0,3.0,2363.0,35.0,19.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:606346,Eric Bailly,1.0,0.0,1234.0,15.0,12.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:609752,Guido Rodríguez,4.0,0.0,1309.0,16.0,41.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:67769,Ricardo Rodríguez,0.0,1.0,1547.0,23.0,24.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:68332,Nemanja Gudelj,2.0,0.0,2348.0,34.0,35.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:69408,Marcos Alonso,1.0,0.0,2768.0,32.0,41.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:69768,Jan Oblak,0.0,0.0,2700.0,30.0,0.0,0.0,75.0,31.0,11.0,GK
+2026-06-30,La Liga,sofascore:70988,Thibaut Courtois,0.0,0.0,2880.0,32.0,1.0,0.0,70.0,28.0,13.0,GK
+2026-06-30,La Liga,sofascore:754710,Umar Sadiq,4.0,2.0,1064.0,25.0,8.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:783374,Iñaki Williams,3.0,6.0,2157.0,30.0,12.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:785989,Borja Iglesias,14.0,2.0,1900.0,35.0,8.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:787751,Robin Le Normand,1.0,1.0,1789.0,28.0,35.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:788141,Jon Guridi,0.0,0.0,1238.0,28.0,28.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:788216,Pablo Maffeo,1.0,2.0,2662.0,31.0,68.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:789071,Dani Olmo,7.0,8.0,2067.0,33.0,33.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:791773,Álex Remiro,0.0,0.0,3330.0,37.0,1.0,1.0,99.0,60.0,3.0,GK
+2026-06-30,La Liga,sofascore:794937,Carles Aleñá,0.0,4.0,1989.0,34.0,37.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:794949,Iñaki Peña,0.0,0.0,1440.0,16.0,0.0,0.0,55.0,28.0,4.0,GK
+2026-06-30,La Liga,sofascore:795064,Trent Alexander-Arnold,0.0,4.0,1163.0,21.0,14.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:795222,Frenkie de Jong,1.0,5.0,1636.0,25.0,45.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:797290,Alfonso Pedraza,1.0,3.0,1689.0,27.0,41.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:797291,Unai Simón,0.0,0.0,3330.0,37.0,1.0,0.0,100.0,54.0,6.0,GK
+2026-06-30,La Liga,sofascore:798835,Giovani Lo Celso,2.0,3.0,1393.0,24.0,19.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:799054,Djibril Sow,5.0,4.0,2187.0,33.0,45.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:807116,Antonio Raillo,0.0,1.0,2070.0,24.0,25.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:807771,Dávid Hancko,0.0,2.0,2432.0,30.0,43.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:811629,Luis Milla,1.0,10.0,3271.0,37.0,60.0,42.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:813574,Unai Elgezabal,1.0,0.0,958.0,12.0,8.0,3.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:814023,Eray Cömert,2.0,1.0,1337.0,17.0,26.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:814385,Lucas Boyé,11.0,1.0,1958.0,29.0,36.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:814590,Marcus Rashford,8.0,7.0,1763.0,32.0,8.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:815202,Ionuț Radu,0.0,0.0,3420.0,38.0,0.0,1.0,113.0,48.0,10.0,GK
+2026-06-30,La Liga,sofascore:816763,Pablo Fornals,9.0,6.0,2848.0,37.0,39.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:818986,Gabriel Suazo,0.0,2.0,2096.0,29.0,86.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:81992,Leandro Cabrera,3.0,0.0,3330.0,37.0,36.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:822379,Santiago Colombatto,0.0,1.0,2064.0,32.0,44.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:822519,Éder Militão,2.0,1.0,1139.0,16.0,23.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:823622,Mikel Oyarzabal,15.0,4.0,2710.0,34.0,29.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:825133,Javi Galán,0.0,1.0,1806.0,25.0,48.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:825754,Rafa Mir,8.0,0.0,1803.0,27.0,16.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:826004,Manu Morlanes,3.0,0.0,1765.0,32.0,56.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:826010,Pol Lozano,2.0,1.0,2157.0,33.0,38.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:826643,Kylian Mbappé,25.0,5.0,2599.0,31.0,4.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:827064,Arnaut Danjuma,3.0,2.0,1628.0,30.0,13.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:827212,Jules Koundé,1.0,3.0,2261.0,30.0,47.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:827504,Léo Pétrot,0.0,0.0,1572.0,32.0,37.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:831005,Raphinha,13.0,3.0,1380.0,22.0,15.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:831253,Toni Martínez,14.0,3.0,2714.0,37.0,28.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:831799,Nahuel Molina,2.0,2.0,1331.0,26.0,40.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:831808,Federico Valverde,5.0,8.0,2740.0,33.0,41.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:832427,Carlos Soler,4.0,3.0,2317.0,33.0,38.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:835484,Fran Beltrán,1.0,0.0,1540.0,27.0,34.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:835485,Brahim Díaz,1.0,6.0,1257.0,30.0,15.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:838159,Igor Zubeldia,0.0,1.0,2082.0,25.0,38.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:840951,Marcão,1.0,0.0,938.0,13.0,13.0,5.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:842419,Valentin Rosier,1.0,1.0,2547.0,31.0,48.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:843678,Santi Comesaña,3.0,6.0,2407.0,34.0,45.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:844752,Nacho Vidal,0.0,0.0,2263.0,29.0,45.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:84531,Yuri Berchiche,0.0,6.0,2705.0,32.0,43.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:845385,Brais Méndez,6.0,2.0,1660.0,29.0,37.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:84539,Koke,2.0,2.0,2219.0,34.0,50.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:845693,André Almeida,0.0,2.0,1017.0,22.0,23.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:847128,Marc Roca,1.0,1.0,2026.0,29.0,38.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:848512,Grady Diangana,1.0,0.0,926.0,20.0,14.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:851271,Fran Garcia,1.0,1.0,929.0,13.0,19.0,7.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:851282,Thierry Correia,0.0,2.0,1392.0,24.0,31.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:855831,Víctor Chust,1.0,0.0,2166.0,31.0,63.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:855832,Antonio Blanco,2.0,3.0,3110.0,36.0,94.0,54.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:855833,Ferran Torres,16.0,2.0,1965.0,33.0,7.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:855835,Sergio Gómez,0.0,6.0,2701.0,35.0,88.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:857205,Fernando Calero,0.0,0.0,2148.0,28.0,29.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:857482,Filip Ugrinic,0.0,3.0,1504.0,27.0,25.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:85859,Antoine Griezmann,7.0,4.0,1481.0,34.0,14.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:859021,Batista Mendy,1.0,0.0,1617.0,27.0,35.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:859025,Aurélien Tchouaméni,1.0,0.0,2615.0,33.0,68.0,47.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:859769,Oriol Rey,0.0,1.0,1319.0,20.0,20.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:859773,Óscar Mingueza,1.0,4.0,1968.0,34.0,42.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:866810,Andoni Gorosabel,0.0,1.0,1360.0,24.0,37.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:868812,Vinicius Júnior,16.0,5.0,2815.0,36.0,29.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:872919,Ruben Vargas,3.0,6.0,1594.0,24.0,19.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:873189,Juan Foyth,0.0,0.0,934.0,13.0,20.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:875890,Chidera Ejuke,1.0,1.0,932.0,27.0,19.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:876214,Eric García,1.0,1.0,2721.0,34.0,74.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:877262,Edu Expósito,1.0,6.0,2523.0,36.0,53.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:879694,Pape Gueye,5.0,2.0,2131.0,30.0,40.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:880218,Takefusa Kubo,2.0,4.0,1503.0,24.0,29.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:882475,Alberto Reina,4.0,1.0,2462.0,37.0,44.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:88528,Florian Lejeune,2.0,1.0,3230.0,36.0,66.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:892235,David Carmo,1.0,0.0,1786.0,22.0,34.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:892521,Unai Núñez,0.0,0.0,911.0,13.0,25.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:893062,Aitor Ruibal,4.0,2.0,1808.0,27.0,45.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:896073,Nahuel Tenaglia,2.0,0.0,3239.0,36.0,66.0,46.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:900003,Jorge de Frutos,10.0,1.0,2463.0,36.0,31.0,11.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:900008,Óscar Valentín,1.0,0.0,2108.0,33.0,72.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:900433,Luis Rioja,3.0,6.0,2624.0,37.0,36.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:900669,Pedro Díaz,0.0,1.0,1870.0,34.0,38.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:900792,Catena,3.0,2.0,3071.0,35.0,41.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:901325,Nicolás González,5.0,0.0,1448.0,24.0,24.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:905639,Kwasi Sibo,0.0,0.0,1681.0,26.0,34.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:908714,Arnau Tenas,0.0,0.0,900.0,10.0,1.0,0.0,30.0,16.0,0.0,GK
+2026-06-30,La Liga,sofascore:909119,Hugo Duro,10.0,0.0,1979.0,36.0,16.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:909966,Largie Ramazani,6.0,1.0,1234.0,27.0,14.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:910026,Bryan Gil,0.0,3.0,1578.0,29.0,31.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:910031,Álex Baena,2.0,3.0,1560.0,27.0,18.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:910267,Jesús Areso,0.0,1.0,1506.0,26.0,22.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:910978,Daniel Vivian,1.0,0.0,2564.0,31.0,55.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:913679,Pathé Ciss,2.0,1.0,1999.0,29.0,54.0,36.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:913695,Copete,0.0,0.0,1759.0,21.0,26.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:925097,Ronald Araújo,3.0,0.0,1071.0,24.0,21.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:927066,Pablo Martínez,1.0,5.0,1857.0,27.0,17.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:928672,Adrià Pedrosa,1.0,1.0,1096.0,27.0,34.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:930267,Joan García,0.0,0.0,2700.0,30.0,6.0,2.0,74.0,21.0,15.0,GK
+2026-06-30,La Liga,sofascore:934383,Jon Pacheco,0.0,0.0,1735.0,22.0,36.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:942836,Haissem Hassan,0.0,3.0,1942.0,37.0,39.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:944165,Roberto Navarro,6.0,1.0,1307.0,32.0,16.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:944225,Jorge Herrando,0.0,1.0,1600.0,28.0,32.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:944629,Nicolas Fonseca,0.0,0.0,1018.0,19.0,41.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:944656,Julián Álvarez,8.0,4.0,1895.0,29.0,21.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:944660,Thiago Almada,3.0,1.0,1311.0,27.0,29.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:94527,Marko Dmitrović,0.0,0.0,3330.0,37.0,3.0,0.0,133.0,54.0,10.0,GK
+2026-06-30,La Liga,sofascore:945404,Javi López,0.0,1.0,1711.0,25.0,43.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:946381,Akor Adams,10.0,3.0,2064.0,32.0,8.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:949156,Luka Sučić,3.0,1.0,1022.0,22.0,19.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:949707,Iglesias,1.0,2.0,3185.0,37.0,112.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:949722,Antonio Sánchez,0.0,0.0,1073.0,30.0,21.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:949962,Ferran Jutglà,9.0,3.0,1652.0,30.0,12.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:952222,Víctor García,2.0,1.0,1040.0,21.0,22.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:958380,Antony,8.0,6.0,2447.0,32.0,39.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:959872,Aitor Paredes,2.0,0.0,1630.0,19.0,21.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:960006,Lucien Agoume,1.0,3.0,2686.0,34.0,70.0,48.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:962029,Lucas Beltrán,1.0,2.0,1365.0,27.0,22.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:962710,Germán Valera,4.0,5.0,2857.0,36.0,55.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:962890,Ilaix Moriba,2.0,3.0,2495.0,36.0,87.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:96365,Iñigo Ruiz de Galarreta,1.0,2.0,2206.0,34.0,60.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:964983,Álvaro Vallés,0.0,0.0,2520.0,28.0,0.0,1.0,88.0,36.0,8.0,GK
+2026-06-30,La Liga,sofascore:965011,Matteo Ruggeri,0.0,3.0,1774.0,26.0,36.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:965031,Andrei Ratiu,0.0,4.0,2807.0,35.0,70.0,38.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:966637,Francisco Perez,2.0,1.0,1237.0,29.0,15.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:966801,Oihan Sancet,4.0,0.0,1788.0,28.0,25.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:966862,Ander Barrenetxea,3.0,5.0,1763.0,30.0,30.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:973290,Tajon Buchanan,7.0,1.0,1819.0,34.0,28.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:973536,Martin Satriano,6.0,1.0,1603.0,18.0,23.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:973699,Iván Martín,0.0,1.0,2532.0,35.0,61.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:973887,Eduardo Camavinga,1.0,0.0,1528.0,29.0,65.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:974713,Luis Vázquez,3.0,1.0,1194.0,17.0,5.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:976104,Federico Viñas,9.0,1.0,2439.0,33.0,50.0,14.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:976141,Jon Moncayola,0.0,4.0,3016.0,36.0,55.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:976374,Vladyslav Vanat,9.0,1.0,1942.0,27.0,5.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:97951,Stole Dimitrievski,0.0,0.0,1800.0,20.0,1.0,1.0,52.0,25.0,5.0,GK
+2026-06-30,La Liga,sofascore:980410,Beñat Turrientes,0.0,3.0,1348.0,27.0,40.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:981604,Alexandre Alemão,4.0,0.0,1136.0,26.0,5.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,La Liga,sofascore:984623,Rafa Marín,1.0,0.0,1979.0,23.0,37.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:985329,Aimar Oroz,0.0,2.0,2139.0,31.0,37.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:985726,Victor Parada,0.0,3.0,2146.0,30.0,33.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:986245,Sergi Cardona,1.0,4.0,1970.0,31.0,47.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:988351,Samu Costa,7.0,2.0,2697.0,34.0,65.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:988672,David Affengruber,1.0,1.0,2949.0,36.0,74.0,51.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:991011,Jude Bellingham,6.0,4.0,1916.0,28.0,51.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:991421,Azzedine Ounahi,5.0,2.0,1760.0,24.0,23.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:992331,Iker Losada,3.0,1.0,902.0,23.0,13.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:992587,Pedri,2.0,9.0,2104.0,29.0,50.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,La Liga,sofascore:99519,Marc Bartra,1.0,0.0,1978.0,25.0,45.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:996928,César Tárrega,0.0,0.0,2598.0,32.0,42.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:996929,Jesus Vazquez,0.0,0.0,974.0,24.0,24.0,4.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:997035,Alejandro Balde,0.0,2.0,1869.0,28.0,35.0,5.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:997244,Adrián de la Fuente,3.0,1.0,2711.0,33.0,31.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,La Liga,sofascore:998950,Diego López,4.0,1.0,1762.0,34.0,22.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:0141551c8699179a,Ali Yousuf,0.0,0.0,969.0,13.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:1250666172df296a,Arthur Avom,2.0,1.0,2119.0,31.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:183494d2b1929db1,Fabián Ruiz Peña,1.0,4.0,1131.0,20.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:1c4568756fbbe840,Dehmaine Assoumani,1.0,0.0,1276.0,27.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:1f7d87fc440798df,Michael Amir Murillo,2.0,1.0,989.0,16.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:4b3ec8b337927f19,Tosin Aiyegun,5.0,0.0,1073.0,27.0,,,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,name-birth:50851b667f8a2dd0,Pierre Højbjerg,4.0,5.0,2712.0,32.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:693653238d08f090,Abner,3.0,2.0,2150.0,26.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:74991e01dd93ec49,Dermane Karim,1.0,2.0,1365.0,30.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:8013f87d00b9aa95,Junior Dina Ebimbe,5.0,0.0,1165.0,27.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:8f1f37d933746f17,Matvei Safonov,0.0,0.0,1350.0,15.0,,,,,,GK
+2026-06-30,Ligue 1,name-birth:90e506ebde8b436f,Igor Carioca,1.0,0.0,1213.0,17.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:9585ab44b1c6df58,Lee Kang-in,3.0,4.0,1519.0,27.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:b404c30196096090,Emerson Palmieri,0.0,3.0,2114.0,28.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:b6e31adc63293428,Junior Diaz,0.0,0.0,1562.0,20.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:c1fdfb5796f1b51f,Otavio Ataide,1.0,0.0,1901.0,23.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:c8b3e2e5a52e8a93,Musa Al-Taamari,6.0,6.0,2212.0,33.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,name-birth:ce91f41a3214204f,Illia Zabarnyi,1.0,0.0,2387.0,28.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,name-birth:e3b79577315e38ea,Danny Loader,3.0,3.0,2517.0,30.0,,,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1000175,Adam Karabec,1.0,0.0,922.0,21.0,4.0,1.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1000442,Yassine Kechta,2.0,1.0,1332.0,30.0,32.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1001458,Issa Soumaré,8.0,5.0,2948.0,34.0,36.0,11.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1001858,Soumaïla Coulibaly,0.0,0.0,1338.0,16.0,14.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1002033,Guéla Doué,2.0,6.0,2061.0,24.0,50.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1004550,Jonathan Fischer,0.0,0.0,2354.0,27.0,0.0,0.0,94.0,56.0,5.0,GK
+2026-06-30,Ligue 1,sofascore:1005648,Fredrik Oppegard,0.0,0.0,1246.0,23.0,26.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1012657,Lucas Gourna-Douath,0.0,0.0,1272.0,15.0,26.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1015872,Obed Nkambadio,0.0,0.0,1080.0,12.0,0.0,0.0,27.0,21.0,1.0,GK
+2026-06-30,Ligue 1,sofascore:1020744,Charlie Cresswell,3.0,2.0,2533.0,29.0,26.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1022084,Tanner Tessmann,1.0,0.0,1953.0,29.0,29.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1035695,Fodé Doucouré,3.0,1.0,1239.0,26.0,36.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1035986,Josué Casimir,1.0,0.0,1522.0,31.0,31.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1035988,Arouna Sangante,1.0,1.0,2324.0,28.0,41.0,38.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1047484,Sekou Mara,3.0,2.0,1226.0,27.0,13.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1049442,Ilan Kebbal,9.0,4.0,2222.0,29.0,32.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1049515,Alidu Seidu,0.0,1.0,1186.0,21.0,35.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1049517,Ismaël Doukouré,0.0,2.0,2072.0,25.0,20.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1049538,Ousmane Camara,1.0,0.0,2718.0,32.0,47.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1050692,Diego Coppola,0.0,2.0,1170.0,13.0,12.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:105951,Benjamin Stambouli,0.0,0.0,960.0,19.0,23.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1063235,Mohamed Ali Cho,4.0,3.0,1667.0,24.0,15.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1064697,Mamadou Sangare,3.0,4.0,2323.0,29.0,86.0,40.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1083007,Mika Biereth,2.0,2.0,1074.0,32.0,11.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1087805,Marvin Senaya,1.0,0.0,1780.0,25.0,57.0,34.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1093695,Vitinha,1.0,7.0,2119.0,29.0,39.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1099117,Samson Baidoo,2.0,1.0,1827.0,23.0,34.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1102502,Quentin Merlin,1.0,5.0,2533.0,33.0,56.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1102503,Bamba Dieng,10.0,1.0,1212.0,22.0,7.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1103141,Sambou Soumano,4.0,2.0,941.0,31.0,5.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1108441,Lucas Beraldo,2.0,1.0,1567.0,20.0,31.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1119487,Nathan Ngoy,1.0,2.0,2405.0,29.0,33.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1120615,Antoine Mendy,1.0,0.0,2097.0,25.0,54.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1127057,Valentín Barco,2.0,4.0,2168.0,27.0,54.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1127313,Tom Louchet,3.0,2.0,1367.0,27.0,35.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1127590,Mohamed Kaba,0.0,2.0,918.0,12.0,12.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1128844,Emersonn,6.0,2.0,1499.0,27.0,20.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1129382,Bradley Locko,0.0,2.0,1286.0,21.0,53.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1130939,Maghnes Akliouche,6.0,6.0,2400.0,31.0,39.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1131540,Théo Le Bris,2.0,2.0,1893.0,28.0,40.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1131541,Bamo Meïté,0.0,3.0,1979.0,25.0,28.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1135887,Daouda Guindo,1.0,1.0,1686.0,25.0,37.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1138804,Hákon Haraldsson,8.0,2.0,2460.0,32.0,25.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1142233,Diego Moreira,4.0,6.0,2034.0,27.0,44.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1142672,Warren Zaïre-Emery,3.0,4.0,2447.0,32.0,48.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1149144,Matias Fernandez-Pardo,8.0,5.0,2370.0,29.0,20.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1149148,Mike Penders,0.0,0.0,2970.0,33.0,0.0,0.0,108.0,47.0,8.0,GK
+2026-06-30,Ligue 1,sofascore:1151803,Kévin Danois,3.0,1.0,2830.0,33.0,78.0,38.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1154605,Désiré Doué,7.0,4.0,1348.0,23.0,32.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1154630,Guillaume Restes,0.0,0.0,2939.0,33.0,0.0,1.0,84.0,45.0,9.0,GK
+2026-06-30,Ligue 1,sofascore:1154657,Mamadou Sarr,0.0,0.0,1305.0,15.0,15.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1156353,Kamory Doumbia,5.0,4.0,1750.0,24.0,61.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1169436,Frank Magri,5.0,1.0,1253.0,17.0,8.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1170532,Jacques Ekomie,0.0,0.0,2239.0,32.0,60.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1172936,Louis Mouton,2.0,1.0,1891.0,32.0,40.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1174462,Pablo Pagis,10.0,5.0,1756.0,28.0,27.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1174937,Endrick,5.0,7.0,1215.0,16.0,0.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1177351,Lamine Sy,0.0,0.0,1536.0,24.0,42.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1190933,João Neves,5.0,1.0,1287.0,21.0,27.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1190938,Martial Godo,10.0,1.0,1584.0,28.0,16.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1195241,Yassin Belkhdim,2.0,2.0,2135.0,27.0,59.0,36.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1197153,Junior Mwanga,1.0,1.0,1637.0,20.0,39.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1199247,Santiago Hidalgo,4.0,6.0,1306.0,28.0,38.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1200442,Terry Yegbe,0.0,1.0,1963.0,24.0,15.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1215906,Afonso Moreira,4.0,7.0,1722.0,27.0,33.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:122810,Aïssa Mandi,1.0,0.0,2424.0,29.0,33.0,44.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:123388,Djibril Sidibé,3.0,4.0,2141.0,32.0,48.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:128285,Maxime Colin,0.0,0.0,1692.0,22.0,40.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:128383,Gerónimo Rulli,0.0,0.0,2610.0,29.0,2.0,0.0,76.0,34.0,8.0,GK
+2026-06-30,Ligue 1,sofascore:128587,Thomas Meunier,2.0,2.0,1909.0,25.0,31.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1387156,Clément Akpa,0.0,0.0,1944.0,26.0,31.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1387161,Robin Risser,0.0,1.0,2970.0,33.0,0.0,0.0,78.0,35.0,11.0,GK
+2026-06-30,Ligue 1,sofascore:1389846,Lamine Camara,3.0,4.0,1847.0,24.0,55.0,37.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1391541,Ngal'Ayel Mukau,1.0,0.0,1534.0,30.0,29.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1392829,Amine Sbai,3.0,1.0,1818.0,25.0,20.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1397558,Kassoum Ouattara,0.0,3.0,967.0,15.0,27.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1397882,Yanis Zouaoui,1.0,1.0,2338.0,30.0,48.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1401005,Rémy Labeau Lascary,5.0,1.0,1200.0,27.0,16.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1405998,Louis Leroux,1.0,1.0,1441.0,23.0,37.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1407484,Samuel Amo-Ameyaw,2.0,2.0,1047.0,25.0,21.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1407848,Christian Mawissa,0.0,0.0,1191.0,18.0,30.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1408080,Ismaëlo Ganiou,3.0,0.0,2014.0,23.0,39.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1410148,Mamadou Coulibaly,3.0,3.0,1381.0,25.0,37.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1410217,Pape Demba Diop,1.0,2.0,1181.0,15.0,32.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1410231,Pathé Mboup,1.0,0.0,1054.0,28.0,20.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:141080,Kenny Lala,0.0,3.0,2791.0,32.0,39.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1410925,Joaquín Panichelli,16.0,1.0,2193.0,27.0,26.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1426221,Nhoa Sangui,0.0,0.0,1737.0,26.0,26.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1426597,Lucas Høgsberg,0.0,0.0,1792.0,24.0,21.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1445625,Jérémy Jacquet,0.0,0.0,1671.0,19.0,27.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1445628,Djaoui Cissé,0.0,0.0,981.0,24.0,33.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1462778,Lilian Raolisoa,2.0,4.0,1966.0,32.0,52.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1471683,Sadibou Sané,2.0,1.0,1940.0,23.0,46.0,38.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1473092,Kojo Peprah Oppong,1.0,0.0,2425.0,29.0,48.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1473491,Senny Mayulu,4.0,4.0,1672.0,26.0,48.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:148824,Florian Thauvin,11.0,6.0,2443.0,33.0,25.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1490783,Simon Ebonog,1.0,0.0,1759.0,30.0,39.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:149656,Yvon Mvogo,0.0,0.0,2790.0,31.0,1.0,1.0,75.0,43.0,6.0,GK
+2026-06-30,Ligue 1,sofascore:1507384,Adama Camara,1.0,0.0,2159.0,29.0,58.0,39.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1514916,Sidiki Cherif,4.0,0.0,1157.0,19.0,8.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:15219,Lukáš Hrádecký,0.0,0.0,1439.0,17.0,1.0,0.0,45.0,27.0,2.0,GK
+2026-06-30,Ligue 1,sofascore:152813,Clinton Mata,0.0,0.0,2833.0,32.0,39.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1529051,Abdoulaye Faye,0.0,0.0,1444.0,17.0,32.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:155818,Takumi Minamino,3.0,2.0,944.0,15.0,3.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:155995,Marquinhos,0.0,0.0,1052.0,14.0,15.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1564180,Ayyoub Bouaddi,0.0,1.0,2321.0,30.0,59.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:158243,Nicolás Tagliafico,0.0,3.0,1310.0,20.0,29.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1590918,Ibrahim Mbaye,3.0,2.0,1006.0,24.0,14.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:1597145,Abdelhamid Ait Boudlal,2.0,1.0,1403.0,20.0,22.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:1597191,Alpha Touré,0.0,1.0,1606.0,30.0,40.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:159837,Donovan Léon,0.0,0.0,2460.0,29.0,3.0,1.0,96.0,35.0,8.0,GK
+2026-06-30,Ligue 1,sofascore:1605921,Samir El Mourabet,1.0,2.0,2128.0,33.0,79.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1606792,Abdulai Juma Bah,0.0,0.0,1958.0,26.0,35.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:164055,Brice Samba,0.0,0.0,2880.0,32.0,2.0,0.0,87.0,44.0,10.0,GK
+2026-06-30,Ligue 1,sofascore:1855502,Arsène Kouassi,2.0,6.0,2605.0,31.0,26.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1894003,Dayann Methalie,2.0,1.0,1871.0,27.0,54.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:190883,Branco van den Boomen,0.0,1.0,1238.0,15.0,27.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1930811,Abdoul Ouattara,2.0,0.0,1768.0,28.0,23.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:1961626,Rudy Matondo,2.0,0.0,1357.0,27.0,28.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:2127096,Khalis Merah,0.0,1.0,1130.0,22.0,27.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:2137784,Prosper Peter,5.0,0.0,1273.0,29.0,7.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:2193194,Alexis Vossah,1.0,1.0,1092.0,23.0,11.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:2193204,Tylel Tati,0.0,0.0,1721.0,20.0,19.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:227862,Wesley Saïd,12.0,2.0,1991.0,29.0,21.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:231946,Adrien Thomasson,3.0,9.0,2683.0,32.0,99.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:238612,Chancel Mbemba,0.0,0.0,954.0,13.0,14.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:250133,Morgan Sanson,0.0,2.0,1772.0,31.0,31.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:257205,Sofiane Boufal,1.0,4.0,1019.0,17.0,25.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:281277,Thilo Kehrer,0.0,0.0,2353.0,28.0,65.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:286909,Przemysław Frankowski,1.0,2.0,1210.0,19.0,40.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:287887,Gautier Lloris,1.0,1.0,2398.0,29.0,41.0,42.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:296434,Laurent Abergel,1.0,0.0,2318.0,28.0,35.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:318963,Aleksandr Golovin,5.0,5.0,1649.0,25.0,26.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:326343,Jean-Philippe Gbamin,1.0,1.0,2485.0,31.0,51.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:328035,Brendan Chardonnet,1.0,3.0,2546.0,29.0,36.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:330051,Moses Simon,3.0,3.0,2001.0,29.0,14.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:343067,Corentin Tolisso,11.0,4.0,2302.0,30.0,32.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:343971,Ludovic Ajorque,8.0,9.0,2820.0,32.0,28.0,13.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:352296,Breel Embolo,8.0,3.0,1872.0,31.0,19.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:352370,Lucas Hernández,0.0,3.0,1747.0,25.0,25.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:352768,Ainsley Maitland-Niles,1.0,4.0,2483.0,30.0,57.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:352802,Maxime Lopez,0.0,3.0,1960.0,26.0,23.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:361696,Wout Faes,0.0,0.0,1141.0,14.0,15.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:362014,Hamari Traoré,0.0,1.0,1150.0,18.0,30.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:363042,Jordan Lefort,0.0,2.0,3060.0,34.0,51.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:368120,Nabil Bentaleb,2.0,2.0,1287.0,26.0,18.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:38440,Kevin Trapp,0.0,0.0,1980.0,22.0,0.0,1.0,59.0,29.0,7.0,GK
+2026-06-30,Ligue 1,sofascore:39070,Olivier Giroud,7.0,1.0,1609.0,30.0,11.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:45512,Youssef El-Arabi,3.0,0.0,941.0,25.0,12.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:48535,Anthony Lopes,0.0,0.0,2788.0,31.0,1.0,1.0,97.0,50.0,6.0,GK
+2026-06-30,Ligue 1,sofascore:51498,Pierre-Emerick Aubameyang,10.0,5.0,2039.0,30.0,8.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:51665,Benjamin André,2.0,2.0,2332.0,27.0,66.0,33.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:54308,Loïc Nego,0.0,0.0,2339.0,30.0,52.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:579576,Ruben Aguilar,2.0,2.0,1720.0,26.0,38.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:580226,Mory Diaw,0.0,1.0,2655.0,30.0,2.0,2.0,82.0,41.0,7.0,GK
+2026-06-30,Ligue 1,sofascore:580642,Haris Belkebla,0.0,0.0,2875.0,33.0,72.0,32.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:581314,Valentin Rongier,2.0,5.0,2745.0,31.0,74.0,39.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:758168,Moussa Niakhaté,0.0,2.0,2759.0,32.0,36.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:770677,Denis Zakaria,2.0,1.0,2031.0,24.0,38.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:787505,Benjamin Pavard,1.0,2.0,1928.0,27.0,2.0,2.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:787827,Matthieu Udol,1.0,7.0,3002.0,34.0,51.0,51.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:791046,Dominik Greif,0.0,1.0,2610.0,29.0,2.0,0.0,80.0,37.0,11.0,GK
+2026-06-30,Ligue 1,sofascore:794373,Carlens Arcus,0.0,3.0,2040.0,26.0,37.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:795228,Odsonne Édouard,12.0,3.0,1796.0,29.0,10.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:798124,Rasmus Nicolaisen,1.0,0.0,2564.0,32.0,25.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:801306,Pierre Lees-Melou,1.0,3.0,1962.0,24.0,65.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:802138,Jean-Victor Makengo,4.0,2.0,1800.0,31.0,28.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:802142,Jonathan Ikone,3.0,1.0,1100.0,23.0,17.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:802143,Kelvin Amian,0.0,1.0,1961.0,23.0,28.0,7.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:802159,Habib Diallo,4.0,1.0,1909.0,25.0,9.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:802695,Ben Chilwell,0.0,2.0,1598.0,20.0,25.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:804764,Chidozie Awaziem,1.0,2.0,2231.0,26.0,28.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:806076,Ludovic Blas,5.0,4.0,1546.0,32.0,21.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:814594,Achraf Hakimi,2.0,2.0,1375.0,18.0,18.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:818244,Ousmane Dembélé,10.0,7.0,1063.0,22.0,6.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:821728,Jonathan Clauss,1.0,6.0,2530.0,30.0,65.0,47.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:822110,Deiver Machado,0.0,1.0,1180.0,19.0,21.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:825088,Mbwana Samatta,2.0,1.0,1542.0,27.0,11.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:825681,Romain Del Castillo,9.0,3.0,2625.0,32.0,59.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:825846,Jordan Teze,1.0,2.0,2489.0,33.0,61.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:826203,Malang Sarr,0.0,1.0,2925.0,33.0,65.0,76.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:827519,Romain Perraud,3.0,4.0,2241.0,30.0,44.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:842391,Gauthier Hein,8.0,7.0,2351.0,29.0,18.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:842399,Alimami Gory,5.0,1.0,982.0,24.0,19.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:844744,Thibault De Smet,0.0,1.0,1144.0,17.0,23.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:844942,Gideon Mensah,0.0,2.0,2327.0,30.0,51.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:845170,Caio Henrique,0.0,2.0,1536.0,22.0,23.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:845183,Yehvann Diouf,0.0,0.0,2340.0,26.0,0.0,2.0,93.0,45.0,5.0,GK
+2026-06-30,Ligue 1,sofascore:847494,Berke Özer,0.0,1.0,2834.0,32.0,3.0,0.0,72.0,34.0,13.0,GK
+2026-06-30,Ligue 1,sofascore:855810,Timothy Weah,2.0,2.0,2253.0,29.0,48.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:859026,Amine Gouiri,8.0,3.0,1326.0,22.0,12.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:860307,Facundo Medina,0.0,1.0,1365.0,17.0,19.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:861324,Hugo Magnetti,1.0,1.0,2688.0,33.0,70.0,45.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:863133,Aron Dønnum,4.0,4.0,2419.0,28.0,46.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:867299,Hervé Koffi,0.0,0.0,2658.0,30.0,2.0,0.0,123.0,36.0,10.0,GK
+2026-06-30,Ligue 1,sofascore:867575,Koffi Kouao,2.0,1.0,2265.0,27.0,72.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:868964,Philipp Köhn,0.0,0.0,1621.0,19.0,0.0,1.0,49.0,27.0,5.0,GK
+2026-06-30,Ligue 1,sofascore:873221,Ayumu Seko,0.0,0.0,2625.0,30.0,42.0,37.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:873534,Krépin Diatta,0.0,1.0,1013.0,18.0,31.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:873551,Mostafa Mohamed,4.0,0.0,1152.0,24.0,10.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:875677,Heorhii Tsitaishvili,3.0,2.0,2449.0,33.0,19.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:877102,Nayef Aguerd,1.0,0.0,1396.0,16.0,22.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:877979,Willem Geubbels,5.0,0.0,1013.0,24.0,3.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:878938,Cristian Cásseres Jr.,2.0,3.0,2495.0,30.0,78.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:879618,Montassar Talbi,0.0,1.0,2610.0,29.0,22.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:886286,Nicolas Cozza,0.0,1.0,2301.0,29.0,44.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:889259,Khvicha Kvaratskhelia,8.0,4.0,1479.0,28.0,24.0,11.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:891508,Grégoire Coudert,0.0,0.0,2192.0,25.0,0.0,0.0,77.0,40.0,6.0,GK
+2026-06-30,Ligue 1,sofascore:894733,Marshall Munetsi,4.0,1.0,975.0,15.0,13.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:902657,Jessy Deminguet,2.0,0.0,1995.0,31.0,44.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:904424,Elisha Owusu,0.0,0.0,2344.0,29.0,69.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:906075,Melvin Bard,2.0,1.0,2394.0,29.0,52.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:911851,Yann Gboho,8.0,3.0,2601.0,31.0,26.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:916041,Mahdi Camara,3.0,1.0,2653.0,32.0,62.0,32.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:919027,Ali Abdi,3.0,0.0,1187.0,22.0,22.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:922759,Mark McKenzie,0.0,2.0,2404.0,29.0,44.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:927005,Lassine Sinayoko,12.0,4.0,2770.0,32.0,42.0,26.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:928033,Charles Vanhoutte,0.0,2.0,1772.0,26.0,47.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:928236,Leonardo Balerdi,0.0,1.0,2001.0,26.0,49.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:934237,Folarin Balogun,13.0,4.0,2230.0,30.0,5.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:934498,Félix Correia,4.0,5.0,2053.0,34.0,29.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:934510,Gonçalo Ramos,6.0,1.0,1318.0,30.0,13.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:940328,Jean-Philippe Krasso,2.0,2.0,1092.0,25.0,13.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:942116,Mason Greenwood,16.0,7.0,2462.0,32.0,15.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:942834,Cheikh Tidiane Sabaly,0.0,2.0,967.0,14.0,18.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:944164,Sofiane Diop,8.0,2.0,2130.0,33.0,22.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:945830,Himad Abdelli,2.0,0.0,1081.0,21.0,24.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:946158,Mohammed Salisu,1.0,0.0,1080.0,12.0,25.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:957604,Pavel Šulc,11.0,3.0,1566.0,27.0,24.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:959805,Quinten Timber,0.0,0.0,1105.0,15.0,31.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:962068,Sebastian Nanasi,7.0,2.0,1050.0,19.0,12.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:962883,Ansu Fati,11.0,0.0,1093.0,25.0,15.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:963299,Johann Lepenant,0.0,1.0,2173.0,27.0,79.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:966621,Esteban Lepaul,21.0,5.0,2685.0,34.0,7.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:966849,Saud Abdulhamid,2.0,4.0,1352.0,25.0,34.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:973556,Julio Enciso,3.0,6.0,1883.0,27.0,21.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:976396,Joris Chotard,2.0,1.0,2773.0,33.0,66.0,47.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:979118,Tyler Morton,2.0,2.0,2517.0,29.0,48.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:979315,Elye Wahi,5.0,1.0,922.0,14.0,2.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:979480,Willian Pacho,0.0,0.0,1914.0,23.0,40.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:981168,Samir Chergui,1.0,0.0,1154.0,15.0,18.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:981815,Igor Paixão,6.0,5.0,1975.0,30.0,29.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:982319,Moustapha Mbow,0.0,1.0,2717.0,31.0,52.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:982613,Boubacar Traoré,1.0,0.0,1387.0,20.0,47.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:983066,Andrew Omobamidele,1.0,0.0,1357.0,25.0,7.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:985923,Hicham Boudaoui,1.0,2.0,1694.0,25.0,27.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:987491,Bryan Okoh,3.0,0.0,1005.0,13.0,13.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:988907,Lilian Brassier,0.0,1.0,2250.0,27.0,30.0,38.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:989768,Nuno Mendes,4.0,5.0,1256.0,20.0,25.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:991479,Anthony Rouault,1.0,0.0,1724.0,21.0,25.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:992026,Rassoul Ndiaye,4.0,4.0,2566.0,33.0,68.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:993455,Salis Abdul Samed,0.0,0.0,911.0,18.0,11.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:993952,Noah Cadiou,3.0,1.0,1879.0,28.0,24.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Ligue 1,sofascore:996951,Sinaly Diomande,2.0,2.0,2131.0,24.0,33.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:996952,Bradley Barcola,11.0,1.0,1743.0,29.0,30.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,Ligue 1,sofascore:996953,Lucas Chevalier,0.0,0.0,1530.0,17.0,0.0,0.0,33.0,13.0,9.0,GK
+2026-06-30,Ligue 1,sofascore:998241,Darlin Yongwa,0.0,1.0,1312.0,23.0,32.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Ligue 1,sofascore:999070,Matthis Abline,6.0,4.0,2494.0,32.0,20.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,name-birth:066fb94ad2ce7457,Lucas,0.0,0.0,1409.0,20.0,,,0.0,0.0,0.0,MID
+2026-06-30,Premier League,name-birth:eafa24d4461907e4,Ferdi Kadioglu,1.0,0.0,3133.0,37.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1002711,Pape Matar Sarr,2.0,4.0,1398.0,26.0,33.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1002837,Piero Hincapié,1.0,2.0,1792.0,25.0,0.0,2.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1004505,Loum Tchaouna,2.0,1.0,1272.0,29.0,18.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1006073,Rodrigo Gomes,3.0,0.0,960.0,22.0,23.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1006387,Kevin Schade,8.0,3.0,2745.0,35.0,41.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1008402,Conor Bradley,0.0,1.0,929.0,15.0,19.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1009386,Hannibal Mejbri,1.0,4.0,1229.0,27.0,29.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1010220,Nicolò Savona,2.0,0.0,1028.0,14.0,20.0,4.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1012928,Robin Roefs,0.0,0.0,3150.0,35.0,0.0,0.0,109.0,46.0,10.0,GK
+2026-06-30,Premier League,sofascore:1013842,Emmanuel Agbadou,0.0,0.0,1101.0,14.0,32.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1013928,Hugo Bueno,1.0,2.0,2366.0,35.0,67.0,38.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1014286,Malick Thiaw,4.0,0.0,2965.0,35.0,44.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1014835,Yerson Mosquera,0.0,0.0,2136.0,27.0,62.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1015256,Rodrigo Muniz,1.0,1.0,1000.0,21.0,8.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:1015267,João Gomes,1.0,1.0,2829.0,35.0,107.0,36.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1016907,Igor Thiago,22.0,1.0,3282.0,38.0,38.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:101882,Fabian Schär,0.0,0.0,1091.0,16.0,14.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1019322,Florian Wirtz,5.0,3.0,2378.0,33.0,34.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1020680,Jaidon Anthony,8.0,2.0,2722.0,37.0,42.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1031258,Yehor Yarmoliuk,1.0,2.0,2659.0,37.0,70.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1031283,David Møller Wolfe,0.0,2.0,1049.0,22.0,10.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:103335,Bernd Leno,0.0,0.0,3420.0,38.0,4.0,1.0,98.0,51.0,9.0,GK
+2026-06-30,Premier League,sofascore:1035996,André,1.0,0.0,2762.0,35.0,82.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1036269,Yasin Ayari,3.0,3.0,1929.0,29.0,47.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1048422,Hugo Ekitike,11.0,4.0,1803.0,28.0,11.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:1048888,Mathys Tel,4.0,1.0,1349.0,31.0,19.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1048916,Lesley Ugochukwu,3.0,1.0,2336.0,35.0,51.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1065216,Oscar Bobb,0.0,1.0,1039.0,23.0,21.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1065588,Diego Gómez,5.0,1.0,2120.0,32.0,78.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1085180,Brennan Johnson,2.0,1.0,1722.0,34.0,29.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1085950,Tim Iroegbunam,0.0,2.0,1487.0,29.0,68.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1089388,Lamare Bogarde,0.0,0.0,1053.0,28.0,26.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1089582,Freddie Potts,0.0,1.0,1171.0,22.0,29.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1090963,Omari Hutchinson,1.0,5.0,1688.0,31.0,22.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1096210,Jackson Tchatchoua,0.0,1.0,1845.0,31.0,29.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1097425,Milos Kerkez,2.0,1.0,2257.0,34.0,41.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1104986,Alex Scott,3.0,1.0,2849.0,37.0,60.0,36.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1105779,Andrey Santos,1.0,0.0,1260.0,27.0,37.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1106451,Dango Ouattara,7.0,3.0,2276.0,32.0,24.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:110846,Michael Keane,3.0,1.0,2591.0,33.0,36.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1109771,Adam Wharton,1.0,5.0,2552.0,34.0,70.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1112879,Kevin,1.0,1.0,1041.0,26.0,21.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1117223,Maxime Estève,0.0,0.0,2932.0,34.0,44.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1128532,Habib Diarra,2.0,2.0,1405.0,20.0,14.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1135873,Alejandro Garnacho,1.0,4.0,1268.0,24.0,15.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1136730,Lewis Hall,1.0,1.0,2181.0,30.0,54.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1137431,Michael Kayode,1.0,1.0,3258.0,37.0,67.0,38.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:113956,Callum Wilson,7.0,1.0,1251.0,32.0,4.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:1142175,Kobbie Mainoo,1.0,2.0,1662.0,28.0,36.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142315,Jack Hinshelwood,4.0,3.0,1741.0,27.0,19.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142335,Archie Gray,2.0,2.0,1478.0,24.0,11.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142562,Mateus Fernandes,3.0,4.0,3016.0,36.0,103.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142675,Chemsdine Talbi,4.0,1.0,1561.0,28.0,11.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142679,Wilson Odobert,0.0,2.0,985.0,24.0,10.0,1.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1142703,Nico O'Reilly,5.0,3.0,2646.0,34.0,68.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1144630,Cristhian Mosquera,0.0,0.0,994.0,20.0,32.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1153079,Jorrel Hato,0.0,0.0,1148.0,22.0,36.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1153315,Leny Yoro,0.0,0.0,1740.0,32.0,32.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:115365,Lewis Dunk,1.0,0.0,2838.0,33.0,35.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1156586,James Hill,0.0,3.0,2106.0,29.0,39.0,39.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1170560,Soungoutou Magassa,1.0,0.0,981.0,22.0,40.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1171539,Noah Sadiki,0.0,1.0,2889.0,33.0,46.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:117777,Granit Xhaka,1.0,6.0,2904.0,34.0,50.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1184308,Álex Jiménez,1.0,0.0,2317.0,31.0,0.0,0.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1194333,Abdukodir Khusanov,0.0,0.0,1432.0,21.0,27.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1199043,Carlos Baleba,0.0,0.0,1652.0,31.0,37.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1199282,Murillo,1.0,0.0,2130.0,25.0,35.0,34.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:122951,Casemiro,9.0,2.0,2571.0,34.0,90.0,31.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:123689,Karl Darlow,0.0,0.0,1980.0,22.0,1.0,0.0,63.0,27.0,5.0,GK
+2026-06-30,Premier League,sofascore:135666,Leandro Trossard,6.0,6.0,2000.0,31.0,27.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:138530,Jordan Pickford,0.0,0.0,3420.0,38.0,2.0,0.0,100.0,50.0,11.0,GK
+2026-06-30,Premier League,sofascore:1391251,Lucas Bergvall,1.0,3.0,965.0,23.0,22.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1392044,Quilindschy Hartman,0.0,5.0,1825.0,21.0,52.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1395746,Thierno Barry,8.0,0.0,1914.0,38.0,6.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:1397168,Patrick Dorgu,4.0,4.0,1449.0,26.0,48.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1400106,Yankuba Minteh,3.0,4.0,2391.0,34.0,56.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1400650,Lewis Miley,1.0,4.0,1496.0,23.0,29.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1426228,Eli Junior Kroupi,13.0,0.0,1672.0,33.0,9.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:143334,Victor Lindelöf,0.0,1.0,948.0,17.0,7.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1445799,Ayden Heaven,0.0,1.0,924.0,17.0,22.0,1.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:145188,James Tarkowski,2.0,3.0,3330.0,37.0,51.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1464966,Rayan,5.0,2.0,1111.0,15.0,11.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1471671,Jaydee Canvot,0.0,0.0,1336.0,20.0,2.0,0.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1471764,El Hadji Malick Diouf,0.0,5.0,2707.0,32.0,44.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:149380,Harry Maguire,1.0,2.0,1653.0,23.0,22.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:151545,Virgil van Dijk,6.0,0.0,3420.0,38.0,22.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:1536811,Idrissa Gueye,2.0,3.0,2093.0,25.0,6.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1546231,Joshua King,1.0,2.0,1308.0,32.0,27.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:158263,Emiliano Martínez,0.0,1.0,2835.0,32.0,0.0,0.0,95.0,39.0,7.0,GK
+2026-06-30,Premier League,sofascore:159665,Mohamed Salah,7.0,7.0,2146.0,27.0,17.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:161717,James Ward-Prowse,0.0,1.0,1097.0,18.0,16.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:162653,Nick Pope,0.0,0.0,2416.0,27.0,1.0,0.0,89.0,38.0,7.0,GK
+2026-06-30,Premier League,sofascore:189061,Jack Grealish,2.0,6.0,1627.0,20.0,21.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:1899647,Mateus Mane,3.0,1.0,1795.0,27.0,28.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:190839,Luke Shaw,1.0,1.0,3219.0,38.0,74.0,46.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:190877,Kenny Tete,1.0,0.0,1791.0,22.0,65.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:192442,Raúl Jiménez,9.0,3.0,2189.0,36.0,35.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:193554,Will Hughes,0.0,0.0,1571.0,31.0,27.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:219572,Joël Veltman,1.0,0.0,1058.0,24.0,31.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:243609,Alisson,0.0,0.0,2340.0,26.0,0.0,0.0,57.0,31.0,8.0,GK
+2026-06-30,Premier League,sofascore:250223,John McGinn,5.0,4.0,2137.0,30.0,29.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:252669,José Sá,0.0,0.0,2070.0,23.0,1.0,0.0,65.0,37.0,4.0,GK
+2026-06-30,Premier League,sofascore:262911,Andy Robertson,1.0,0.0,1176.0,24.0,12.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:288205,Bruno Fernandes,9.0,21.0,3063.0,35.0,54.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:303638,Tyrone Mings,0.0,0.0,1324.0,17.0,5.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:318941,Rúben Dias,2.0,0.0,2141.0,26.0,13.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:322391,Ryan Christie,2.0,0.0,994.0,26.0,27.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:329417,Timothy Castagne,0.0,0.0,1845.0,30.0,40.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:331209,Bernardo Silva,2.0,4.0,2872.0,38.0,54.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:331737,Youri Tielemans,0.0,4.0,1862.0,25.0,58.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:33902,Danny Welbeck,13.0,1.0,2258.0,37.0,24.0,9.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:352770,Alex Iwobi,4.0,3.0,2419.0,29.0,27.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:355528,Harry Wilson,10.0,7.0,2673.0,36.0,29.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:355796,Jefferson Lerma,0.0,2.0,1733.0,31.0,29.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:361352,Adam Armstrong,2.0,2.0,1140.0,14.0,8.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:361420,Dominic Solanke,3.0,0.0,1001.0,15.0,22.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:362682,Joachim Andersen,0.0,1.0,2875.0,33.0,45.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:364612,João Palhinha,5.0,2.0,2198.0,33.0,110.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:371222,Saša Lukić,1.0,2.0,1734.0,26.0,49.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:372336,Jacob Murphy,3.0,2.0,1617.0,33.0,16.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:372344,Dominic Calvert-Lewin,14.0,1.0,2721.0,35.0,10.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:42209,Martin Dúbravka,0.0,0.0,3150.0,35.0,1.0,0.0,127.0,71.0,4.0,GK
+2026-06-30,Premier League,sofascore:42694,Jordan Henderson,1.0,3.0,1919.0,32.0,27.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:44566,Adam Smith,0.0,2.0,1077.0,22.0,15.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:44614,Kyle Walker,0.0,2.0,3096.0,36.0,56.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:48480,Pascal Groß,1.0,3.0,1636.0,19.0,8.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:50480,Chris Wood,3.0,0.0,901.0,15.0,1.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:547410,Martin Ødegaard,1.0,6.0,1369.0,24.0,19.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:552036,Josh Laurent,1.0,0.0,1764.0,33.0,48.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:552884,Jarrod Bowen,9.0,11.0,3403.0,38.0,50.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:553606,Guglielmo Vicario,0.0,0.0,2790.0,31.0,1.0,0.0,83.0,50.0,7.0,GK
+2026-06-30,Premier League,sofascore:555386,Ollie Watkins,16.0,3.0,2839.0,37.0,22.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:560128,Joelinton,2.0,1.0,1951.0,27.0,43.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:576384,Kristoffer Ajer,0.0,1.0,1810.0,27.0,37.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:581310,David Raya,0.0,0.0,3330.0,37.0,1.0,1.0,60.0,26.0,19.0,GK
+2026-06-30,Premier League,sofascore:592010,Mikel Merino,4.0,3.0,1036.0,22.0,26.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:599128,Rico Henry,0.0,1.0,1328.0,25.0,15.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:69256,Kieran Trippier,0.0,1.0,1586.0,21.0,26.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:780014,Nordi Mukiele,3.0,3.0,2784.0,32.0,69.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:78152,Matz Sels,0.0,0.0,2668.0,31.0,1.0,0.0,95.0,39.0,7.0,GK
+2026-06-30,Premier League,sofascore:783126,Emi Buendía,6.0,2.0,1755.0,36.0,49.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:786186,Hwang Hee-chan,2.0,2.0,1446.0,26.0,10.0,13.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:788134,Dean Henderson,0.0,0.0,3330.0,37.0,1.0,2.0,106.0,51.0,11.0,GK
+2026-06-30,Premier League,sofascore:791190,Rodrigo Bentancur,1.0,1.0,1883.0,26.0,56.0,35.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:792122,Josh Cullen,2.0,2.0,1514.0,18.0,31.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:793167,Sander Berge,0.0,1.0,2905.0,35.0,57.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:794338,Daichi Kamada,0.0,0.0,1902.0,28.0,63.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:794939,Marc Cucurella,1.0,4.0,2707.0,34.0,55.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:794953,Kevin Danso,0.0,0.0,1494.0,24.0,27.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:795066,Marcus Edwards,1.0,3.0,1067.0,23.0,11.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:799041,Tomáš Souček,5.0,0.0,2200.0,35.0,43.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:799251,Mathias Jensen,3.0,1.0,2247.0,36.0,41.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:800417,Ola Aina,0.0,0.0,1588.0,18.0,31.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:800419,Tyler Adams,2.0,2.0,1772.0,25.0,53.0,33.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:803031,Matthijs de Ligt,1.0,0.0,1170.0,13.0,19.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:803174,Antonee Robinson,1.0,0.0,1492.0,22.0,48.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:803185,Lukas Nmecha,6.0,1.0,1083.0,31.0,12.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:804508,Viktor Gyökeres,14.0,1.0,2224.0,36.0,7.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:805137,Omar Alderete,1.0,1.0,2798.0,33.0,32.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:809276,Jacob Bruun Larsen,0.0,1.0,1030.0,28.0,12.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:814873,Vitaly Janelt,1.0,4.0,1443.0,25.0,27.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:817979,Axel Tuanzebe,1.0,0.0,1201.0,14.0,14.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:822470,Samuel Chukwueze,3.0,4.0,1079.0,23.0,0.0,0.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:823085,Kyle Walker-Peters,1.0,0.0,1383.0,23.0,44.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:824509,Gianluigi Donnarumma,0.0,0.0,3060.0,34.0,0.0,1.0,78.0,29.0,15.0,GK
+2026-06-30,Premier League,sofascore:826134,Trevoh Chalobah,3.0,0.0,2783.0,34.0,35.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:826204,Boubacar Kamara,1.0,3.0,1411.0,18.0,37.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:826215,Ibrahima Konaté,1.0,0.0,3090.0,36.0,53.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:827243,Axel Disasi,0.0,0.0,1254.0,14.0,14.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:827362,Caoimhín Kelleher,0.0,0.0,3330.0,37.0,1.0,1.0,110.0,49.0,10.0,GK
+2026-06-30,Premier League,sofascore:827606,Rodri,1.0,0.0,1511.0,21.0,41.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:827679,Ezri Konsa,0.0,0.0,3035.0,34.0,22.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:827681,James Justin,2.0,1.0,1901.0,29.0,56.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:828640,Joe Rodon,2.0,0.0,2951.0,35.0,37.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:829022,Konstantinos Mavropanos,3.0,0.0,2534.0,31.0,40.0,49.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:829932,Cristian Romero,4.0,1.0,1868.0,23.0,58.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:830659,Marcos Senesi,0.0,5.0,3288.0,37.0,62.0,56.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:831424,Reinildo Mandava,0.0,1.0,1966.0,25.0,39.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:833956,Matty Cash,3.0,3.0,3014.0,35.0,66.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:834308,Gabriel Gudmundsson,0.0,0.0,2631.0,32.0,65.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:836168,Nikola Milenković,0.0,0.0,3375.0,38.0,31.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:836675,Pascal Struijk,0.0,1.0,2936.0,34.0,39.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:836694,Mason Mount,3.0,0.0,1017.0,23.0,24.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:836698,Ryan Sessegnon,3.0,1.0,1823.0,27.0,48.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:839410,Aaron Ramsdale,0.0,0.0,1004.0,12.0,0.0,0.0,25.0,17.0,1.0,GK
+2026-06-30,Premier League,sofascore:839956,Erling Haaland,27.0,8.0,2953.0,35.0,15.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:839981,Lucas Paquetá,4.0,1.0,1511.0,18.0,39.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:840217,Richarlison,11.0,4.0,1964.0,32.0,27.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:843200,Diogo Dalot,1.0,3.0,2614.0,34.0,53.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:843754,Ibrahim Sangaré,2.0,2.0,2075.0,28.0,59.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:844096,Jhon Arias,1.0,0.0,1124.0,23.0,43.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:845273,Jean-Ricner Bellegarde,1.0,1.0,1248.0,26.0,28.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:845286,Ismaila Sarr,9.0,1.0,2174.0,28.0,18.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:846308,Santiago Bueno,3.0,1.0,2553.0,29.0,50.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:847030,Noussair Mazraoui,0.0,0.0,985.0,20.0,28.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:847097,Ethan Ampadu,1.0,1.0,3119.0,35.0,81.0,50.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:848276,Jean-Philippe Mateta,12.0,0.0,2218.0,32.0,10.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:851596,Justin Kluivert,2.0,0.0,952.0,20.0,10.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:855647,Harvey Barnes,7.0,1.0,1966.0,37.0,13.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:855731,David Brooks,1.0,3.0,1204.0,31.0,19.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:855845,Florentino Luís,0.0,2.0,2105.0,31.0,90.0,41.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:856250,Ladislav Krejčí,2.0,1.0,2356.0,28.0,2.0,1.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:856640,Mads Hermansen,0.0,1.0,1620.0,18.0,0.0,0.0,55.0,28.0,7.0,GK
+2026-06-30,Premier League,sofascore:856714,Declan Rice,4.0,5.0,3094.0,36.0,70.0,37.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:856739,Lutsharel Geertruida,0.0,0.0,1693.0,28.0,37.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:859765,Phil Foden,7.0,5.0,2086.0,33.0,34.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:859999,Lisandro Martínez,0.0,0.0,1233.0,18.0,19.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:861970,Kiernan Dewsbury-Hall,8.0,4.0,2626.0,31.0,52.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:861972,Calvin Bassey,1.0,0.0,2534.0,30.0,62.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:862967,Cody Gakpo,7.0,5.0,2737.0,36.0,28.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:863653,Aaron Wan-Bissaka,0.0,2.0,2081.0,25.0,33.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:864169,Pau Torres,0.0,0.0,1676.0,21.0,22.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:864921,Eberechi Eze,7.0,2.0,1895.0,33.0,19.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:865523,Noah Okafor,8.0,1.0,1561.0,28.0,23.0,12.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:865912,Morgan Gibbs-White,15.0,4.0,3097.0,37.0,20.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:866191,Sean Longstaff,2.0,2.0,1011.0,23.0,38.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:866469,Bruno Guimarães,9.0,5.0,2453.0,29.0,62.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:867442,Callum Hudson-Odoi,3.0,4.0,1841.0,30.0,14.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:867445,Emile Smith Rowe,3.0,0.0,1923.0,37.0,35.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:867887,Douglas Luiz,1.0,0.0,919.0,21.0,23.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:868715,Jorge Cuenca,0.0,0.0,938.0,15.0,16.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:869792,Gabriel Magalhães,3.0,4.0,2751.0,32.0,38.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:869856,Dominik Szoboszlai,6.0,7.0,3231.0,36.0,56.0,30.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:870360,Daniel Muñoz,4.0,3.0,2399.0,29.0,74.0,26.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:871290,Lucas Perri,0.0,0.0,1440.0,16.0,0.0,0.0,38.0,29.0,3.0,GK
+2026-06-30,Premier League,sofascore:871706,Randal Kolo Muani,1.0,1.0,1664.0,30.0,29.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:871765,Nicolás Domínguez,1.0,1.0,1175.0,27.0,56.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:871886,Ao Tanaka,2.0,0.0,1315.0,28.0,27.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:875137,Zian Flemming,11.0,0.0,1769.0,29.0,17.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:875360,Hjalmar Ekdal,0.0,0.0,1539.0,19.0,24.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:876599,Jørgen Strand Larsen,4.0,1.0,2307.0,36.0,9.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:876643,Vitaliy Mykolenko,0.0,1.0,2958.0,33.0,51.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:877013,Valentín Castellanos,6.0,0.0,1384.0,18.0,7.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:877980,Wilson Isidor,6.0,0.0,1165.0,32.0,11.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:877994,Marc Guéhi,3.0,3.0,3150.0,35.0,46.0,50.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:879349,Pedro Neto,5.0,6.0,2631.0,34.0,19.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:879674,Maxence Lacroix,1.0,2.0,3085.0,35.0,60.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:882604,Đorđe Petrović,0.0,0.0,3420.0,38.0,0.0,0.0,109.0,54.0,11.0,GK
+2026-06-30,Premier League,sofascore:885908,Reece James,2.0,4.0,1963.0,29.0,48.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:886363,Matheus Cunha,10.0,2.0,2494.0,33.0,39.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:886930,Jaka Bijol,1.0,2.0,1890.0,25.0,26.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:888550,Joe Willock,0.0,2.0,983.0,24.0,20.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:889861,Anton Stach,5.0,3.0,2370.0,29.0,65.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:892673,Sandro Tonali,0.0,2.0,2534.0,35.0,35.0,31.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:893549,Tijjani Reijnders,5.0,2.0,1631.0,28.0,10.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:894474,Max Kilman,0.0,0.0,1561.0,21.0,16.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:895324,Alexis Mac Allister,2.0,4.0,2658.0,37.0,53.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:895576,Marcus Tavernier,7.0,4.0,2731.0,34.0,40.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:901325,Nicolás González,1.0,0.0,1569.0,25.0,24.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:901907,Lyle Foster,3.0,2.0,1371.0,26.0,16.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:904897,Ryan Gravenberch,5.0,3.0,2992.0,36.0,59.0,48.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:904970,Conor Gallagher,1.0,1.0,1184.0,16.0,17.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:905163,Mohammed Kudus,2.0,5.0,1535.0,19.0,29.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:907072,Mikkel Damsgaard,4.0,4.0,2054.0,33.0,57.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:910046,Sven Botman,1.0,1.0,1835.0,25.0,22.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:910048,Brian Brobbey,7.0,1.0,1927.0,31.0,9.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:911679,Ilia Gruev,0.0,3.0,1323.0,23.0,24.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:913654,Pedro Porro,1.0,2.0,2796.0,34.0,76.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:914309,Iliman Ndiaye,6.0,3.0,2778.0,32.0,70.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:914902,Anthony Gordon,6.0,2.0,1795.0,26.0,19.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:917005,Crysencio Summerville,5.0,2.0,2470.0,31.0,45.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:920546,Robert Sánchez,0.0,1.0,3039.0,35.0,2.0,1.0,98.0,47.0,9.0,GK
+2026-06-30,Premier League,sofascore:922573,Gabriel Martinelli,1.0,4.0,1081.0,30.0,12.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:923894,Wesley Fofana,0.0,1.0,1722.0,25.0,19.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:923973,Amadou Onana,2.0,0.0,1758.0,25.0,48.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:924378,Sepp van den Berg,0.0,2.0,2763.0,32.0,23.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:927083,Bryan Mbeumo,11.0,3.0,2609.0,33.0,25.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:927353,Curtis Jones,1.0,2.0,1937.0,34.0,40.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:927356,Neco Williams,2.0,3.0,3204.0,37.0,96.0,47.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:927361,James Garner,2.0,7.0,3413.0,38.0,120.0,59.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:929132,Jayden Bogle,1.0,2.0,2793.0,34.0,66.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:930245,Evann Guessand,1.0,2.0,918.0,21.0,24.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:931278,Rayan Aït-Nouri,0.0,2.0,974.0,17.0,35.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:931844,Chris Richards,1.0,0.0,2827.0,33.0,55.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:934235,Bukayo Saka,7.0,5.0,2222.0,31.0,41.0,16.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:934354,Antoine Semenyo,17.0,4.0,3195.0,37.0,45.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:934386,Jeremy Doku,5.0,5.0,1784.0,30.0,23.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:935543,Dwight McNeil,0.0,1.0,1168.0,22.0,23.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:936849,Kaoru Mitoma,3.0,1.0,1721.0,25.0,18.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:941168,William Saliba,1.0,0.0,2614.0,31.0,35.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:944327,Dan Ndoye,1.0,1.0,1173.0,24.0,23.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:945122,Matheus Nunes,1.0,5.0,2862.0,34.0,57.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:945217,Jean-Clair Todibo,0.0,1.0,1814.0,23.0,38.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:945798,Djed Spence,0.0,0.0,2056.0,30.0,44.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:946695,Georginio Rutter,3.0,3.0,1786.0,32.0,32.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:948261,Morgan Rogers,10.0,6.0,3280.0,37.0,42.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:957602,Riccardo Calafiori,1.0,2.0,1699.0,26.0,32.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:958878,Daniel Ballard,2.0,0.0,2149.0,29.0,33.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:958916,Nathan Collins,1.0,2.0,2975.0,35.0,31.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:958959,Jurriën Timber,3.0,5.0,2454.0,30.0,66.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:959628,Mats Wieffer,2.0,3.0,1903.0,26.0,66.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:962012,Jan Paul van Hecke,3.0,3.0,3210.0,36.0,53.0,47.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:962408,Bafodé Diakité,0.0,0.0,1277.0,18.0,20.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:964753,Senne Lammens,0.0,0.0,2880.0,32.0,1.0,0.0,79.0,39.0,8.0,GK
+2026-06-30,Premier League,sofascore:964994,Joško Gvardiol,2.0,2.0,1372.0,18.0,18.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:96531,Alphonse Areola,0.0,1.0,1800.0,20.0,0.0,1.0,77.0,37.0,0.0,GK
+2026-06-30,Premier League,sofascore:96538,Lucas Digne,0.0,6.0,1852.0,31.0,36.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:966547,Noni Madueke,3.0,1.0,1211.0,26.0,21.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:966837,Martín Zubimendi,5.0,1.0,2992.0,38.0,68.0,39.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:970361,Jeremie Frimpong,0.0,1.0,1040.0,21.0,11.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:971037,Amad Diallo,2.0,3.0,2341.0,32.0,38.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:972421,Keane Lewis-Potter,3.0,3.0,1972.0,36.0,23.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:973418,Toti Gomes,0.0,0.0,1424.0,19.0,23.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:973431,Brenden Aaronson,4.0,5.0,2449.0,37.0,50.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:974505,Enzo Fernández,10.0,4.0,3115.0,36.0,53.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:975079,João Pedro,15.0,5.0,2661.0,35.0,27.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:975937,Jacob Ramsey,2.0,3.0,1450.0,28.0,41.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:976263,Ian Maatsen,0.0,1.0,1605.0,30.0,43.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:979128,Rayan Cherki,4.0,12.0,1786.0,33.0,26.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:979232,Anthony Elanga,0.0,1.0,1319.0,32.0,14.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:980623,Nick Woltemade,8.0,3.0,1902.0,33.0,1.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:980634,Tino Livramento,0.0,1.0,1328.0,17.0,22.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:981619,Igor Jesus,6.0,4.0,2298.0,37.0,24.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:982780,Cole Palmer,10.0,1.0,1955.0,26.0,25.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:983572,Destiny Udogie,0.0,1.0,1338.0,20.0,31.0,7.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:984014,Enzo Le Fée,5.0,6.0,2930.0,36.0,89.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:98427,Sam Johnstone,0.0,0.0,1080.0,12.0,2.0,0.0,39.0,24.0,0.0,GK
+2026-06-30,Premier League,sofascore:984624,Yéremy Pino,2.0,2.0,2080.0,34.0,2.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:985086,Morato,1.0,0.0,1345.0,21.0,30.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:986397,Benjamin Šeško,11.0,1.0,1643.0,30.0,5.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:987489,Beto,9.0,1.0,1568.0,37.0,15.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:987650,Moisés Caicedo,3.0,1.0,2795.0,33.0,87.0,59.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:987734,Tolu Arokodare,3.0,1.0,1419.0,33.0,7.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:988275,Tyrick Mitchell,1.0,2.0,3251.0,38.0,101.0,34.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:989034,Trai Hume,2.0,1.0,3036.0,38.0,67.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:99090,Dan Burn,1.0,2.0,2199.0,29.0,40.0,21.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:991478,Amine Adli,3.0,1.0,1094.0,31.0,36.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:994363,Bart Verbruggen,0.0,0.0,3420.0,38.0,1.0,0.0,106.0,46.0,10.0,GK
+2026-06-30,Premier League,sofascore:994546,Elliot Anderson,4.0,4.0,3331.0,38.0,104.0,41.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:996910,Bashir Humphreys,0.0,0.0,1578.0,20.0,27.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:996958,Malo Gusto,2.0,3.0,2261.0,34.0,53.0,31.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:997087,Liam Delap,1.0,0.0,1107.0,28.0,5.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:997152,Maxim De Cuyper,2.0,3.0,1414.0,30.0,23.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:997183,Xavi Simons,2.0,5.0,1755.0,28.0,0.0,1.0,0.0,0.0,0.0,MID
+2026-06-30,Premier League,sofascore:998247,Micky van de Ven,4.0,1.0,3041.0,35.0,39.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:998253,Jake O'Brien,1.0,1.0,3120.0,37.0,57.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Premier League,sofascore:998490,Evanilson,6.0,1.0,2742.0,36.0,13.0,8.0,0.0,0.0,0.0,FWD
+2026-06-30,Premier League,sofascore:999028,Adrien Truffert,1.0,5.0,3379.0,38.0,103.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:0415e460861c090f,João Mário Lopes,1.0,0.0,993.0,20.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:31ec49bf6327856a,Obite N'Dicka,3.0,0.0,2680.0,31.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:3873513bff5a7641,Oliver Nielsen,0.0,0.0,1536.0,26.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:53310806632dfab9,Zé Pedro Figueiredo,0.0,1.0,1699.0,23.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:744297b94d50c217,Kialonda,0.0,0.0,1830.0,23.0,,,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,name-birth:9c56632bcd2daa80,Oliver Jensen,1.0,1.0,1840.0,34.0,,,0.0,0.0,0.0,MID
+2026-06-30,Serie A,name-birth:cf5e4844836eb4f0,Romano Floriani,0.0,1.0,1168.0,28.0,,,0.0,0.0,0.0,MID
+2026-06-30,Serie A,name-birth:d35d5f14e35744f1,Éderson Silva,2.0,1.0,2230.0,30.0,,,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1000366,Warren Bondo,0.0,0.0,1762.0,27.0,31.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1001828,Koni De Winter,1.0,1.0,1800.0,26.0,29.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1002045,Danilo Veiga,0.0,1.0,3020.0,36.0,97.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:100389,Marten de Roon,1.0,2.0,2691.0,34.0,81.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1012176,Giorgio Scalvini,3.0,1.0,1808.0,24.0,47.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1012177,Lorenzo Bernasconi,0.0,3.0,1572.0,23.0,29.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1014287,Jamil Siebert,1.0,0.0,1701.0,21.0,27.0,16.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1016788,Cesare Casadei,6.0,0.0,1997.0,33.0,36.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1017649,Matteo Cancellieri,4.0,2.0,1725.0,30.0,42.0,24.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1019125,Omri Gandelman,2.0,1.0,975.0,19.0,9.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1019442,Kamaldeen Sulemana,2.0,1.0,1011.0,25.0,9.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1022204,Amin Sarr,0.0,1.0,1102.0,34.0,15.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1029748,Nikola Štulić,4.0,0.0,1709.0,34.0,12.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1030829,Gvidas Gineitis,0.0,1.0,1756.0,29.0,45.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1031548,Alieu Fadera,2.0,1.0,987.0,28.0,36.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1034303,Filippo Terracciano,2.0,0.0,3011.0,36.0,33.0,56.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:105905,Ibrahim Sulemana,1.0,0.0,905.0,19.0,19.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1063373,Thomas Kristensen,3.0,0.0,2472.0,28.0,26.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1065261,Jonathan Rowe,3.0,2.0,1605.0,28.0,21.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1067204,Giovanni Fabbian,2.0,0.0,1173.0,29.0,12.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1068885,Alessandro Marcandalli,0.0,2.0,2597.0,32.0,33.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1069244,Tijjani Noslin,4.0,2.0,1148.0,29.0,7.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1082406,Matìas Soulé,6.0,5.0,2139.0,33.0,19.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:108484,Juan Jesus,0.0,0.0,1675.0,24.0,40.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1085913,Martin Vitík,0.0,0.0,1325.0,19.0,36.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1086223,Ange-Yoan Bonny,5.0,4.0,1142.0,33.0,17.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1086286,Máximo Perrone,3.0,4.0,2742.0,36.0,56.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1086417,Rasmus Højlund,12.0,5.0,2750.0,33.0,4.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1087514,Brooke Norton-Cuffy,2.0,1.0,2212.0,27.0,43.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1089453,Saúl Coco,1.0,1.0,3088.0,35.0,58.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1090019,Martin Baturina,6.0,3.0,1569.0,29.0,21.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1091303,Petar Sučić,2.0,2.0,1765.0,34.0,46.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1093695,Vitinha,5.0,1.0,2226.0,35.0,39.0,14.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1099296,Mateo Pellegrino,9.0,1.0,2984.0,37.0,17.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1103488,Rafik Belghali,2.0,0.0,1920.0,26.0,21.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1110136,Mandela Keita,1.0,1.0,2979.0,37.0,74.0,44.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1111640,Matteo Prati,1.0,1.0,1882.0,33.0,39.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1114422,Cher Ndour,3.0,0.0,1876.0,33.0,35.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1116570,Nicolás Valentini,0.0,0.0,1409.0,21.0,31.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1116577,Santiago Castro,7.0,2.0,2359.0,35.0,10.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1118177,Tarik Muharemovic,2.0,2.0,2835.0,32.0,44.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1128063,Federico Gatti,2.0,0.0,1093.0,21.0,12.0,13.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1128530,Neil El Aynaoui,1.0,2.0,999.0,25.0,20.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1134351,Ismaël Koné,6.0,0.0,2737.0,35.0,31.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1136399,Nicolò Bertola,0.0,1.0,1763.0,28.0,37.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1138856,Adam Buksa,3.0,0.0,922.0,25.0,10.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1142238,Álex Valle,1.0,4.0,2026.0,28.0,51.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1142606,Semih Kılıçsoy,4.0,0.0,975.0,22.0,5.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1142612,Emirhan İlkhan,1.0,2.0,1001.0,19.0,26.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1142692,Rafel Obrador,1.0,3.0,1116.0,16.0,23.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1149011,Kenan Yıldız,10.0,6.0,2825.0,36.0,26.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1154894,Lennon Miller,0.0,2.0,996.0,24.0,21.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1154898,Luca Lipani,0.0,1.0,1034.0,24.0,29.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:115516,Remo Freuler,1.0,2.0,2213.0,29.0,55.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1155423,Alessandro Circati,1.0,0.0,2664.0,31.0,43.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1155625,Cristian Volpato,2.0,4.0,1064.0,24.0,16.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1156616,Francesco Esposito,7.0,3.0,1571.0,35.0,9.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1157713,Isak Hien,1.0,0.0,1970.0,28.0,49.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:116666,Antonio Caracciolo,2.0,0.0,3073.0,35.0,71.0,50.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1170773,Giovane,3.0,5.0,1871.0,33.0,15.0,6.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1171451,Nicolás Paz,12.0,6.0,2878.0,35.0,91.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1174457,Samuele Angori,0.0,2.0,2599.0,35.0,46.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1175821,Niccolò Pisilli,2.0,4.0,1295.0,25.0,27.0,24.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1184248,Henrik Meister,2.0,0.0,1515.0,28.0,5.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1201388,Christian Ordoñez,1.0,0.0,1091.0,28.0,25.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1210848,Pietro Comuzzo,1.0,0.0,1696.0,27.0,32.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1211632,Wesley,5.0,0.0,2448.0,30.0,0.0,0.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1217613,Gift Orban,7.0,2.0,2027.0,28.0,4.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:125407,Álvaro Morata,0.0,1.0,930.0,26.0,14.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:126816,Francesco Acerbi,0.0,1.0,1378.0,18.0,10.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:132318,Davide Zappacosta,3.0,3.0,2569.0,35.0,22.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:135700,Hakan Çalhanoğlu,9.0,4.0,1639.0,22.0,34.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1384847,Daniele Ghilardi,0.0,0.0,1097.0,23.0,30.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:138605,Piotr Zieliński,6.0,3.0,2045.0,34.0,31.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1390489,Davide Bartesaghi,2.0,0.0,2441.0,31.0,49.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:139235,Adrien Tameze,0.0,0.0,1120.0,24.0,15.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1397736,Marco Palestra,1.0,4.0,3081.0,37.0,55.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1403348,Jacobo Ramón,2.0,0.0,2742.0,32.0,50.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:142148,Sead Kolašinac,0.0,0.0,1212.0,19.0,27.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1444690,Arthur Atta,5.0,3.0,2557.0,32.0,27.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1485391,Juan Rodríguez,1.0,0.0,1310.0,17.0,37.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:148899,Leonardo Spinazzola,3.0,3.0,1901.0,32.0,24.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1493689,Assane Diao,2.0,1.0,1075.0,17.0,16.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:150383,Stanislav Lobotka,1.0,1.0,2431.0,32.0,28.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:151003,Berat Djimsiti,0.0,0.0,2525.0,34.0,52.0,43.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1516324,Mariano Troilo,1.0,0.0,1625.0,21.0,28.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1525367,Ebenezer Akinsanmiro,0.0,1.0,1444.0,24.0,39.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:153257,Giovanni Di Lorenzo,2.0,1.0,2276.0,26.0,45.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:15466,Luka Modrić,2.0,3.0,2811.0,34.0,51.0,39.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:158037,Matteo Bianchetti,0.0,2.0,2192.0,27.0,46.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:1613917,Jeff Ekhator,3.0,0.0,956.0,30.0,12.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:16206,Yann Sommer,0.0,0.0,2960.0,33.0,0.0,0.0,65.0,30.0,15.0,GK
+2026-06-30,Serie A,sofascore:1634980,Honest Ahanor,0.0,0.0,1377.0,22.0,36.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:164511,Jean-Daniel Akpa-Akpro,1.0,0.0,1504.0,22.0,44.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1651825,Tiago Gabriel,2.0,0.0,3219.0,37.0,63.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:173827,Jamie Vardy,7.0,2.0,2105.0,29.0,12.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:1800245,Jesus Rodríguez,2.0,9.0,1731.0,31.0,26.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:184421,Stefano Sabelli,0.0,0.0,913.0,16.0,22.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:186845,Alberto Grassi,0.0,0.0,1753.0,30.0,23.0,32.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:186855,Bryan Cristante,2.0,1.0,3094.0,37.0,72.0,27.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:190437,Mario Pašalić,3.0,4.0,1936.0,33.0,25.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:191210,Mike Maignan,0.0,0.0,3295.0,37.0,0.0,1.0,108.0,35.0,13.0,GK
+2026-06-30,Serie A,sofascore:195850,Ruslan Malinovskyi,6.0,3.0,2235.0,34.0,30.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:1963449,Sascha Britschgi,0.0,2.0,2095.0,29.0,33.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:226974,Marc-Oliver Kempf,4.0,1.0,2326.0,34.0,21.0,12.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:227864,Alessio Romagnoli,0.0,0.0,2666.0,32.0,23.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:227894,Jesper Karlström,1.0,0.0,3146.0,36.0,54.0,36.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:229740,Alberto Moreno,2.0,1.0,1233.0,19.0,22.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:233826,Valentino Lazaro,0.0,2.0,2252.0,31.0,47.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:235672,Matteo Politano,2.0,5.0,2200.0,34.0,15.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:250737,Adrien Rabiot,6.0,4.0,2550.0,29.0,57.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:253367,Domenico Berardi,8.0,4.0,1958.0,26.0,26.0,24.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:253391,Lorenzo Montipò,0.0,1.0,3150.0,35.0,1.0,0.0,91.0,54.0,5.0,GK
+2026-06-30,Serie A,sofascore:256219,Paulo Dybala,2.0,6.0,1354.0,22.0,10.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:256667,Wladimiro Falcone,0.0,0.0,3420.0,38.0,2.0,0.0,110.0,50.0,10.0,GK
+2026-06-30,Serie A,sofascore:259281,Alberto Paleari,0.0,0.0,2610.0,29.0,0.0,0.0,82.0,45.0,9.0,GK
+2026-06-30,Serie A,sofascore:267619,Adam Marušić,1.0,2.0,2778.0,33.0,35.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:273405,Manuel Lazzari,0.0,0.0,938.0,23.0,13.0,6.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:280991,Morten Thorsby,3.0,1.0,1374.0,24.0,22.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:284361,Federico Dimarco,7.0,16.0,2698.0,35.0,50.0,31.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:284363,Federico Bonazzoli,10.0,1.0,2510.0,35.0,30.0,11.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:284367,Arturo Calabresi,0.0,0.0,1514.0,26.0,19.0,19.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:284441,Ruben Loftus-Cheek,3.0,1.0,1133.0,28.0,14.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:287057,Roberto Gagliardini,1.0,0.0,2272.0,29.0,73.0,54.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:293581,Mattia Zaccagni,3.0,0.0,2104.0,26.0,37.0,19.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:294597,Federico Bernardeschi,4.0,2.0,1217.0,29.0,7.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:308182,Ivan Provedel,0.0,0.0,2430.0,27.0,0.0,0.0,90.0,27.0,12.0,GK
+2026-06-30,Serie A,sofascore:309156,Caleb Ekuban,4.0,1.0,994.0,31.0,4.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:317301,Danilo Cataldi,3.0,3.0,1985.0,27.0,34.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:318603,Emil Audero,0.0,0.0,3060.0,34.0,0.0,0.0,125.0,50.0,11.0,GK
+2026-06-30,Serie A,sofascore:318645,Jari Vandeputte,1.0,5.0,1944.0,32.0,38.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:328109,Alessandro Deiola,0.0,2.0,1430.0,20.0,35.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:332155,Amir Rrahmani,2.0,1.0,1795.0,21.0,22.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:333261,Antonio Sanabria,1.0,1.0,945.0,25.0,2.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:339909,Guillermo Maripán,2.0,0.0,2145.0,27.0,51.0,28.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:341143,Giovanni Simeone,11.0,0.0,2230.0,32.0,16.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:346948,Stefano Moreo,7.0,1.0,2307.0,37.0,17.0,22.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:351434,Hassane Kamara,0.0,2.0,1861.0,26.0,31.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:352736,Sebastiano Luperto,1.0,1.0,3013.0,34.0,35.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:353130,Mario Hermoso,3.0,2.0,2085.0,27.0,36.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:35428,Pedro,5.0,2.0,982.0,29.0,11.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:356160,Vanja Milinković-Savić,0.0,1.0,2430.0,27.0,0.0,0.0,56.0,24.0,11.0,GK
+2026-06-30,Serie A,sofascore:357596,Nikola Vlašić,8.0,3.0,3043.0,37.0,67.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:360396,Yerry Mina,2.0,0.0,2150.0,26.0,32.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:363856,Nicolò Barella,3.0,8.0,2517.0,34.0,54.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:363860,Manuel Locatelli,1.0,2.0,2994.0,36.0,102.0,39.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:37151,Henrikh Mkhitaryan,4.0,1.0,1560.0,30.0,33.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:377118,Robin Gosens,3.0,1.0,1881.0,26.0,31.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:38162,Duván Zapata,3.0,1.0,1103.0,28.0,4.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:383560,Manuel Akanji,2.0,0.0,2821.0,33.0,48.0,37.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:44241,Nemanja Matić,1.0,1.0,2660.0,34.0,43.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:44906,Łukasz Skorupski,0.0,0.0,1592.0,19.0,0.0,0.0,33.0,15.0,7.0,GK
+2026-06-30,Serie A,sofascore:548178,Rolando Mandragora,7.0,3.0,2421.0,34.0,45.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:555540,Lorenzo Pellegrini,4.0,2.0,1463.0,24.0,12.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:556696,Justin Bijlow,0.0,0.0,1395.0,16.0,0.0,0.0,45.0,20.0,5.0,GK
+2026-06-30,Serie A,sofascore:558320,Ulisses Garcia,1.0,2.0,943.0,13.0,17.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:58351,Christian Kabasele,3.0,0.0,2247.0,30.0,18.0,36.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:592794,Alex Meret,0.0,1.0,979.0,11.0,0.0,0.0,21.0,12.0,3.0,GK
+2026-06-30,Serie A,sofascore:599114,Jean Butez,0.0,1.0,3420.0,38.0,2.0,1.0,88.0,29.0,19.0,GK
+2026-06-30,Serie A,sofascore:604232,Diego Carlos,1.0,0.0,1949.0,27.0,30.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:609206,Kingsley Ehizibue,2.0,0.0,1811.0,32.0,39.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:611210,Gianluca Mancini,4.0,2.0,3059.0,36.0,52.0,49.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:69378,David de Gea,0.0,0.0,3330.0,37.0,0.0,0.0,121.0,49.0,10.0,GK
+2026-06-30,Serie A,sofascore:70996,Kevin De Bruyne,5.0,2.0,1165.0,18.0,12.0,5.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:759520,Denzel Dumfries,3.0,1.0,1325.0,20.0,16.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:769333,Christopher Nkunku,7.0,3.0,1356.0,32.0,5.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:773409,Ché Adams,6.0,2.0,1893.0,33.0,14.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:786175,Federico Baschirotto,2.0,0.0,2540.0,29.0,26.0,26.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:787941,Frank Anguissa,4.0,1.0,1258.0,18.0,18.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:788061,M'Bala Nzola,4.0,1.0,1525.0,30.0,8.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:788255,Fikayo Tomori,0.0,2.0,2554.0,33.0,65.0,29.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:791702,Marcus Thuram,13.0,6.0,1900.0,29.0,24.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:793645,Riccardo Orsolini,10.0,1.0,2111.0,35.0,21.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:793986,Mile Svilar,0.0,0.0,3420.0,38.0,3.0,1.0,107.0,31.0,18.0,GK
+2026-06-30,Serie A,sofascore:797286,Aarón Martín,1.0,5.0,2156.0,33.0,43.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:797596,Marius Marin,0.0,0.0,1281.0,23.0,45.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:798002,Toma Bašić,2.0,3.0,1735.0,23.0,21.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:798147,Mërgim Vojvoda,2.0,2.0,1591.0,30.0,13.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:800408,Suat Serdar,2.0,0.0,1108.0,20.0,31.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:803033,Teun Koopmeiners,0.0,0.0,1827.0,33.0,33.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:803039,Donyell Malen,14.0,2.0,1467.0,18.0,5.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:804621,Lassana Coulibaly,3.0,1.0,2689.0,33.0,48.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:804909,Albert Guðmundsson,5.0,4.0,2250.0,33.0,8.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:805078,Mathías Olivera,0.0,0.0,1370.0,25.0,42.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:805465,Pervis Estupiñán,1.0,1.0,1034.0,19.0,15.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:807301,Gianluca Scamacca,10.0,1.0,1315.0,24.0,8.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:814589,Giuseppe Pezzella,0.0,1.0,2585.0,31.0,53.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:814876,Adrian Šemper,0.0,0.0,2250.0,25.0,0.0,0.0,82.0,42.0,4.0,GK
+2026-06-30,Serie A,sofascore:814882,Nikola Moro,2.0,0.0,1799.0,30.0,32.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:817957,Christian Pulisic,8.0,4.0,1609.0,30.0,15.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:818481,Jhon Lucumí,1.0,0.0,2287.0,29.0,41.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:822518,Dodô,1.0,2.0,3134.0,36.0,29.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:823984,Lautaro Martínez,17.0,6.0,2159.0,30.0,24.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:825271,Jakub Piotrowski,1.0,1.0,1696.0,33.0,45.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:826064,Jens Odgaard,5.0,1.0,1378.0,26.0,21.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:826185,Raoul Bellanova,0.0,1.0,1377.0,24.0,18.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:826186,Luca Pellegrini,1.0,0.0,1469.0,24.0,27.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:826188,Alessandro Bastoni,1.0,4.0,2239.0,28.0,51.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:826195,Matteo Gabbia,0.0,0.0,2530.0,30.0,21.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:826198,Andrea Pinamonti,9.0,3.0,2552.0,36.0,11.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:826326,Idrissa Touré,1.0,0.0,2279.0,32.0,43.0,23.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:829570,Jack Harrison,1.0,3.0,981.0,15.0,10.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:830858,Keinan Davis,10.0,4.0,2065.0,30.0,11.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:832208,Dušan Vlahović,7.0,1.0,968.0,19.0,3.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:835601,Moise Kean,8.0,1.0,2036.0,26.0,6.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:837080,Antoine Bernede,1.0,2.0,2301.0,32.0,70.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:838232,Elif Elmas,1.0,3.0,1783.0,33.0,24.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:839156,Nikola Krstović,10.0,5.0,1791.0,33.0,15.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:840414,Ardian Ismajli,0.0,1.0,1906.0,25.0,33.0,34.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:841977,Ylber Ramadani,1.0,0.0,3203.0,37.0,92.0,47.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:844609,Michele Di Gregorio,0.0,0.0,2655.0,30.0,0.0,0.0,61.0,25.0,13.0,GK
+2026-06-30,Serie A,sofascore:846148,Victor Nelsson,0.0,0.0,3315.0,38.0,72.0,68.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:847467,Marin Pongračić,0.0,0.0,2918.0,35.0,31.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:848279,Enzo Ebosse,0.0,1.0,1329.0,17.0,12.0,10.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:849274,Youssef Maleh,1.0,0.0,1560.0,23.0,38.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:850891,Michel Aebischer,1.0,2.0,2892.0,35.0,65.0,37.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:850952,Federico Ravaglia,0.0,0.0,1470.0,17.0,3.0,1.0,52.0,29.0,2.0,GK
+2026-06-30,Serie A,sofascore:850993,David Neres,3.0,3.0,922.0,16.0,10.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:851222,Mehdi Léris,2.0,3.0,1900.0,34.0,67.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:851284,Rafael Leão,9.0,3.0,1851.0,29.0,6.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:852404,Mattéo Guendouzi,2.0,1.0,1428.0,16.0,14.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:855829,Juan Miranda,1.0,3.0,2573.0,32.0,49.0,35.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:859027,Maxence Caqueret,2.0,6.0,1485.0,30.0,35.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:864898,Nicolò Zaniolo,5.0,6.0,2257.0,32.0,28.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:865167,Lloyd Kelly,1.0,1.0,2996.0,35.0,48.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:865646,Marco Carnesecchi,0.0,0.0,3330.0,37.0,1.0,0.0,115.0,35.0,13.0,GK
+2026-06-30,Serie A,sofascore:869795,Michael Folorunsho,2.0,0.0,1999.0,27.0,24.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:869888,Alessio Zerbin,0.0,3.0,1646.0,32.0,40.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:870263,Alessandro Buongiorno,0.0,1.0,2521.0,33.0,33.0,40.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:874812,Martin Frese,2.0,0.0,2408.0,31.0,84.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:876259,Hans Nicolussi Caviglia,0.0,4.0,1454.0,26.0,27.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:877037,Cyril Ngonge,1.0,1.0,994.0,20.0,7.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:877201,Gabriel Strefezza,2.0,2.0,1007.0,14.0,16.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:879346,Scott McTominay,10.0,3.0,2791.0,33.0,28.0,21.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:879746,Leo Østigård,5.0,1.0,2622.0,30.0,36.0,30.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:881931,Weston McKennie,5.0,5.0,2835.0,36.0,40.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:885197,Gleison Bremer,4.0,3.0,2171.0,26.0,28.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:886243,Sebastian Walukiewicz,0.0,1.0,2852.0,34.0,50.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:887275,Mattéo Tramoni,2.0,2.0,1600.0,27.0,32.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:888971,Arijanet Muric,0.0,0.0,2880.0,32.0,0.0,0.0,119.0,43.0,6.0,GK
+2026-06-30,Serie A,sofascore:889785,Johan Vásquez,1.0,0.0,3215.0,36.0,59.0,45.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:891346,Emanuele Valeri,0.0,2.0,2643.0,34.0,46.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:891656,Maduka Okoye,0.0,0.0,2616.0,30.0,0.0,0.0,81.0,32.0,10.0,GK
+2026-06-30,Serie A,sofascore:892521,Unai Núñez,0.0,0.0,1265.0,17.0,25.0,11.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:892979,Oumar Solet,3.0,1.0,2959.0,35.0,75.0,48.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:893008,Zeki Çelik,1.0,2.0,2723.0,34.0,64.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:893640,Riccardo Sottil,1.0,2.0,1066.0,21.0,4.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:893998,Luca Ranieri,1.0,0.0,2458.0,34.0,34.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:894863,Anastasios Douvikas,14.0,1.0,2273.0,38.0,13.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:895592,Martín Payero,1.0,0.0,1457.0,25.0,19.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:895868,Nahuel Estévez,0.0,1.0,1049.0,32.0,18.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:897594,Domagoj Bradarić,0.0,1.0,1966.0,29.0,30.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:898815,Sam Beukema,2.0,0.0,1681.0,24.0,19.0,14.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:901850,Nicolò Fagioli,2.0,3.0,2554.0,33.0,46.0,16.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:901891,Alexis Saelemaekers,3.0,3.0,2788.0,35.0,73.0,28.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:902019,Gianluca Gaetano,2.0,4.0,1912.0,33.0,29.0,22.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:904832,Khéphren Thuram,3.0,3.0,2442.0,35.0,60.0,12.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:904887,Jurgen Ekkelenkamp,5.0,3.0,2186.0,31.0,47.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:905351,Zion Suzuki,0.0,0.0,1800.0,20.0,0.0,0.0,66.0,28.0,5.0,GK
+2026-06-30,Serie A,sofascore:906275,Yann Aurel Bisseck,3.0,1.0,1922.0,23.0,27.0,22.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:906963,Andrias Edmundsson,0.0,0.0,1319.0,15.0,26.0,27.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:907152,Lewis Ferguson,1.0,0.0,1601.0,27.0,26.0,11.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:908716,Miguel Gutiérrez,1.0,1.0,1488.0,28.0,33.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:909991,Simon Sohm,0.0,1.0,1425.0,28.0,20.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:910121,Fisayo Dele-Bashiru,1.0,0.0,1187.0,24.0,19.0,3.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:911350,Lameck Banda,5.0,4.0,1752.0,32.0,27.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:911355,Simone Canestrelli,1.0,0.0,3201.0,37.0,40.0,33.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:911848,Lucas Da Cunha,6.0,4.0,2739.0,36.0,57.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:915812,Abdou Harroui,1.0,0.0,907.0,23.0,27.0,1.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:917048,Andrea Cambiaso,3.0,4.0,2769.0,36.0,61.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:917485,Walid Cheddira,4.0,1.0,1221.0,33.0,6.0,2.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:918440,Morten Frendrup,1.0,0.0,3081.0,36.0,99.0,41.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:922928,Alessandro Zanoli,1.0,2.0,1280.0,19.0,25.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:924973,Kristian Thorstvedt,4.0,4.0,2460.0,32.0,44.0,32.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:927304,Gabriele Zappa,0.0,3.0,1597.0,31.0,28.0,17.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:928103,Enrico Delprato,2.0,0.0,2951.0,35.0,36.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:928104,Nadir Zortea,0.0,2.0,1819.0,32.0,26.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:928777,Michel Ndary Adopo,1.0,2.0,3050.0,38.0,57.0,29.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:928796,Tommaso Pobega,3.0,1.0,1434.0,26.0,37.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:928800,Marco Brescianini,2.0,1.0,1044.0,26.0,13.0,2.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:929199,Carlos Augusto,1.0,1.0,1763.0,34.0,37.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:930189,Samuele Ricci,1.0,4.0,1312.0,31.0,16.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:930191,Lorenzo Colombo,7.0,1.0,2326.0,38.0,20.0,1.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:932643,Armand Lauriente,7.0,9.0,2592.0,38.0,27.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:933203,Mikael Ellertsson,1.0,1.0,2767.0,36.0,44.0,15.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:933264,Torbjørn Heggem,0.0,0.0,2113.0,27.0,32.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:933641,Jay Idzes,0.0,0.0,3061.0,35.0,28.0,42.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:934384,Adrian Bernabe,3.0,1.0,2470.0,32.0,39.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:934409,Marcus Pedersen,1.0,2.0,2134.0,29.0,23.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:935564,Jonathan David,6.0,4.0,1781.0,35.0,17.0,5.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:944973,Nuno Tavares,0.0,0.0,1473.0,23.0,30.0,18.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:945062,Youssouf Fofana,2.0,3.0,2203.0,33.0,41.0,19.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:945616,Antonino Gallo,0.0,4.0,3056.0,37.0,58.0,15.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:947954,Elia Caprile,0.0,0.0,3420.0,38.0,0.0,0.0,122.0,53.0,8.0,GK
+2026-06-30,Serie A,sofascore:958517,Lautaro Valenti,0.0,0.0,2252.0,27.0,49.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:958982,Roberto Piccoli,4.0,1.0,1672.0,32.0,8.0,4.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:959806,Kenneth Taylor,3.0,2.0,1394.0,17.0,21.0,10.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:960080,Boulaye Dia,1.0,2.0,1253.0,27.0,13.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:960441,Charles De Ketelaere,3.0,5.0,2177.0,31.0,24.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:964119,Jordan Zemura,0.0,1.0,1127.0,17.0,31.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:964153,Adam Obert,0.0,3.0,2771.0,35.0,68.0,42.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:965008,Sebastiano Esposito,7.0,5.0,2675.0,36.0,56.0,20.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:965330,Pierre Kalulu,2.0,4.0,3281.0,37.0,62.0,24.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:965828,Mario Gila,0.0,0.0,2472.0,31.0,46.0,25.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:965893,Strahinja Pavlović,5.0,1.0,2869.0,34.0,54.0,20.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:970928,Daniel Maldini,2.0,1.0,951.0,21.0,15.0,4.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:970998,Patrizio Masini,0.0,1.0,1413.0,28.0,68.0,25.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:971005,Nicolò Cambiaghi,3.0,4.0,1518.0,28.0,30.0,8.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:972523,Cheikh Niasse,0.0,1.0,970.0,19.0,21.0,14.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:972886,Fabiano Parisi,1.0,1.0,1520.0,23.0,21.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:973437,Odilon Kossounou,1.0,0.0,988.0,19.0,17.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:974087,Manu Koné,2.0,3.0,2456.0,29.0,49.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:974581,Ivan Smolčić,0.0,1.0,1662.0,28.0,38.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:976025,Armel Bella Kotchap,0.0,0.0,1347.0,19.0,20.0,32.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:976381,Gustav Isaksen,5.0,1.0,1593.0,30.0,16.0,7.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:977679,Luis Henrique,1.0,2.0,1624.0,30.0,20.0,6.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:979222,Francisco Conceição,3.0,5.0,2078.0,31.0,34.0,7.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:979479,Gennaro Borrelli,5.0,1.0,1275.0,27.0,15.0,3.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:98059,Nicola Leali,0.0,0.0,1847.0,22.0,1.0,1.0,58.0,27.0,4.0,GK
+2026-06-30,Serie A,sofascore:980624,Lazar Samardzic,2.0,1.0,1030.0,26.0,12.0,9.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:982778,Devyne Rensch,1.0,4.0,1184.0,24.0,31.0,17.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:983601,Kieron Bowie,4.0,0.0,1200.0,14.0,9.0,0.0,0.0,0.0,0.0,FWD
+2026-06-30,Serie A,sofascore:984184,Nicola Zalewski,2.0,4.0,1897.0,33.0,29.0,18.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:984998,Santiago Pierotti,1.0,2.0,2597.0,37.0,83.0,20.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:989186,Ignace Van Der Brempt,0.0,1.0,931.0,20.0,30.0,8.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:989276,Josh Doig,0.0,0.0,1917.0,30.0,33.0,23.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:989894,Woyo Coulibaly,0.0,0.0,1054.0,20.0,24.0,9.0,0.0,0.0,0.0,DEF
+2026-06-30,Serie A,sofascore:990411,Edoardo Corvi,0.0,0.0,1530.0,17.0,1.0,0.0,45.0,18.0,7.0,GK
+2026-06-30,Serie A,sofascore:993389,Tommaso Barbieri,0.0,1.0,1707.0,29.0,45.0,13.0,0.0,0.0,0.0,MID
+2026-06-30,Serie A,sofascore:996820,Kristjan Asllani,0.0,0.0,1129.0,15.0,21.0,12.0,0.0,0.0,0.0,MID
