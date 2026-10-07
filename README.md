@@ -20,7 +20,7 @@ Installer Git, Python 3.13 et VS Code, puis exécuter dans un terminal :
 ```powershell
 git clone https://github.com/EnzoBrsc/M259.git
 cd M259
-git switch integration-donnees
+git switch feat-selections-football
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 code .
@@ -136,6 +136,16 @@ Les tests couvrent la chronologie, les fuites, la sélection sans test final, le
 ## Limites et bilan
 
 Peu d'éditions signifient une forte incertitude : toujours publier les effectifs et les résultats par édition. La liste rétrospective des candidats, les changements de règles/périodes et les critères subjectifs conditionnent la validité de l'étude. Le modèle ne démontre ni une causalité ni un choix « juste » du gagnant. Le [bilan actuel](docs/cheminement_projet.md) intègre les choix de Luca, la comparaison et le test réel, avec les égalités et les limites. Aucune amélioration n'a été choisie sur le test déjà consulté.
+
+## Récompenses du football réel
+
+L'extension **TOTW / TOTY / TOTS / POTM du football réel** est disponible dans le
+sélecteur de l'interface sur `feat-selections-football`.
+Elle couvre les cinq grands championnats et prépare des modèles séparés et des
+équipes par postes. **Les données et modèles réels de ces récompenses manquent
+encore : aucune prédiction réelle n'est affichée pour ces quatre modes.**
+Les gabarits, sources à définir et commandes sont dans
+[docs/selections_football.md](docs/selections_football.md).
 
 ## Travailler ensemble
 
