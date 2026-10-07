@@ -42,12 +42,16 @@ class SelectionConfig:
     labels_and_candidate_pool_documented: bool = False
     competitions: list[str] = field(default_factory=lambda: LEAGUES.copy())
     squad_positions: dict[str, int] = field(default_factory=dict)
+    label_kind: str = "observed_selection"
+    availability_kind: str = "documented_publication"
 
     @property
     def features(self):
         return self.numeric_features + self.categorical_features
 
     def validate(self):
+        if self.label_kind not in {"observed_selection", "derived_statistical"} or self.availability_kind not in {"documented_publication", "retrospective_reconstruction"}:
+            raise InputError("Nature des labels ou de leur disponibilité inconnue.")
         if self.award not in AWARDS:
             raise InputError("Sélection inconnue : TOTW, TOTY, TOTS ou POTM attendue.")
         if not isinstance(self.authority, str) or not self.authority.strip():
@@ -131,7 +135,7 @@ def validate_selection_frame(frame, config, *, training):
             raise InputError("Une date de publication des labels par période et compétition est nécessaire.")
         target = pd.to_numeric(result.selected, errors="coerce")
         if target.isna().any() or not target.isin([0, 1]).all():
-            raise InputError("selected doit valoir 0 ou 1 : sélection officielle observée.")
+            raise InputError("selected doit valoir 0 ou 1 selon la référence documentée.")
         result["selected"] = target.astype(int)
         counts = result.groupby(["period_end", "competition"]).selected.agg(["sum", "count"])
         if (counts["sum"] < 1).any() or (counts["sum"] >= counts["count"]).any():
@@ -185,7 +189,7 @@ def selection_plan(periods, config):
     return {"development": development, "test": test, "folds": folds}
 
 
-def train_selection(data_path, config_path, output_dir, data_readme_path):
+def train_selection(data_path, config_path, output_dir, data_readme_path, *, refit_all=False):
     for path in (data_path, config_path, data_readme_path):
         if not Path(path).is_file() or not Path(path).stat().st_size:
             raise InputError(f"Données, configuration ou documentation manquante : {path}.")
@@ -221,10 +225,19 @@ def train_selection(data_path, config_path, output_dir, data_readme_path):
               "chronology": plan, "selected": chosen, "validation": validation, "final_test": test_evaluation,
               "versions": versions, "selection_rule": "validation precision@k, puis recall@k ; ordre fixe en cas d'égalité ; aucun choix sur le test",
               "inputs_sha256": {str(p): hashlib.sha256(Path(p).read_bytes()).hexdigest() for p in (data_path, config_path, data_readme_path)}}
+    trained_periods = plan["development"]
+    label_cutoff = development.label_available_on.max()
+    report["production_refit"] = {"enabled": bool(refit_all), "evaluation_trained_through": max(trained_periods),
+                                  "note": "Le test évalue le modèle de développement. Un réentraînement de production utilise ensuite tous les labels, sans nouveau choix ni nouvelle métrique de test."}
+    if refit_all:
+        model.fit(frame[cfg.features], frame.selected)
+        trained_periods = sorted(frame.period_end.unique())
+        label_cutoff = frame.label_available_on.max()
+    report["production_refit"]["saved_model_trained_through"] = max(trained_periods)
     output.mkdir(parents=True, exist_ok=True)
     joblib.dump({"format": "m259-football-selections-v1", "award": cfg.award, "pipeline": model, "config": asdict(cfg),
-                 "model_name": chosen["model"], "trained_periods": plan["development"],
-                 "trained_labels_available_on": development.label_available_on.max(), "versions": versions}, output / "model.joblib")
+                 "model_name": chosen["model"], "trained_periods": trained_periods,
+                 "trained_labels_available_on": label_cutoff, "versions": versions}, output / "model.joblib")
     (output / "results.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     return report
 

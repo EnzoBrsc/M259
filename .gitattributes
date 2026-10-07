@@ -3,3 +3,8 @@ data/raw/*.csv -text
 # Les fichiers générés restent stables entre Windows, macOS et Linux.
 data/processed/* text eol=lf
 notebooks/*.ipynb text eol=lf
+# Snapshots préparés et entrées des rapports : préserver les empreintes entre OS.
+data/selections/processed/* -text
+data/selections/README.md -text whitespace=cr-at-eol
+config/selections/*.json -text
+docs/resultats_selections/*.json -text

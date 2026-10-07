@@ -1,0 +1,48 @@
+{
+  "award": "POTM",
+  "authority": "M259 : règle statistique expérimentale v1, labels reconstruits ; aucun vote officiel",
+  "numeric_features": [
+    "goals",
+    "assists",
+    "matches",
+    "shots_on_goal",
+    "yellow_cards",
+    "red_cards",
+    "team_wins",
+    "clean_sheets",
+    "goals_conceded"
+  ],
+  "categorical_features": [
+    "position"
+  ],
+  "baseline_feature": "goals",
+  "feature_notes": {
+    "goals": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "assists": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "matches": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "shots_on_goal": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "yellow_cards": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "red_cards": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "team_wins": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "clean_sheets": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "goals_conceded": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "position": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md"
+  },
+  "top_k": 1,
+  "min_train_periods": 2,
+  "validation_periods": 2,
+  "test_periods": 2,
+  "random_seed": 42,
+  "data_available_before_selection": true,
+  "labels_and_candidate_pool_documented": true,
+  "competitions": [
+    "Premier League",
+    "La Liga",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1"
+  ],
+  "squad_positions": {},
+  "label_kind": "derived_statistical",
+  "availability_kind": "retrospective_reconstruction"
+}

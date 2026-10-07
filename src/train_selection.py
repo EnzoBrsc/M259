@@ -18,9 +18,10 @@ def main():
     parser.add_argument("--config", required=True)
     parser.add_argument("--data-readme", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--refit-all", action="store_true", help="Après le test figé, réentraîner pour la production sur tout l'historique, sans choisir à nouveau les paramètres.")
     args = parser.parse_args()
     try:
-        report = train_selection(args.data, args.config, args.output, args.data_readme)
+        report = train_selection(args.data, args.config, args.output, args.data_readme, refit_all=args.refit_all)
     except (InputError, OSError) as exc:
         parser.exit(2, f"Erreur : {exc}\n")
     print(json.dumps({"selected": report["selected"]["model"], "validation": report["selected"]["metrics"],

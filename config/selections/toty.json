@@ -1,0 +1,53 @@
+{
+  "award": "TOTY",
+  "authority": "M259 : règle statistique expérimentale v1, labels reconstruits ; aucun vote officiel",
+  "numeric_features": [
+    "goals",
+    "assists",
+    "minutes",
+    "matches",
+    "tackles",
+    "interceptions",
+    "saves",
+    "goals_conceded",
+    "clean_sheets"
+  ],
+  "categorical_features": [
+    "position"
+  ],
+  "baseline_feature": "goals",
+  "feature_notes": {
+    "goals": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "assists": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "minutes": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "matches": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "tackles": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "interceptions": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "saves": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "goals_conceded": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "clean_sheets": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+    "position": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md"
+  },
+  "top_k": 11,
+  "min_train_periods": 3,
+  "validation_periods": 3,
+  "test_periods": 2,
+  "random_seed": 42,
+  "data_available_before_selection": true,
+  "labels_and_candidate_pool_documented": true,
+  "competitions": [
+    "Premier League",
+    "La Liga",
+    "Bundesliga",
+    "Serie A",
+    "Ligue 1"
+  ],
+  "squad_positions": {
+    "GK": 1,
+    "DEF": 4,
+    "MID": 3,
+    "FWD": 3
+  },
+  "label_kind": "derived_statistical",
+  "availability_kind": "retrospective_reconstruction"
+}
