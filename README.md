@@ -139,13 +139,33 @@ Peu d'éditions signifient une forte incertitude : toujours publier les effectif
 
 ## Récompenses du football réel
 
-L'extension **TOTW / TOTY / TOTS / POTM du football réel** est disponible dans le
-sélecteur de l'interface sur `feat-selections-football`.
-Elle couvre les cinq grands championnats et prépare des modèles séparés et des
-équipes par postes. **Les données et modèles réels de ces récompenses manquent
-encore : aucune prédiction réelle n'est affichée pour ces quatre modes.**
-Les gabarits, sources à définir et commandes sont dans
-[docs/selections_football.md](docs/selections_football.md).
+Les modes **TOTW / TOTY / TOTS / POTM** utilisent maintenant des statistiques
+réelles des cinq grands championnats, avec des **sélections expérimentales M259**.
+Leurs labels reproduisent une règle documentée ; ils ne représentent pas des
+votes officiels. TOTS/TOTY utilisent 2025/26, TOTW le dernier match disponible
+par joueur dans la semaine du 14–20 septembre 2026, POTM septembre 2026.
+TOTY suit ici le même protocole de saison que TOTS, pas une année civile.
+Les CSV préparés sont versionnés ; les binaires des modèles restent locaux.
+
+Sur un nouveau clone, après installation de `requirements.txt` :
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 .\src\setup_selection_models.py
+.\.venv\Scripts\python.exe -m streamlit run .\app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
+```
+
+Choisir une récompense : le CSV collecté se charge automatiquement et peut être
+remplacé par un import. L'application affiche l'équipe par postes ou le joueur
+proposé, le classement, un graphique et les exports. Le setup compare neuf
+variantes en validation chronologique, teste les périodes réservées puis
+réentraîne le modèle choisi pour la production, sans nouveau choix sur le test.
+
+La collecte facultative nécessite `requirements-data.txt` et
+`src/collect_selection_data.py --download`. Les sources figées, pondérations,
+colonnes, dates, manquants et exclusions sont documentés dans
+[data/selections/README.md](data/selections/README.md). Les résultats et limites
+sont dans [docs/selections_football.md](docs/selections_football.md).
+**43 tests passent sous Python 3.13.1 Windows**, et `pip check` est valide.
 
 ## Travailler ensemble
 

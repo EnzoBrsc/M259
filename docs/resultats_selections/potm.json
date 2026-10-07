@@ -1,0 +1,1446 @@
+{
+  "created_at_utc": "2026-10-07T10:32:03.106790+00:00",
+  "config": {
+    "award": "POTM",
+    "authority": "M259 : règle statistique expérimentale v1, labels reconstruits ; aucun vote officiel",
+    "numeric_features": [
+      "goals",
+      "assists",
+      "matches",
+      "shots_on_goal",
+      "yellow_cards",
+      "red_cards",
+      "team_wins",
+      "clean_sheets",
+      "goals_conceded"
+    ],
+    "categorical_features": [
+      "position"
+    ],
+    "baseline_feature": "goals",
+    "feature_notes": {
+      "goals": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "assists": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "matches": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "shots_on_goal": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "yellow_cards": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "red_cards": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "team_wins": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "clean_sheets": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "goals_conceded": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md",
+      "position": "Statistiques réelles agrégées ; dictionnaire et fenêtres : data/selections/README.md"
+    },
+    "top_k": 1,
+    "min_train_periods": 2,
+    "validation_periods": 2,
+    "test_periods": 2,
+    "random_seed": 42,
+    "data_available_before_selection": true,
+    "labels_and_candidate_pool_documented": true,
+    "competitions": [
+      "Premier League",
+      "La Liga",
+      "Bundesliga",
+      "Serie A",
+      "Ligue 1"
+    ],
+    "squad_positions": {},
+    "label_kind": "derived_statistical",
+    "availability_kind": "retrospective_reconstruction"
+  },
+  "chronology": {
+    "development": [
+      "2024-08-31",
+      "2024-09-30",
+      "2024-10-31",
+      "2024-11-30"
+    ],
+    "test": [
+      "2024-12-31",
+      "2025-01-31"
+    ],
+    "folds": [
+      {
+        "train": [
+          "2024-08-31",
+          "2024-09-30"
+        ],
+        "validation": [
+          "2024-10-31"
+        ]
+      },
+      {
+        "train": [
+          "2024-08-31",
+          "2024-09-30",
+          "2024-10-31"
+        ],
+        "validation": [
+          "2024-11-30"
+        ]
+      }
+    ]
+  },
+  "selected": {
+    "model": "regression_logistique",
+    "parameters": {
+      "C": 0.1
+    },
+    "metrics": {
+      "precision_at_k": 0.9,
+      "recall_at_k": 0.9
+    },
+    "by_group": [
+      {
+        "period_end": "2024-10-31",
+        "competition": "Bundesliga",
+        "candidates": 339,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-10-31",
+        "competition": "La Liga",
+        "candidates": 398,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-10-31",
+        "competition": "Ligue 1",
+        "candidates": 358,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-10-31",
+        "competition": "Premier League",
+        "candidates": 374,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-10-31",
+        "competition": "Serie A",
+        "candidates": 417,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-11-30",
+        "competition": "Bundesliga",
+        "candidates": 357,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-11-30",
+        "competition": "La Liga",
+        "candidates": 396,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-11-30",
+        "competition": "Ligue 1",
+        "candidates": 359,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-11-30",
+        "competition": "Premier League",
+        "candidates": 384,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-11-30",
+        "competition": "Serie A",
+        "candidates": 408,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      }
+    ]
+  },
+  "validation": [
+    {
+      "model": "reference",
+      "parameters": {},
+      "metrics": {
+        "precision_at_k": 0.8,
+        "recall_at_k": 0.8
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 0.1
+      },
+      "metrics": {
+        "precision_at_k": 0.9,
+        "recall_at_k": 0.9
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 1.0
+      },
+      "metrics": {
+        "precision_at_k": 0.9,
+        "recall_at_k": 0.9
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "regression_logistique",
+      "parameters": {
+        "C": 10.0
+      },
+      "metrics": {
+        "precision_at_k": 0.9,
+        "recall_at_k": 0.9
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": 2,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.5
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": 4,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.5
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        }
+      ]
+    },
+    {
+      "model": "arbre_decision",
+      "parameters": {
+        "max_depth": null,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.5
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": true
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "foret_aleatoire",
+      "parameters": {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "precision_at_k": 0.8,
+        "recall_at_k": 0.8
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    },
+    {
+      "model": "foret_aleatoire",
+      "parameters": {
+        "n_estimators": 100,
+        "max_depth": null,
+        "min_samples_leaf": 2
+      },
+      "metrics": {
+        "precision_at_k": 0.8,
+        "recall_at_k": 0.8
+      },
+      "by_group": [
+        {
+          "period_end": "2024-10-31",
+          "competition": "Bundesliga",
+          "candidates": 339,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "La Liga",
+          "candidates": 398,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Ligue 1",
+          "candidates": 358,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Premier League",
+          "candidates": 374,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-10-31",
+          "competition": "Serie A",
+          "candidates": 417,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Bundesliga",
+          "candidates": 357,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "La Liga",
+          "candidates": 396,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Ligue 1",
+          "candidates": 359,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Premier League",
+          "candidates": 384,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 0,
+          "precision_at_k": 0.0,
+          "recall_at_k": 0.0,
+          "tie_at_cutoff": false
+        },
+        {
+          "period_end": "2024-11-30",
+          "competition": "Serie A",
+          "candidates": 408,
+          "selected_count": 1,
+          "reviewed_count": 1,
+          "hits": 1,
+          "precision_at_k": 1.0,
+          "recall_at_k": 1.0,
+          "tie_at_cutoff": false
+        }
+      ]
+    }
+  ],
+  "final_test": {
+    "metrics": {
+      "groups": 10,
+      "precision_at_k": 0.9,
+      "recall_at_k": 0.9
+    },
+    "by_group": [
+      {
+        "period_end": "2024-12-31",
+        "competition": "Bundesliga",
+        "candidates": 346,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-12-31",
+        "competition": "La Liga",
+        "candidates": 415,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-12-31",
+        "competition": "Ligue 1",
+        "candidates": 328,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-12-31",
+        "competition": "Premier League",
+        "candidates": 425,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2024-12-31",
+        "competition": "Serie A",
+        "candidates": 413,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2025-01-31",
+        "competition": "Bundesliga",
+        "candidates": 360,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2025-01-31",
+        "competition": "La Liga",
+        "candidates": 396,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2025-01-31",
+        "competition": "Ligue 1",
+        "candidates": 371,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2025-01-31",
+        "competition": "Premier League",
+        "candidates": 403,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 1,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "tie_at_cutoff": false
+      },
+      {
+        "period_end": "2025-01-31",
+        "competition": "Serie A",
+        "candidates": 408,
+        "selected_count": 1,
+        "reviewed_count": 1,
+        "hits": 0,
+        "precision_at_k": 0.0,
+        "recall_at_k": 0.0,
+        "tie_at_cutoff": false
+      }
+    ]
+  },
+  "versions": {
+    "python": "3.13.1",
+    "sklearn": "1.9.1"
+  },
+  "selection_rule": "validation precision@k, puis recall@k ; ordre fixe en cas d'égalité ; aucun choix sur le test",
+  "inputs_sha256": {
+    "C:\\Users\\ebrosco\\Desktop\\projet M259\\data\\selections\\processed\\potm_history.csv": "98b50e872720e7f36de149af94d14d4cd2e37728051ca5d76f6f8b892cef83e6",
+    "C:\\Users\\ebrosco\\Desktop\\projet M259\\config\\selections\\potm.json": "9713a217674b6ad9dfe39f2f842b73de758498593b63f07d95644e910198ea57",
+    "C:\\Users\\ebrosco\\Desktop\\projet M259\\data\\selections\\README.md": "fa973501e52c3e4605a08bbcc8407a4f34dc08b6ac8cc451ea325018d03ed008"
+  },
+  "production_refit": {
+    "enabled": true,
+    "evaluation_trained_through": "2024-11-30",
+    "note": "Le test évalue le modèle de développement. Un réentraînement de production utilise ensuite tous les labels, sans nouveau choix ni nouvelle métrique de test.",
+    "saved_model_trained_through": "2025-01-31"
+  }
+}

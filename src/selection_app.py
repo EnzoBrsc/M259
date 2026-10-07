@@ -27,14 +27,23 @@ def render_selection(award, root):
         return
     st.caption(f"Modèle {award} : {bundle['model_name']} · appris jusqu'au {max(bundle['trained_periods'])}")
     st.caption(f"Référence des labels : {config.authority}")
+    if config.label_kind == "derived_statistical":
+        st.warning("Sélection expérimentale : le modèle apprend une règle calculée sur des statistiques réelles. Il ne prédit pas une récompense officielle ni un vote. Les résultats de test mesurent uniquement la reproduction de cette règle.")
+        st.caption("Reconstruction rétrospective ; les dates des labels représentent une coupure analytique, pas des annonces officielles.")
     with st.expander("Format CSV"):
         st.code(",".join(["period_end", "competition", "player_id", "player"] + config.features))
         st.write("period_end : YYYY-MM-DD. Même fenêtre de statistiques et même compétition que dans la documentation d'entraînement. Retirer selected et tout résultat de la sélection courante.")
     uploaded = st.file_uploader(f"CSV {award}", type=["csv"], max_upload_size=10, key=f"csv_{award}")
-    if uploaded is None:
+    filename = "season_candidates.csv" if award in {"TOTS", "TOTY"} else f"{award.lower()}_candidates.csv"
+    collected = root / "data" / "selections" / "processed" / filename
+    if uploaded is None and not collected.is_file():
         return
+    source = uploaded.getvalue() if uploaded is not None else collected.read_bytes()
+    if uploaded is None:
+        st.caption(f"Statistiques collectées chargées : {filename}. Tu peux importer un autre CSV pour les remplacer.")
+        st.download_button("Télécharger les statistiques collectées", source, file_name=filename, mime="text/csv")
     try:
-        result = predict_selection_csv(uploaded.getvalue(), bundle, config)
+        result = predict_selection_csv(source, bundle, config)
     except (InputError, OSError) as exc:
         st.error(str(exc))
         return
@@ -51,7 +60,8 @@ def render_selection(award, root):
     with table:
         st.dataframe(shown[["rank", "player", "score"]], hide_index=True, width="stretch")
     with chart:
-        st.bar_chart(shown.set_index("player")[["score"]], horizontal=True, sort=False)
+        st.caption("20 premiers candidats du classement")
+        st.bar_chart(shown.head(20).set_index("player")[["score"]], horizontal=True, sort=False)
     selected_ids = {(r.period_end, r.competition, r.player_id) for _, g in result.groupby(["period_end", "competition"]) for r in select_squad(g, config).itertuples()}
     result["predicted_selection"] = [(r.period_end, r.competition, r.player_id) in selected_ids for r in result.itertuples()]
     st.download_button(f"Télécharger {award}", result.to_csv(index=False).encode("utf-8-sig"),

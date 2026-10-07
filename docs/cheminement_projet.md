@@ -121,3 +121,13 @@ validation et résultats par édition est archivé dans `docs/resultats_modeles.
 Les artefacts locaux restent dans `artifacts/ballon_or` et les exports dans
 `outputs/`, ignorés par Git. Un nouveau clone doit reproduire l'entraînement
 avec les commandes du README ; le modèle n'est pas téléversé dans le dépôt.
+
+## Extension du 7 octobre 2026 : statistiques et sélections expérimentales
+
+Après le choix explicite du groupe de produire des sélections expérimentales sur des statistiques réelles, trois sources ont été intégrées séparément du dataset Ballon d'Or : archives FBref/worldfootballR pour l'historique, snapshot FBref/SofaScore 2025/26 pour les candidats de saison, et feuilles ESPN de septembre 2026 pour les dernières apparitions et le mois. Sources et SHA-256, fenêtres, identifiants, manquants et exclusions sont dans `data/selections/README.md` et son rapport de qualité.
+
+Les labels sont calculés par une règle M259 de performance, avec une équipe 4-3-3 par ligue ou un joueur du mois. Ils ne sont pas officiels. TOTY reprend volontairement la saison 2025/26 comme TOTS, conformément à la demande, sans prétendre être une récompense annuelle mondiale. Les statistiques sportives ne sont pas simulées et les valeurs manquantes ne sont pas inventées.
+
+La comparaison chronologique de neuf configurations retient la logistique : C=1 pour TOTS/TOTY/TOTW, C=0,1 pour POTM. Sur dix groupes de test par mode, accord avec la règle : 53,64 % TOTS/TOTY, 89,09 % TOTW, 90 % POTM. Ces métriques évaluent l'imitation d'une règle construite à partir des variables ; elles ne démontrent pas la prédiction d'un jury. Le modèle de saison reste faible et le protocole POTM n'a que six mois historiques. Les modèles de production sont ensuite réentraînés sur tout l'historique, avec paramètres figés ; le test conserve son évaluation antérieure.
+
+Les modèles et classements locaux sont utilisables dans Streamlit ; les CSV préparés, configurations et rapports sont versionnés pour permettre au binôme de réentraîner sur son ordinateur. La collecte facultative lit des snapshots RDS avec pyreadr 0.5.3, dont la roue Windows/Python 3.13 a été installée et vérifiée. Le travail de collecte/nettoyage/notebook de Luca n'a pas été modifié.

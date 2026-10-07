@@ -4,7 +4,7 @@ data/raw/*.csv -text
 data/processed/* text eol=lf
 notebooks/*.ipynb text eol=lf
 # Snapshots préparés et entrées des rapports : préserver les empreintes entre OS.
-data/selections/processed/* -text
+data/selections/processed/* -text whitespace=cr-at-eol
 data/selections/README.md -text whitespace=cr-at-eol
-config/selections/*.json -text
-docs/resultats_selections/*.json -text
+config/selections/*.json -text whitespace=cr-at-eol
+docs/resultats_selections/*.json -text whitespace=cr-at-eol
