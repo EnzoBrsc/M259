@@ -5,3 +5,4 @@ matplotlib==3.11.2
 seaborn==0.13.2
 scikit-learn==1.9.1
 ipykernel==7.4.0
+pytest==9.1.1
