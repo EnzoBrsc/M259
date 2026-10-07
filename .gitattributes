@@ -1,0 +1,5 @@
+# Le snapshot brut doit conserver les octets de la source pour le SHA-256.
+data/raw/*.csv -text
+# Les fichiers générés restent stables entre Windows, macOS et Linux.
+data/processed/* text eol=lf
+notebooks/*.ipynb text eol=lf
