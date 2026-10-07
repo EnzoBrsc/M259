@@ -167,6 +167,33 @@ colonnes, dates, manquants et exclusions sont documentés dans
 sont dans [docs/selections_football.md](docs/selections_football.md).
 **43 tests passent sous Python 3.13.1 Windows**, et `pip check` est valide.
 
+## Terrain, podiums et portraits
+
+**TOTW, TOTS et TOTY** présentent les onze sélectionnés sur un terrain en 4-3-3,
+avec les groupes de postes du CSV : gardien, défenseurs, milieux, attaquants.
+Les emplacements gauche/droite sont une disposition graphique, pas des postes
+précis supplémentaires. **POTM** et **Ballon d'Or** affichent les trois premiers
+du classement sur un podium ; seul le premier est proposé pour POTM.
+Les tableaux, graphiques, imports et exports restent accessibles sous ces vues.
+
+Les cartes utilisent des **portraits réels distants**, avec la source accessible
+en cliquant sur la carte. Les images ne sont pas utilisées par les modèles.
+Une identité sans portrait confirmé est représentée par ses initiales et la
+mention « Photo indisponible ». Les crédits, sources et limites sont décrits dans
+[docs/interface_football.md](docs/interface_football.md). Aucun fichier image
+volumineux ni ressource graphique EA n'est ajouté.
+
+Après génération des classements, actualisation facultative du catalogue :
+
+```powershell
+.\.venv\Scripts\python.exe -X utf8 -m src.collect_player_portraits
+```
+
+Les portraits déjà catalogués sont conservés. La collecte vérifie les identités
+sur les fiches FOX Sports et dans FPL ; les compléments recherchés individuellement
+figurent dans `assets/additional_portraits.json`. La connexion Internet est
+nécessaire pour afficher les photos ; le classement reste calculé localement.
+
 ## Travailler ensemble
 
 1. Le propriétaire invite son binôme depuis [Settings → Collaborators → Add people](https://github.com/EnzoBrsc/M259/settings/access) sur GitHub. L'ami doit accepter l'invitation pour pouvoir envoyer ses modifications.

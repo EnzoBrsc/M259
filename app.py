@@ -10,6 +10,7 @@ from src.selection_app import render_selection
 
 from src.predict_candidates import SCORE_NOTICE, load_model, predict_csv, predict_historical_csv
 from src.schema import InputError
+from src.football_visuals import podium_html, render_visual
 
 ROOT = Path(__file__).resolve().parent
 
@@ -67,6 +68,7 @@ def main():
     if historical:
         detail = next(d for d in evaluation["by_edition"] if d["edition"] == selected_edition)
         st.caption(f"Gagnant réel : {detail['gagnant_reel']} · rang prédit : {detail['rang_gagnant']}")
+    render_visual(podium_html(displayed.rename(columns={"joueur": "player", "rang": "rank"}), "Ballon d'Or", f"Édition {selected_edition}"))
     table, chart = st.columns([3, 2])
     with table:
         st.dataframe(displayed[["rang", "joueur", "score"]], hide_index=True, width="stretch")

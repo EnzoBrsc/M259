@@ -7,6 +7,7 @@ import streamlit as st
 
 from src.football_selections import AWARDS, LEAGUES, load_selection_model, predict_selection_csv, select_squad
 from src.schema import InputError
+from src.football_visuals import pitch_html, podium_html, render_visual
 
 
 def render_selection(award, root):
@@ -53,6 +54,11 @@ def render_selection(award, root):
     squad = select_squad(shown, config)
     st.subheader("Joueur proposé" if award == "POTM" else "Équipe proposée")
     st.caption(f"{len(shown)} candidats · {len(squad)} sélectionnés selon les quotas documentés du protocole.")
+    if award == "POTM":
+        render_visual(podium_html(shown, award, f"{competition} · {period}"))
+        st.caption("Le podium présente les trois premiers scores ; seul le premier est proposé comme POTM.")
+    else:
+        render_visual(pitch_html(squad, award, competition, period), pitch=True)
     st.dataframe(squad[["player", "score"] + (["position"] if "position" in squad else [])], hide_index=True, width="stretch")
     if shown.score.duplicated().any():
         st.warning("Scores identiques : départage arbitraire par player_id.")
